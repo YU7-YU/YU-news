@@ -18,26 +18,29 @@ import FavoritesPage from '@/pages/FavoritesPage'
 import LikesPage from '@/pages/LikesPage'
 import HistoryPage from '@/pages/HistoryPage'
 
-export const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Layout />,
-    children: [
-      { index: true, element: <Navigate to="/selected" replace /> },
-      { path: 'selected', element: <SelectedPage /> },
-      { path: 'hot', element: <HotTopicsPage /> },
-      { path: 'all', element: <AllNewsPage /> },
-      { path: 'daily', element: <AIDailyPage /> },
-      { path: 'agent', element: <AgentPage /> },
-      { path: 'about', element: <AboutPage /> },
-      { path: 'changelog', element: <ChangelogPage /> },
-      { path: 'feedback', element: <ProtectedRoute><FeedbackPage /></ProtectedRoute> },
-      { path: 'login', element: <LoginPage /> },
-      { path: 'register', element: <RegisterPage /> },
-      { path: 'profile', element: <ProtectedRoute><ProfilePage /></ProtectedRoute> },
-      { path: 'profile/favorites', element: <ProtectedRoute><FavoritesPage /></ProtectedRoute> },
-      { path: 'profile/likes', element: <ProtectedRoute><LikesPage /></ProtectedRoute> },
-      { path: 'profile/history', element: <ProtectedRoute><HistoryPage /></ProtectedRoute> },
-    ],
-  },
-])
+export const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Layout />,
+      children: [
+        { index: true, element: <Navigate to="/selected" replace /> },
+        { path: 'selected', element: <SelectedPage /> },
+        { path: 'hot', element: <HotTopicsPage /> },
+        { path: 'all', element: <AllNewsPage /> },
+        { path: 'daily', element: <AIDailyPage /> },
+        { path: 'agent', element: <AgentPage /> },
+        { path: 'about', element: <AboutPage /> },
+        { path: 'changelog', element: <ChangelogPage /> },
+        { path: 'feedback', element: <ProtectedRoute><FeedbackPage /></ProtectedRoute> },
+        { path: 'login', element: <LoginPage /> },
+        { path: 'register', element: <RegisterPage /> },
+        { path: 'profile', element: <ProtectedRoute><ProfilePage /></ProtectedRoute> },
+        { path: 'profile/favorites', element: <ProtectedRoute><FavoritesPage /></ProtectedRoute> },
+        { path: 'profile/likes', element: <ProtectedRoute><LikesPage /></ProtectedRoute> },
+        { path: 'profile/history', element: <ProtectedRoute><HistoryPage /></ProtectedRoute> },
+      ],
+    },
+  ],
+  { basename: '/YU-news' }
+)
