@@ -30,7 +30,7 @@ export default function SelectedPage() {
   return (
     <div className="flex flex-col h-full">
       {/* 顶部筛选栏 */}
-      <div className="px-6 pt-4 pb-2 border-b border-white/5 shrink-0">
+      <div className="px-3 sm:px-6 pt-4 pb-2 border-b border-white/5 shrink-0">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-lg font-semibold">精选 AI 动态</h2>
           <button
@@ -47,7 +47,7 @@ export default function SelectedPage() {
           </button>
         </div>
 
-        <div className="flex items-center gap-3 flex-wrap">
+        <div className="flex items-center gap-3 overflow-x-auto scrollbar-none flex-nowrap pb-1">
           {CATEGORIES.map((cat) => (
             <button
               key={cat}
@@ -86,7 +86,7 @@ export default function SelectedPage() {
       </div>
 
       {/* 时间线资讯流 */}
-      <div className="flex-1 overflow-y-auto px-6 py-4">
+      <div className="flex-1 overflow-y-auto px-3 sm:px-6 py-4">
         <div className="max-w-3xl mx-auto">
           {loading && (
             <div className="flex flex-col items-center justify-center py-20 text-muted-foreground">

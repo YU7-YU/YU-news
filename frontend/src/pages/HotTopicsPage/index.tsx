@@ -183,7 +183,7 @@ export default function HotTopicsPage() {
   return (
     <div className="flex flex-col h-full">
       {/* 顶部区域 */}
-      <div className="px-6 pt-4 pb-3 border-b border-white/5 shrink-0">
+      <div className="px-3 sm:px-6 pt-4 pb-3 border-b border-white/5 shrink-0">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <Flame className="w-5 h-5 text-orange-400" />
@@ -208,8 +208,8 @@ export default function HotTopicsPage() {
           </div>
         </div>
 
-        {/* 分类标签 */}
-        <div className="flex items-center gap-2 flex-wrap">
+        {/* 分类标签 — 横向滚动 */}
+        <div className="flex items-center gap-2 overflow-x-auto scrollbar-none flex-nowrap pb-1">
           {HOT_CATEGORIES.map((cat) => (
             <button
               key={cat}
@@ -250,8 +250,8 @@ export default function HotTopicsPage() {
 
         {/* 日期筛选 */}
         <div className="mt-3 space-y-2">
-          {/* 快捷范围 */}
-          <div className="flex items-center gap-2 flex-wrap">
+          {/* 快捷范围 — 横向滚动 */}
+          <div className="flex items-center gap-2 overflow-x-auto scrollbar-none flex-nowrap pb-1">
             {QUICK_RANGES.map((r) => (
               <button
                 key={r.days}
@@ -324,7 +324,7 @@ export default function HotTopicsPage() {
       </div>
 
       {/* 热点列表 */}
-      <div className="flex-1 overflow-y-auto px-6 py-4">
+      <div className="flex-1 overflow-y-auto px-3 sm:px-6 py-4">
         <div className="max-w-3xl mx-auto">
           {loading && (
             <div className="flex flex-col items-center justify-center py-20 text-muted-foreground">

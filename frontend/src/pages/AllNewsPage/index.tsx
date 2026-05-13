@@ -55,7 +55,7 @@ export default function AllNewsPage() {
   return (
     <div className="flex flex-col h-full">
       {/* 顶部筛选栏 */}
-      <div className="px-6 pt-4 pb-2 border-b border-white/5 shrink-0">
+      <div className="px-3 sm:px-6 pt-4 pb-2 border-b border-white/5 shrink-0">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-lg font-semibold">全部 AI 动态</h2>
           <button
@@ -72,7 +72,7 @@ export default function AllNewsPage() {
           </button>
         </div>
 
-        <div className="flex items-center gap-2 flex-wrap">
+        <div className="flex items-center gap-2 overflow-x-auto scrollbar-none flex-nowrap pb-1">
           {CATEGORIES.map((cat) => (
             <button
               key={cat}
@@ -88,7 +88,7 @@ export default function AllNewsPage() {
             </button>
           ))}
         </div>
-        <div className="flex items-center gap-2 mt-3">
+        <div className="flex items-center gap-2 mt-3 overflow-x-auto scrollbar-none flex-nowrap pb-1">
           {SUB_FILTERS.map((f) => (
             <button
               key={f}
@@ -112,13 +112,13 @@ export default function AllNewsPage() {
             value={searchQuery}
             onChange={(e) => { setSearchQuery(e.target.value); setPage(1) }}
             placeholder="搜索标题、内容..."
-            className="w-full max-w-xs px-4 py-1.5 rounded-lg text-xs bg-white/5 border border-white/10 text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-emerald-500/50 transition-colors"
+            className="w-full sm:max-w-xs px-4 py-1.5 rounded-lg text-xs bg-white/5 border border-white/10 text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-emerald-500/50 transition-colors"
           />
         </div>
       </div>
 
       {/* 资讯列表 */}
-      <div className="flex-1 overflow-y-auto px-6 py-4">
+      <div className="flex-1 overflow-y-auto px-3 sm:px-6 py-4">
         <div className="max-w-3xl mx-auto">
           {loading && (
             <div className="flex flex-col items-center justify-center py-20 text-muted-foreground">
