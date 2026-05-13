@@ -12,6 +12,7 @@ node_modules/
 *.db-shm
 *.db-wal
 data/
+!frontend/public/data/
 
 # Build output
 dist/

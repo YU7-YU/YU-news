@@ -1,0 +1,42 @@
+name: Refresh News Data
+
+on:
+  schedule:
+    - cron: '0 2,8,14,20 * * *'   # 每天 4 次（UTC 时间，对应北京时间 10/16/22/4 点）
+  workflow_dispatch:                # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: ./backend/package-lock.json
+
+      - name: Install backend dependencies
+        run: cd backend && npm ci
+
+      - name: Fetch & export news data
+        run: cd backend && node ci-update.js
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}  # 可选：如有 NewsAPI key 可添加
+
+      - name: Commit updated data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add frontend/public/data/news.json
+          if git diff --quiet --staged; then
+            echo "No changes to commit"
+          else
+            git commit -m 'chore: auto-update news data [skip ci]'
+            git push
+          fi

@@ -1,7 +1,6 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { useInteractionStore, type NewsItem } from '@/store'
 import { mockNews } from '@/mock'
-import { hotApi } from '@/lib/api'
 import { useRequireLogin } from '@/hooks/useAuth'
 import NewsCard from '@/components/common/NewsCard'
 import {
@@ -20,6 +19,9 @@ const QUICK_RANGES = [
   { label: '近1年', days: 365 },
 ]
 
+/** JSON 数据路径（支持 GitHub Pages 子路径） */
+const DATA_URL = import.meta.env.BASE_URL + 'data/news.json'
+
 function today() {
   return new Date().toISOString().slice(0, 10)
 }
@@ -30,27 +32,27 @@ function daysAgo(n: number) {
   return d.toISOString().slice(0, 10)
 }
 
-/** 将后端数据映射为 NewsItem 格式 */
-function mapHotItem(item: any): NewsItem {
+/** 将 JSON 数据映射为 NewsItem 格式 */
+function mapItem(item: any): NewsItem {
   let tags: string[] = []
   try {
-    tags = typeof item.category === 'string' ? JSON.parse(item.category) : item.category || []
+    tags = typeof item.category === 'string' ? JSON.parse(item.category) : item.tags || item.category || []
   } catch {
-    tags = item.category ? [item.category] : ['AI']
+    tags = item.tags || item.category ? [item.category || item.tags] : ['AI']
   }
   return {
     id: item.id,
-    timestamp: item.fetched_at ? item.fetched_at.slice(11, 16) : '00:00',
-    date: item.published_at || '',
+    timestamp: item.timestamp || (item.fetched_at ? item.fetched_at.slice(11, 16) : ''),
+    date: item.date || item.published_at || '',
     author: item.author || '未知',
     authorAvatar: '',
     title: item.title || '',
     content: item.content || '',
-    sourceUrl: item.source_url || '',
-    sourceName: item.source_name || '',
+    sourceUrl: item.sourceUrl || item.source_url || '',
+    sourceName: item.sourceName || item.source_name || '',
     tags,
-    likes: item.score || 0,
-    isPremium: (item.score || 0) > 80,
+    likes: item.likes || item.score || 0,
+    isPremium: (item.likes || item.score || 0) > 80,
   }
 }
 
@@ -62,21 +64,17 @@ export default function HotTopicsPage() {
   const [category, setCategory] = useState('全部')
   const [dateFrom, setDateFrom] = useState('')
   const [dateTo, setDateTo] = useState('')
-  const [activeRange, setActiveRange] = useState<number | null>(7) // 默认近7天
+  const [activeRange, setActiveRange] = useState<number | null>(7)
   const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
 
   // 数据状态
-  const [items, setItems] = useState<NewsItem[]>([])
-  const [total, setTotal] = useState(0)
-  const [totalPages, setTotalPages] = useState(0)
+  const [allItems, setAllItems] = useState<NewsItem[]>([])
   const [loading, setLoading] = useState(true)
   const [refreshing, setRefreshing] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const [useMock, setUseMock] = useState(false)
-
-  // 每次刷新时递增，强制重新拉取
   const [loadKey, setLoadKey] = useState(0)
+  const mountedRef = useRef(true)
 
   /** 应用快捷范围 */
   const applyRange = useCallback((days: number | null) => {
@@ -96,88 +94,72 @@ export default function HotTopicsPage() {
     applyRange(7)
   }, [])
 
-  // ========== 从 API 拉取数据 ==========
+  // ========== 从静态 JSON 加载数据 ==========
   useEffect(() => {
-    if (useMock) return
     let cancelled = false
-
     setLoading(true)
     setError(null)
 
-    const params: Record<string, any> = { page, pageSize: 15 }
-    if (dateFrom) params.date_from = dateFrom
-    if (dateTo) params.date_to = dateTo
-    if (category && category !== '全部') params.category = category
-    if (search) params.search = search
-
-    hotApi.getList(params)
+    fetch(DATA_URL + '?t=' + Date.now()) // 加时间戳避免缓存
       .then((res) => {
+        if (!res.ok) throw new Error('HTTP ' + res.status)
+        return res.json()
+      })
+      .then((data) => {
         if (cancelled) return
-        if (res.data?.code === 200 && res.data?.data) {
-          const { list, total: t, totalPages: tp } = res.data.data
-          setItems((list || []).map(mapHotItem))
-          setTotal(t || 0)
-          setTotalPages(tp || 0)
-        } else {
-          throw new Error('数据格式异常')
+        if (!Array.isArray(data) || data.length === 0) {
+          throw new Error('数据为空')
         }
+        setAllItems(data.map(mapItem))
       })
       .catch((e: Error) => {
         if (cancelled) return
-        console.warn('[HotTopics] API 请求失败，降级到 mock:', e.message)
-        setUseMock(true)
+        console.warn('[HotTopics] JSON 加载失败，降级到 mock:', e.message)
+        // 使用 mockNews 作为降级
+        setAllItems(mockNews.map((item) => ({ ...item, timestamp: item.timestamp || '' })))
+        setError(null) // mock 模式下不显示错误
       })
       .finally(() => {
         if (!cancelled) setLoading(false)
       })
 
     return () => { cancelled = true }
-  }, [page, dateFrom, dateTo, category, search, loadKey])
+  }, [loadKey])
 
-  // ========== mock 降级模式 ==========
-  useEffect(() => {
-    if (!useMock) return
-    let filtered = [...mockNews]
-    if (category !== '全部') {
-      filtered = filtered.filter((item) => item.tags.includes(category))
-    }
-    if (dateFrom) {
-      filtered = filtered.filter((item) => item.date >= dateFrom)
-    }
-    if (dateTo) {
-      filtered = filtered.filter((item) => item.date <= dateTo)
-    }
+  // ========== 本地筛选 + 分页 ==========
+  const filtered = allItems.filter((item) => {
+    if (category !== '全部' && !item.tags.includes(category)) return false
+    if (dateFrom && item.date < dateFrom) return false
+    if (dateTo && item.date > dateTo) return false
     if (search) {
       const q = search.toLowerCase()
-      filtered = filtered.filter((item) =>
-        item.title.toLowerCase().includes(q) || item.content.toLowerCase().includes(q)
-      )
+      if (!item.title.toLowerCase().includes(q) && !item.content.toLowerCase().includes(q)) return false
     }
-    filtered.sort((a, b) => b.likes - a.likes)
+    return true
+  })
 
-    const pageSize = 15
-    const tp = Math.ceil(filtered.length / pageSize) || 1
-    const start = (page - 1) * pageSize
-    setItems(filtered.slice(start, start + pageSize))
-    setTotal(filtered.length)
-    setTotalPages(tp)
-  }, [useMock, page, dateFrom, dateTo, category, search])
+  // 按时间倒序，同一天按热度
+  filtered.sort((a, b) => {
+    if (b.date !== a.date) return b.date.localeCompare(a.date)
+    return b.likes - a.likes
+  })
+
+  const pageSize = 15
+  const total = filtered.length
+  const totalPages = Math.ceil(total / pageSize) || 1
+  const start = (page - 1) * pageSize
+  const items = filtered.slice(start, start + pageSize)
 
   // ========== 手动刷新 ==========
   async function handleRefresh() {
     if (refreshing) return
     setRefreshing(true)
     setError(null)
-    try {
-      await hotApi.refresh()
-      setPage(1)
-      setLoadKey((k) => k + 1)
-    } catch (e: any) {
-      console.warn('[HotTopics] Refresh failed:', e.message)
-      setError('刷新失败，请稍后重试')
-    } finally {
-      setRefreshing(false)
-    }
+    setPage(1)
+    setLoadKey((k) => k + 1)
+    // 模拟最小延迟让用户感知刷新
+    await new Promise((r) => setTimeout(r, 300))
+    setRefreshing(false)
   }
 
   function getPageNumbers(): (number | string)[] {
@@ -206,11 +188,6 @@ export default function HotTopicsPage() {
           <div className="flex items-center gap-2">
             <Flame className="w-5 h-5 text-orange-400" />
             <h2 className="text-lg font-semibold">AI 热点</h2>
-            {useMock && (
-              <span className="text-xs bg-amber-500/20 text-amber-400 px-2 py-0.5 rounded">
-                离线模式
-              </span>
-            )}
           </div>
           <div className="flex items-center gap-3">
             <span className="text-xs text-muted-foreground">
@@ -353,19 +330,6 @@ export default function HotTopicsPage() {
             <div className="flex flex-col items-center justify-center py-20 text-muted-foreground">
               <Loader2 className="w-8 h-8 animate-spin mb-3" />
               <span className="text-sm">加载中...</span>
-            </div>
-          )}
-
-          {!loading && !useMock && error && items.length === 0 && (
-            <div className="flex flex-col items-center justify-center py-20 text-muted-foreground">
-              <AlertCircle className="w-10 h-10 mb-3 text-red-400" />
-              <span className="text-sm mb-2">数据加载失败</span>
-              <button
-                onClick={() => setLoadKey((k) => k + 1)}
-                className="text-xs text-emerald-400 hover:text-emerald-300 underline"
-              >
-                点击重试
-              </button>
             </div>
           )}
 
