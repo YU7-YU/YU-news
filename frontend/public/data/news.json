@@ -1,7 +1,22 @@
 [
   {
+    "id": 148,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "Justin Pot",
+    "authorAvatar": "",
+    "title": "How to Disable Gemini in Gmail and Google Docs",
+    "content": "New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don’t want Gemini’s help in writing documents and emails, here’s how to turn that stuff off.",
+    "sourceUrl": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
+    "sourceName": "Wired",
+    "tags": [
+      "模型"
+    ],
+    "likes": 70
+  },
+  {
     "id": 169,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "36氪",
     "authorAvatar": "",
@@ -17,7 +32,7 @@
   },
   {
     "id": 168,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "36氪",
     "authorAvatar": "",
@@ -32,13 +47,13 @@
   },
   {
     "id": 167,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "华为在印度推出 MatePad SE 11、MatePad 11.5 平板，麒麟 710A/T82B 芯片",
-    "content": "IT之家 8 月 8 日消息，华为现已在印度市场推出 MatePad SE 11 和 MatePad 11.5 平板，两款产品均主攻入门级市场。\nIT之家附两款新品详情如下：\nMatePad SE 11：\n这款平板配备 11 英寸 TFT LCD 屏幕，分辨率为 1920*1200，最高亮度可达 400nits。该产品搭载麒麟 710A 芯片，拥有 8GB 内存和 128GB 存储空间，内置 7700mAh 电池，支持 22.5W 有线快速充电。\n\n同时，该产品拥有 800 万像素后置镜头、500 万像素前置镜头。采用一体化金属机身，厚度为 6.9mm，重量为 475g，拥有四扬声器系统，支持华为 Histen 9.0 音效，出厂运行鸿蒙 HarmonyOS 2.0 操作系统，定价 25,999 印度卢比（IT之家注：现汇率约合 1,845 元人民币）。\nMatePad 11.5：\n这款平板配备 11.5 英寸 2.5K LCD 类纸屏幕，支持 120Hz 高刷。搭载麒麟 T82B 芯片，拥有 8GB 内存和 256GB 存储空间，具备 1300 万像素后置镜头和 800 万像素前置镜头，内置 10100mAh 大电池，支持快充。\n\n同时，该产品提供太空灰、紫色两种配色，采用金属一体化机身设计，厚度仅 6.1mm，重量为 515g。出厂键盘，预装鸿蒙 HarmonyOS 4.3 操作系统，建议零售价为 45,999 印度卢比（现汇率约合 3,265 元人民币）。",
-    "sourceUrl": "https://www.ithome.com/0/987/332.htm",
+    "title": "GNOME 团队一成员获德国主权技术机构资金支持，帮助该桌面环境提升设计审美",
+    "content": "IT之家 8 月 8 日消息，据科技媒体 Phoronix 今天报道，由德国政府支持的德国主权技术机构（Sovereign Tech Agency）今年宣布推出全新奖金计划，旨在支持开源社区发展。\n如今，GNOME 设计团队成员菲利普 · 绍伯茨魏格（IT之家注：Philipp Sauberzweig）已被任命为 STA 成员，他将在未来两年内获得资金支持，帮助 GNOME 提升设计审美。\n\n菲利普对此表示：“我将在两年任期内支持 GNOME 开发者，提供设计支持并创建 UI 原型，并协调出统一设计模式。”\n菲利普将在未来两年内，为 GNOME 开发者提供设计反馈，并推动该桌面环境建立设计规范、协助 GNOME 改进设计语言。\nGNOME 官方对此表示欢迎，并感谢德国主权技术机构的大力支持。",
+    "sourceUrl": "https://www.ithome.com/0/987/434.htm",
     "sourceName": "IT之家",
     "tags": [
       "产品"
@@ -47,28 +62,28 @@
   },
   {
     "id": 166,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "OpenAI 下一代 AI 模型 Astra 数学成果遭抄袭指控",
-    "content": "IT之家 8 月 8 日消息，科技媒体 scientificamerican 于 8 月 6 日发布博文，报道称多名数学家指控 OpenAI 存在学术不端行为，称其 AI 模型 Astra 的数学成果未对已有研究成果给予应有的署名致谢。\nOpenAI 于 7 月 31 日发布 249 页 PDF 文件，详细介绍了其下一代重大模型 Astra（内部版本）在高维球填充、量子博弈论、群论和极值组合学等多个领域取得了重大进展。\n若按 Sol API 的费率计算，寻找这些问题解决方案所需消耗的总词元 (tokens) 成本约为 2,000 美元（IT之家注：现汇率约合 13,519 元人民币）。\n不过在论文发布之后，多名学者在审查后指控 OpenAI 公司存在学术不端行为。\n2 项核心结果未正确引用近期数学文献中的既有观点。Yeshiva University 数学家 Steven Miller 指出，针对 1000 维或更高维空间的球体装箱问题，Astra 提出了一项核心数学论证。该论证首次出现在 2016 年 Miller 与合作者发表的论文中，却被 Astra 作为自身成果展示。\n另一项结果解决了群论中关于 Soficity 的长期问题，证明至少存在一个缺乏该性质的群。Cambridge 数学家 Francesco Fournier-Facio 及 Dresden University of Technology 数学家 Andreas Thom 发现，Astra 的关键数学步骤结合了 2016 年和 2019 年两篇论文的想法。\n面对质疑，OpenAI 发言人在声明中称对结果正确性负责，并达到人类数学家的普遍标准，计划本周对论文进行小幅更新。Fournier-Facio 强调，OpenAI 已全面参与高级别研究，必须接受与人类相同的学术标准约束。",
-    "sourceUrl": "https://www.ithome.com/0/987/334.htm",
+    "title": "全球最大 AI 算力超级单体：远景乌兰察布星河基地投产，百万卡并行、百万 P 算力",
+    "content": "IT之家 8 月 8 日消息，远景科技集团 8 月 6 日宣布在内蒙古乌兰察布建成 AI 算力超级单体，标志着“远景乌兰察布星河基地”正式投产。\n\n该基地是远景“戈壁使命（Mission Gobi）”计划落地的首个旗舰项目，园区总规划容量达 2GW。\n该超级单体采用超高比例绿电直连，建筑体量达 12 万平方米（约 20 个标准足球场）。基地具备百万卡并行能力与百万 P 算力规模，算力输出可达同等面积下传统数据中心的 10 倍。\nIT之家注：1P 算力代表每秒进行一千万亿次浮点运算，相当于约 50 万台主流笔记本电脑同时工作的算力水平。\n乌兰察布是国家“东数西算”八大节点之一，网络时延优势明显，且全域绿电占比高达 67%。基地充分利用当地风能优势，通过自建风场及专线实现绿电直供。\n远景科技集团 AIDC（人工智能算力中心）总经理郑子浩表示，星河基地主要面向头部科技与 AI 公司大规模使用国产算力的需求。\n他表示：“中国芯片正在走一条集群化突围的道路。远景超级单体可为这支‘集团军’提供最强保障：够大的部署基地、充足的电力粮草和畅通的能源补给线。”",
+    "sourceUrl": "https://www.ithome.com/0/987/435.htm",
     "sourceName": "IT之家",
     "tags": [
-      "模型"
+      "产品"
     ],
     "likes": 65
   },
   {
     "id": 165,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "31.5 英寸 4K 显示器 KTC H32U6 上市：国补价 1199 元",
-    "content": "IT之家 8 月 8 日消息，KTC 新推出了一款 31.5 英寸的 4K 显示器，型号为 H32U6 ，京东售价 1332 元，叠加国补后 1199 元，券后 1176.3 元。\n京东 KTC 31.5 英寸 4K 显示器高清 广色域微边框 办公设计 低蓝光台式电脑大屏幕 PS4 升降旋转显示屏 H32U6 券后 1176.3 元领 25 元券\n这款显示器采用 31.5 英寸 VA 面板，拥有 3840×2160 分辨率、60Hz 刷新率、99% sRGB 色域、 93% DCI-P3 色域，出厂校色，采用 DC 调光技术，内置低蓝光模式。\n外观方面，这款显示器采用太空白格调机身，配备人体工学支架，支持多功能快拆，支持 ±45° 双向水平旋转、 130mm 垂直升降、 25° 俯仰开合。\n\n接口方面，这款显示器配备双 HDMI 2.0 接口 + DP 1.4 接口，均支持 3840×2160@60Hz 输出，同时还搭载 3.5mm 耳机接口。\nIT之家附详细参数如下：\n\n       京东 KTC 31.5 英寸 4K 显示器高清 广色域微边框 办公设计 低蓝光台式电脑大屏幕 PS4 升降旋转显示屏 H32U6    券后 1332 元 领 25 元券",
-    "sourceUrl": "https://www.ithome.com/0/987/335.htm",
+    "title": "美国纽约向高速电动自行车宣战，要求亚马逊、沃尔玛停售相关产品",
+    "content": "IT之家 8 月 8 日消息，据汽车媒体 electrek 今天报道，美国纽约市对高速电动自行车的监管持续收紧，如今该市市长佐赫兰 · 马姆达尼（Zohran Mamdani）要求亚马逊、沃尔玛等平台停售相关产品。\n\n据报道，纽约市要求亚马逊、沃尔玛、Target 和 Temu 等 40 家平台在本月底前，停止向纽约居民销售不合规的电动自行车、滑板车，否则可能面临最高 2,000 美元（IT之家注：现汇率约合 13,519 元人民币）罚款。\n美国纽约对电动自行车的限制较严，仅允许最高时速为 25 英里 / 时（约 40 公里 / 时）的 Class 3 车辆合法上路。\n近年来，越来越多厂商推出性能强大的两轮电动车，使得电动自行车与电动摩托车的界限越来越模糊，许多产品拥有远超法规的速度和动力，却仍冠以“电动自行车”名义销售。\n据美国现行法规，消费级电动自行车的电机持续功率不能超过 750W。但许多市售产品的电机功率能够达到数千瓦，最高速度超过 30 英里 / 时（约 51 公里 / 时）。这些产品大多没有车架号，无法注册为轻便摩托车。\n亚马逊对此回应称：“安全是我们的首要任务，我们要求商店销售的电动自行车符合安全标准以及亚马逊政策，我们愿与纽约市合作处理上述问题。”",
+    "sourceUrl": "https://www.ithome.com/0/987/437.htm",
     "sourceName": "IT之家",
     "tags": [
       "产品"
@@ -77,28 +92,28 @@
   },
   {
     "id": 164,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "雷军重申：小米澎程系列汽车在 3 年半前立项，2 年前开始路测",
-    "content": "IT之家 8 月 8 日消息，小米创办人、董事长兼 CEO 雷军今日发文重申，小米澎程系列汽车在 3 年半前立项，2 年前开始路测。另外，系列新车会在 9 月份正式上市。\n\n据IT之家此前报道，在 7 月 30 日晚的小米澎程技术发布会上，小米 SKYNOMAD 澎程系列新车终于迎来首秀。在本场发布会中，澎程系列两款全新车型 —— 大七座旗舰增程 SUV N90 Max 与大五座四驱增程 SUV N70 Max 同步亮相，并公布了预售价格。\n另外，根据小米官方此前预热，2024 年 10 月 12 日，小米澎程第一台测试车就已经正式上路。截至 6 月 30 日，累计道路测试 626 天，历经两冬两夏，投入测试车辆 566 台，累计实测里程达 428 万公里。",
-    "sourceUrl": "https://www.ithome.com/0/987/336.htm",
+    "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1:1000 近乎“误差”",
+    "content": "IT之家 8 月 8 日消息，Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等来源的非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 马修 · 普林斯（Matthew Prince）此前预测的 2027 年底大幅提前。\nCloudflare 进一步预测，若当前趋势延续，五年后非人类流量将达到人类流量的 1000 倍。马修 · 普林斯表示，届时人类在互联网上的存在将变得微不足道。\n“换句话说，人类将成为互联网上四舍五入的误差，不是因为人类流量在下降，而是因为非人类流量的增长速度实在太快。”\n\n非人类流量的激增主要基于 AI 来源，特别是 AI 智能体（Agentic AI）的兴起。与传统网络爬虫不同，AI 智能体的行为高度模拟普通浏览，但以机器速度运行且规模巨大。\n普林斯举例说明：普通人在搜索相机时可能只会查五家零售商，而一个 AI 智能体可能查询 5000 个网站。数以百万计的用户要求助手比价、研究主题或汇总文章时，流量规模即呈指数级放大。\n普林斯在电话会上强调，部分非人类流量具有恶意属性。恶意流量可能来自黑客攻击者，也可能从特定客户商业模式角度被视为恶意 —— 例如 AI 公司试图抓取依赖广告收入的媒体公司内容。\n最新财报显示，Cloudflare 在 2026 年第二季度实现营收 6.96 亿美元（现汇率约合 47.05 亿元人民币），同比增长 36%，净亏损 2.057 亿美元（IT之家注：现汇率约合 13.9 亿元人民币），亏损同比扩大逾两倍。\nCloudflare 计划资本支出约为营收的 14% 至 15%，约 4.3 亿美元（现汇率约合 29.07 亿元人民币）。普林斯以此对比超大规模云服务商：超大规模云商的 GPU 利用率“极低”，“他们做的只是卖一个盒子，利用率得靠客户自己最大化”。他称 Cloudflare 的业务模式是“让每美元资本支出发挥 10 倍效能”，通过服务器调度工作负载，不直接参与 GPU 服务器的租赁竞争。",
+    "sourceUrl": "https://www.ithome.com/0/987/438.htm",
     "sourceName": "IT之家",
     "tags": [
-      "产品"
+      "Agent"
     ],
     "likes": 65
   },
   {
     "id": 163,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "育碧《幽灵行动：荒野》游戏更新，PS5 版终于支持 4K 60FPS",
-    "content": "IT之家 8 月 8 日消息，据外媒 Push Square 昨天报道，育碧旗下游戏《幽灵行动：荒野》现已迎来重大更新，PS5 版现可实现 4K 60FPS 运行，并支持 DualSense 手柄专有优化、SSD 加载优化。\n\n据报道，本次更新虽然能够让游戏支持 4K 60FPS，但本作仍然没有部分原生 PS5 特性。目前来看，本次更新更像是 PS4 版增强补丁，而不是完整的原生 PS5 升级。\n同时，本次更新还带来了全新任务“Last Rites（IT之家注：最后仪式）”。该任务设定在 2017 年原作玻利维亚背景基础上，打造“更加黑暗、更具压迫感”的环境。\n此外，本作目前已在 PS Store 开启免费试玩，所有玩家都可在 8 月 10 日前免费游玩该游戏，进度可继承到完整版。",
-    "sourceUrl": "https://www.ithome.com/0/987/337.htm",
+    "title": "斯蒂芬 · 库里特别版谷歌 Pixel Watch 5 手表曝光，亮橙色点缀表带",
+    "content": "IT之家 8 月 8 日消息，爆料人士 OnLeaks 近日曝光了斯蒂芬 · 库里特别版谷歌 Pixel Watch 5 手表，新品与普通版的主要区别在于表带，预计售价为 580 欧元（IT之家注：现汇率约合 4,524 元人民币）。\n\n据介绍，这款手表的表带采用编织材质，相比普通版的硅胶表带有所不同。其外观采用石灰色 + 灰褐棕色的组合，并加入亮橙色点缀。\n\n同时，这款手表的外壳采用抛光银配色方案，表带背面印有斯蒂芬 · 库里的名字的标签。\n此外，这款特别版手表预计只在部分国家和地区上市，仅提供 45mm 尺寸 +LTE 蜂窝网络版本。\n据IT之家了解，斯蒂芬 · 库里是美国著名 NBA 球员，也是四届 NBA 总冠军得主。",
+    "sourceUrl": "https://www.ithome.com/0/987/439.htm",
     "sourceName": "IT之家",
     "tags": [
       "产品"
@@ -107,13 +122,13 @@
   },
   {
     "id": 162,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "3.2 万元索尼 FX5 电影摄影机首批交付：支持 Open Gate 录制功能，8.5 级防抖 + 240 高帧",
-    "content": "IT之家 8 月 8 日消息，索尼官方昨日宣布，旗下新推出的全画幅电影摄影机 FX5 已开启首批订单交付，单机身定价 32000 元（京东要等到 8 月 15 日开放售卖）。\n\n索尼表示 FX5 订单数量超出预期，下单较晚的客户可能要 9 月甚至 10 月才能交付。\n京东索尼【重磅新品】FX5 电影摄影机 32000 元直达链接\n2026 年数码家电政府补贴持续进行中，IT 之家为大家汇总国补领券地址，买数码家电之前记得领取。\n数码补贴：点此领券\n\n手机 / 平板 / 3C 数码支持 8.5 折政府补贴，不超过 6000 元的产品至高立减 500 元。\n\n家电补贴：点此领券\n\n多类家电支持 8.5 折政府补贴，单品至高补贴 1500 元。\n\n欢迎下载最会买 App - 好货好价，高额返利，1 毛钱也能提现！\n\n扫描二维码或点击此处下载最新版（自动识别平台）。\n\nFX5 首次在这一机身级别加入 Open Gate 录制功能，此前该技术主要应用于索尼 VENICE 系列高端电影摄影机。\n\n\n该机采用 1660 万像素全堆栈式传感器（不支持拍照），内置 BIONZ XR 2 图像处理器，支持 Alpha 7R VI 同款 AI 自动对焦功能。该机可利用完整传感器区域进行 5K 3:2 比例拍摄，能够最大程度发挥画质表现，同时为搭配变形宽银幕镜头（Anamorphic Lens）提供更大的后期处理空间。通过完整传感器读取，用户可以在后期无损裁切出竖屏画面或重新调整构图，而不会明显降低影像质量。\n\n该机具备 16 档动态范围，支持每秒 120 帧 K 3:2 片门全开（OpenGate）视频录制，支持内录 RAW 视频（X-OCN LT、X-OCN C1、X-OCN C2）。\n机身防抖方面，FX5 升级了精密防抖组件和陀螺仪传感器，支持光学五轴防抖。索尼表示，新防抖机构的旋转方向工作范围提升了一倍，达到与 Alpha 7R VI 相近的水平。\nFX5 继续提供标准主动防抖模式（Active Mode）以及动态主动防抖模式（Dynamic Active Mode），后者虽然会带来一定裁切，但能够显著提升手持拍摄稳定性。\n针对专业视频拍摄需求，FX5 也补充了更多曝光辅助工具，包括内置 False Color（假色曝光显示）、波形图、矢量示波器以及焦点地图显示，同时保留直方图、斑马纹和峰值对焦等功能。",
-    "sourceUrl": "https://www.ithome.com/0/987/338.htm",
+    "title": "OPPO 首次推出 FatMax 超燃脂模式：自研算法计算专属燃脂心率区间，9 月随 Watch S2 首发上线",
+    "content": "IT之家 8 月 8 日消息，今天是我国第十八个全民健身日，OPPO 宣布将首次推出 FatMax 超燃脂模式。该功能将于 2026 年 9 月随 OPPO Watch S2 运动手表一同上线。IT之家届时将为大家带来详细报道。\n\nOPPO 健康产品业务负责人李胜介绍，与目前市面上多数运动手表提供的常规“有氧区间”功能不同，OPPO FatMax 超燃脂模式并非依赖固定的粗略计算公式，其核心在于基于自研的先进健康算法，结合用户的身高、体重、年龄、性别以及日常运动基础等个体数据，测算出适配用户自身的最优燃脂心率区间。这一模式还会随着用户佩戴时长的增加不断迭代优化，让测算结果更贴合用户的实际运动状态。\n据介绍，传统燃脂心率区间通常按最大心率的 60% 至 70% 估算，计算公式为“220 减去年龄”，该方法无法反映个体差异和运动能力变化。",
+    "sourceUrl": "https://www.ithome.com/0/987/440.htm",
     "sourceName": "IT之家",
     "tags": [
       "产品"
@@ -122,13 +137,13 @@
   },
   {
     "id": 161,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "鸿蒙智行享界 G9 汽车炮弹坑测试视频被质疑 AI 生成，现场多角度实拍视频流出",
-    "content": "IT之家 8 月 8 日消息，鸿蒙智行享界汽车在 8 月 5 日发布享界 G9 的炮弹坑通过性挑战视频，介绍了新车首发的华为智擎自适应差速锁电驱，支持实时感应、自动上锁，扭矩毫秒级自适应分配等功能。\n\n然而该视频发布后，评论区有网友质疑视频为 AI 生成。\n\nIT之家注意到，在网友提出质疑后，现场实拍视频陆续流出，包含不同角度的拍摄画面。\n\n\n\n\n另外，汽车博主 @韩路 也解释了视频中享界 G9“过泥水坑车身没脏”的原因：\n\n因为视频里偏稀的泥水，流动性很强，车又是新车，漆面比较光滑就有疏水效果，所以泥水基本不会停留在漆面，车身干净符合这泥水流动特性。当然了，也不是一点没痕迹，车身泥水干了后，会有轻微黄色泥水痕迹，但没干时候几乎看不到痕迹。",
-    "sourceUrl": "https://www.ithome.com/0/987/352.htm",
+    "title": "手机端横屏驾驶模式确认为新特性，华为 HiCar 7.0 正式版更多功能曝光",
+    "content": "IT之家 8 月 8 日消息，华为 HiCar 已于今年 7 月底在华为应用市场（App Gallery）推出 7.0.0.300 (70000300) 正式版本升级。新版本支持手机端直接启动驾驶模式。\n\nIT之家实测，在升级最新版的 HiCar 后，用户可以在手机端直接启动驾驶模式。而值得一提的是，最新版的驾驶模式还支持横屏使用，体验会更加友好。\n根据华为官方最新介绍，华为 HiCar 的手机端横屏驾驶模式是此次更新后带来的新特性，而非 BUG，同时支持导航、音乐、联系人等功能同屏共显。\n\n另外，华为 HiCar 还支持了微信通话功能，支持微信通话自动推送车机弹窗，大屏一键接听。",
+    "sourceUrl": "https://www.ithome.com/0/987/441.htm",
     "sourceName": "IT之家",
     "tags": [
       "产品"
@@ -137,13 +152,13 @@
   },
   {
     "id": 160,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "国产喜剧动画《八仙！》总票房突破 13.6576 亿，进入 2026 年度票房榜前五",
-    "content": "IT之家 8 月 8 日消息，据灯塔专业版，影片《八仙！》总票房（含预售）突破 13.6576 亿，进入 2026 年度票房榜前五。\n\n值得一提的是，该片总票房已于 8 月 2 日破 10.77 亿，登顶 2026 年动画片票房榜。\n\n《八仙！》影片以传统八仙故事为灵感，讲述在蓬莱仙境内，八个凡人为闯入只有神仙可以通行的藏宝阁，假扮神仙瞒天过海，面对阁中“十辈子花不完”的泼天富贵，众人一拍即合，“草台班子”就地成立，一起踏上寻宝求财路。\n这部国产喜剧动画电影豆瓣评分为 8.2 分。其中，5 星评分占比 35.3%，4 星占比 43.9%，仅有 0.8% 的 1 星评分。\n\n\nIT 之家小伙伴记得用最会买购买电影票，享受折扣价的同时还可以获得返利，预计每张票可以节省 5~15 元！",
-    "sourceUrl": "https://www.ithome.com/0/987/364.htm",
+    "title": "买错机票 7 分钟退票被扣 2022 元，长龙航空回应已和解细节不便透露",
+    "content": "IT之家 8 月 8 日消息，杭州张先生近日通过 12306 平台购买三张长龙航空机票后 7 分钟退票，被扣除 2022 元手续费。长龙航空方面今日回应中新网称，已与当事人达成和解，具体细节不便透露。\n张先生于 7 月 30 日 13 时 54 分通过 12306 平台购买三张三亚飞往杭州的机票，每张含机建燃油费 899 元，共计支付 2697 元。购票 7 分钟后张先生发现航班时间买错，随即提交退票申请，三张票共计扣除 2022 元，仅退款 675 元。\n平台客服回应称，购票前后平台已对机票退改政策作出醒目提醒，明确平台不加收任何退改费用，具体费用按航空公司规定收取，相关问题需用户直接联系航司。长龙航空客服曾表示，航司针对错购机票有相关政策：旅客在两小时内购买了同一航司正确行程的机票，可申请错购机票全额退款。\n此后张先生收到长龙航空短信，被告知购票平台及航司官网均已完整展示退改签规定，航司针对不同折扣客票按退改时间节点收取相应手续费，称“经核实，您客票需按照规定收取手续费，我司无法满足您的诉求”。\nIT之家注：根据《公共航空运输旅客服务管理规定》，承运人应制定并公布旅客运输总条件，明确客票退改签规定；旅客购票即视为同意相关条款。目前国内航司普遍执行阶梯费率退改规则。\n相关阅读：\n\n《央视再谈“1.5 万元机票仅退 432 元”：携程退票系统升级，仍有高额退票费》\n\n《携程回应“1.5 万元机票天价退票费全额退还”：非平台破例优待，将升级风险提示机制》\n\n《1.5 万元机票仅退 432 元引热议，央视关注后天价退票费已全额退还》",
+    "sourceUrl": "https://www.ithome.com/0/987/443.htm",
     "sourceName": "IT之家",
     "tags": [
       "产品"
@@ -152,13 +167,13 @@
   },
   {
     "id": 159,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "联想推出拯救者 32Q-2c 曲面显示器：31.5 英寸 2K 240Hz，1749 元",
-    "content": "IT之家 8 月 8 日消息，联想本周新上架了一款拯救者系列的 31.5 英寸曲面显示器，型号为 32Q-2c，定价 1749 元。\n京东联想（Lenovo）拯救者曲面电竞显示器 LEGION 32Q-2c 31.5 英寸 VA 面板 240Hz 高刷 2K 1500R 黄金曲率 1749 元直达链接\n这款显示器采用了 31.5 英寸 2560*1440 分辨率的 VA 面板，拥有 1500R 黄金曲率，具备原生 240Hz 高刷新率、1ms GTG 响应时间，配备 2×HDMI 2.1 + DP 1.4 接口，支持 AMD FreeSync Premium 和 VESA AdaptiveSync 可变刷新率技术。\n\n色彩表现上，这款显示器支持 10bit（8+FRC）色深，覆盖 99% sRGB 色域 + 95% DCI-P3 色域，支持 HDR 400，典型亮度 400nits，支持 OSD + 驱动多色彩模式调节。\n\n该显示器还支持硬件级护眼，获得 eyesafe 和莱茵 TÜV 硬件低蓝光认证，从屏幕背光降低有害蓝光，无需设置默认开启，不改变屏幕色彩，同时支持 DC 调光不闪屏，具备低反射、少衰减特性。\n\n其他方面，这款显示器搭载可升降旋转人体工学支架，支持 135mm 升降高度、-5°~22° 前后俯仰、-90°~90° 垂直旋转、-30°~30° 水平旋转；支持 100×100mm VESA 壁挂，可安装摇臂支架；配备游戏辅助功能，支持暗部增强，可在不泛白的前提下提升暗处细节，更易发现游戏中的敌人，该功能可通过 OSD 菜单或联想驱动软件开启关闭。\n软件方面，该显示器适配全新 Lenovo Accessories and Display Manager（LADM）驱动软件，从原 LDCC (Artery) 优化升级而来，支持多种设备识别连接，可通过软件直接设置显示器所有功能，无需操作机身 OSD 物理按键，连接 PC 时可自动唤醒下载，旧驱动用户可在微软商店手动下载，支持 Win10/11+MacOS 系统。\n\nIT之家附详细参数如下：\n\n       京东 联想（Lenovo）拯救者曲面电竞显示器 31.5 英寸 VA 面板 240Hz 高刷 2K 1500R 黄金曲率 游戏电脑 LEGION 32Q-2c    1749 元 直达链接",
-    "sourceUrl": "https://www.ithome.com/0/987/365.htm",
+    "title": "Steam 喜加一：原价 92 元的外太空生存冒险游戏《呼吸边缘》免费领",
+    "content": "IT之家 8 月 8 日消息，由 RedRuins Softworks 开发的外太空生存冒险游戏《呼吸边缘》现已在 Steam 平台开启限时免费领活动，本作在国区定价 92 元，玩家可在 8 月 9 日上午 10:00 前免费领取至游戏库。（IT之家附游戏商品页：https://store.steampowered.com/app/738520/_/?l=schinese）\n\nIT之家了解到，本作发行于 2021 年 2 月 25 日，是一款具有讽刺意味的外太空生存冒险游戏。玩家将在游戏中扮演一个叫 Man 的简单家伙，独自携带爷爷的骨灰参加银河葬礼，却意外发现自己置身于一个宇宙阴谋之中。\n\n\n配置方面，本作的最低要求是英特尔第三代酷睿 i3 处理器、8GB 内存和 GTX 660 显卡，需要 7GB 以上可用空间。",
+    "sourceUrl": "https://www.ithome.com/0/987/444.htm",
     "sourceName": "IT之家",
     "tags": [
       "产品"
@@ -167,42 +182,27 @@
   },
   {
     "id": 158,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "IT之家",
     "authorAvatar": "",
-    "title": "苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了",
-    "content": "IT之家 8 月 8 日消息，一篇名为《在 Mac 上配合 Apple 智能使用千问》的支持文档近日现身苹果官网 Mac 简体中文使用手册，其中明确提到 Apple 智能可配合阿里巴巴千问模型工作。\n\n据苹果官网所述，千问扩展适用于 macOS 26.6 或更高版本，用户需位于中国大陆且 Apple 账户国家或地区需为中国大陆，Mac 机型也得是中国大陆版本。\n同时，用户可前往 macOS 的“系统设置”App，然后选择“Apple 智能与 Siri”菜单的“扩展”设置千问。用户需要登录千问账户才能使用千问扩展，如果没有千问账户的话可以注册一个，或使用 Apple 登录。\n千问扩展支持写作工具、Siri。前者可在备忘录、邮件等应用程序创作文本，拥有写作、改写等功能。\n\n而 Siri 则是可以通过千问扩展查找更多信息。例如，用户可以向 Siri 发出以下问题：“嘿 Siri，让千问写一首关于龙的诗”“嘿 Siri，让千问帮我总结这个文稿”。如果 Siri 确认千问会有所帮助，它会询问用户是否要使用千问完成请求。\n\n据IT之家此前报道，网信部门本月会同有关部门按照《生成式人工智能服务管理暂行办法》要求，新增“Apple 智能”等 7 款提供手机端侧生成式人工智能服务备案信息。\n苹果 CEO 蒂姆 · 库克随后在财报会议中表示，苹果公司已在中国获准推出首批“Apple 智能”（Apple Intelligence）功能。\n结合证券时报此前消息，阿里巴巴称千问将作为 AI 能力集成至 Apple 智能，为 iOS、iPadOS、macOS 和 visionOS 的中国用户带来智能体验。用户无需在应用间切换，即可在 Apple 设备上直接体验千问的文本与图像理解、内容生成等能力。",
-    "sourceUrl": "https://www.ithome.com/0/987/366.htm",
+    "title": "一次搭载 32 个实验室：SpaceX“星落”飞船将推动太空制药商业化",
+    "content": "IT之家 8 月 8 日消息，美国太空基础设施公司 Redwire 旗下的 SpaceMD 于当地时间 8 月 6 日宣布，已与 SpaceX 签订合同，将在其“星落”（Starfall）飞船上执行微重力药物研发任务。\n该任务计划于 2028 年发射，最多可搭载 32 个“太空制药实验室”（PIL-BOX），有望成为迄今为止规模最大的商业微重力研究任务。\n\nPIL-BOX 是 Redwire 经飞行验证的微重力有效载荷，研究人员可借此在微重力环境下使药物化合物形成更巨大、更均匀的晶体，从而帮助科学家更好地理解分子结构并优化药物配方。SpaceMD 将针对此次任务开发 PIL-BOX 的新型号，以适配“星落”飞船的整个内部空间。\nSpaceMD CEO 约翰 · 韦林格（John Vellinger）表示：“太空药物研发正迎来一个转折点。数十年来，Redwire 一直建设和运营着推动微重力研究取得关键进展的基础设施。如今，通过将 PIL-BOX 等经飞行验证的微重力有效载荷与 SpaceX 的创新运输能力相结合，我们正大幅拓展服务客户的能力，加快研究节奏，推动变革性疗法的诞生。”\n该公司此前已在从航天飞机到国际空间站的载人航天器上完成了数百项药物与生命科学实验。自 2023 年 11 月以来，已有 54 套 PIL-BOX 系统被送往国际空间站，另有 12 套计划于 2026 年 9 月、10 月和 12 月发射。SpaceMD 已成功利用其轨道实验室结晶出 45 种独特的化合物，包括胰岛素以及针对癌症、心血管疾病、肥胖症和糖尿病的相关分子。\nIT之家注：SpaceX 的“星落”飞船是一种新型无人返回飞行器，于 2026 年 6 月 23 日完成首次演示飞行。该飞船旨在为科学研究与在轨制造提供经济、常态化的微重力环境接入服务。\n相关阅读：\n\n《SpaceX 星落返回舱完成首飞，可运载 1000 公斤太空实验载荷》\n\n《SpaceX 神秘返回舱“星落”首飞在即，采用扁平圆盘造型》",
+    "sourceUrl": "https://www.ithome.com/0/987/445.htm",
     "sourceName": "IT之家",
     "tags": [
-      "产品"
+      "商业航天"
     ],
     "likes": 65
   },
   {
-    "id": 141,
-    "timestamp": "08:26",
-    "date": "2026-08-08",
-    "author": "Meleagris",
-    "authorAvatar": "",
-    "title": "The Nixpkgs core team has disbanded",
-    "content": "Article URL: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413\nComments URL: https://news.ycombinator.com/item?id=49217993\nPoints: 280\n# Comments: 130",
-    "sourceUrl": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 140,
-    "timestamp": "08:26",
+    "id": 147,
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "wglb",
     "authorAvatar": "",
     "title": "NASA figured out how to keep its Voyager 2 probe running for another year",
-    "content": "Article URL: https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year\nComments URL: https://news.ycombinator.com/item?id=49218179\nPoints: 212\n# Comments: 36",
+    "content": "Article URL: https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year\nComments URL: https://news.ycombinator.com/item?id=49218179\nPoints: 294\n# Comments: 61",
     "sourceUrl": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
     "sourceName": "Hacker News",
     "tags": [
@@ -211,28 +211,13 @@
     "likes": 60
   },
   {
-    "id": 139,
-    "timestamp": "08:26",
-    "date": "2026-08-08",
-    "author": "dnnehgf",
-    "authorAvatar": "",
-    "title": "Mythos social engineering AISI INC-2026-07-28-01",
-    "content": "Article URL: https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3\nComments URL: https://news.ycombinator.com/item?id=49218707\nPoints: 55\n# Comments: 17",
-    "sourceUrl": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 138,
-    "timestamp": "08:26",
+    "id": 146,
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "epestr",
     "authorAvatar": "",
     "title": "Hardware backdoors in some x86 CPUs",
-    "content": "Article URL: https://github.com/xoreaxeaxeax/rosenbridge\nComments URL: https://news.ycombinator.com/item?id=49219508\nPoints: 25\n# Comments: 2",
+    "content": "Article URL: https://github.com/xoreaxeaxeax/rosenbridge\nComments URL: https://news.ycombinator.com/item?id=49219508\nPoints: 208\n# Comments: 60",
     "sourceUrl": "https://github.com/xoreaxeaxeax/rosenbridge",
     "sourceName": "Hacker News",
     "tags": [
@@ -241,23 +226,204 @@
     "likes": 60
   },
   {
-    "id": 74,
-    "timestamp": "08:26",
+    "id": 145,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "bhavansig",
+    "authorAvatar": "",
+    "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+    "content": "Article URL: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/\nComments URL: https://news.ycombinator.com/item?id=49220126\nPoints: 138\n# Comments: 33",
+    "sourceUrl": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+    "sourceName": "Hacker News",
+    "tags": [
+      "模型"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 144,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "01-_-",
+    "authorAvatar": "",
+    "title": "Europe's free satellite service just made it easier to track wildfires",
+    "content": "Article URL: https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/\nComments URL: https://news.ycombinator.com/item?id=49220313\nPoints: 82\n# Comments: 6",
+    "sourceUrl": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+    "sourceName": "Hacker News",
+    "tags": [
+      "商业航天"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 143,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "sbulaev",
+    "authorAvatar": "",
+    "title": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.",
+    "content": "Article URL: https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html\nComments URL: https://news.ycombinator.com/item?id=49220350\nPoints: 150\n# Comments: 162",
+    "sourceUrl": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 142,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "eternalreturn",
+    "authorAvatar": "",
+    "title": "Microsoft Edge is about to lock out older ad blockers, just like Chrome did",
+    "content": "Article URL: https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3\nComments URL: https://news.ycombinator.com/item?id=49220392\nPoints: 34\n# Comments: 22",
+    "sourceUrl": "https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 141,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "882542F3884314B",
+    "authorAvatar": "",
+    "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+    "content": "Article URL: https://simonwillison.net/2026/Aug/7/openai-timeline/\nComments URL: https://news.ycombinator.com/item?id=49220609\nPoints: 97\n# Comments: 110",
+    "sourceUrl": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+    "sourceName": "Hacker News",
+    "tags": [
+      "模型"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 140,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "rfarley04",
+    "authorAvatar": "",
+    "title": "Gateway 2000's hilariously bad ads in the 90s (Part II)",
+    "content": "Article URL: https://buttondown.com/suchbadtechads/archive/gateway-2000-part-2/\nComments URL: https://news.ycombinator.com/item?id=49221220\nPoints: 6\n# Comments: 0",
+    "sourceUrl": "https://buttondown.com/suchbadtechads/archive/gateway-2000-part-2/",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 139,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "shaunpud",
+    "authorAvatar": "",
+    "title": "A domain can now say it is for sale, in DNS",
+    "content": "Article URL: https://specification.website/spec/foundations/for-sale-dns/\nComments URL: https://news.ycombinator.com/item?id=49221668\nPoints: 3\n# Comments: 0",
+    "sourceUrl": "https://specification.website/spec/foundations/for-sale-dns/",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 138,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "rahen",
+    "authorAvatar": "",
+    "title": "Voyager 1 FDS Computer Emulator",
+    "content": "Article URL: https://zaneham.github.io/voyager-fds-emulator/\nComments URL: https://news.ycombinator.com/item?id=49221679\nPoints: 4\n# Comments: 0",
+    "sourceUrl": "https://zaneham.github.io/voyager-fds-emulator/",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 91,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "\"space launch rocket\" - Google News",
+    "authorAvatar": "",
+    "title": "Live Coverage: SpaceX West Coast launch surge continues with Starlink mission - Spaceflight Now",
+    "content": "Live Coverage: SpaceX West Coast launch surge continues with Starlink mission  Spaceflight Now",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRU1DVjRzOUFZSXl4UlZkVU53V2NIN1g1bGxJaGk1ZHVpYXlzUVlWYlNmREN2YWtLWkgxY2NpRzlxZjZGNnZmaTJnRE05SktRSVQ2TVZxbGpJS0thUlBvWTMtTmhVb05CRGVhdWtOMlNOd3pmZnhTRVJkS3ppY3JRVHpTMl9ZZS1UbmpGVmI3SU81aW5Id2I3VEN6cWFpYnRQb0o0TmZCTnU4NWtKV0QycWwwMmpBQQ?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "商业航天"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 88,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "\"AI robot\" - Google News",
+    "authorAvatar": "",
+    "title": "Wall Street Sees a Multitrillion-Dollar Humanoid Robot Market. These 2 Industrial Stocks Sell the Parts. - Yahoo Finance",
+    "content": "Wall Street Sees a Multitrillion-Dollar Humanoid Robot Market. These 2 Industrial Stocks Sell the Parts.  Yahoo Finance",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVENJd29fY1dFQUxQcV9IWFlNQ1VWVHVmTFlLbjgyY1RPbmNjc05QNDFYUGhGTFBTN0Z1Y2RTTkhCOUJEMmpqWU9CYVZwZElKblM0TUJXMFVKX3NxY1J1bG8zRnB2QmtpUExJNmlYZ0JKUEtuVFZiMUF4cXd6OXRCZE9pWjlmWGJkSTlnRHlNUlFyV1p2ZTBaS08zUjBDYTMxNi1N?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 79,
+    "timestamp": "14:21",
     "date": "2026-08-08",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
-    "title": "Deepfake victim urges better regulation of 'dangerous' AI - BBC",
-    "content": "Deepfake victim urges better regulation of 'dangerous' AI  BBC",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6UlM3OFBCN1ZRUFFJT2N5VFVBN1ZkOEQ2NlBtSzFXb2NiSTkwV1liSm02Ym1MT2dTb0FRb2pTRW1YWU9Qck1WNVRYWWdWM1FVSzhVSDVFYUxRZw?oc=5",
+    "title": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher - fool.com",
+    "content": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher  fool.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWEhMSjJYNWVZbTUtSVVydnRxMGlKNVZDdmNEWWlUWjNhTERUMDduZ0FTZXRWUk5idF9yODBZYVF2M29CNEdFUVZwTUdGZmNZZHN6NFBFcWNnVU9qWjg3cy1BbW5vLWZCWlVPNW9MU2lrX3lCdXotMnVSMXFBaGd3SVlCLTh6QVZrVnBsczVMYUZKMWJXVEZudw?oc=5",
     "sourceName": "Google News",
     "tags": [
-      "行业"
+      "行业",
+      "商业航天"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 74,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "\"artificial intelligence\" - Google News",
+    "authorAvatar": "",
+    "title": "A pillar of environmental enforcement is targeted by Trump and Musk's AI company - wral.com",
+    "content": "A pillar of environmental enforcement is targeted by Trump and Musk's AI company  wral.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWk1LWS12Ml8tYTNNaDhJQk1IT0JTbkVHa1ZiS3UwU3hXMDFpeFlPcWZjeHlxN1YtVXRFV1l2eGFyNUg5QUJaLXpEcTl0aGVsTGY0S1J0S1hCeDJpb3l6aXBSRGVHSVVMdTZvTWtRV2tLOXEtTVlPdVlSWjV3UHIwTS1tTGlqM09ZeW53UFJMOGJiblpPb3VnRnliRVV6ck5WTWt5RnZkVTlqaG1sRThxVzNrVWpPUQ?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 73,
+    "timestamp": "14:21",
+    "date": "2026-08-08",
+    "author": "\"artificial intelligence\" - Google News",
+    "authorAvatar": "",
+    "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service - Reuters",
+    "content": "Apple says Mac users in China can connect to Alibaba's Qwen AI service  Reuters",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbXVFWnRmd080YXVJQl95andMTEs4bzBySU9OUzFROUdVcVU5UUtjMFF1LVY3WWNEMTZ3di1hM203OUhjQ2d6MFF0NlNWcUdJUndQZXlBWmRXZVhXc2RnSVdORFdmVEZFTWFkNnVVSjVOZFV4NDFkcVo3Z1VramQ5NUZPSkhJclk4R2tuVEtVRzJRNkVmYXhSeTk5NmJ5d0JIRkdSQ1RVR1NnOG5hdmJON0Zlb2t4QV82SWhvZkhWbS1PZw?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "产品"
     ],
     "likes": 60
   },
   {
     "id": 129,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Francesco Linsalata",
     "authorAvatar": "",
@@ -273,7 +439,7 @@
   },
   {
     "id": 128,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Prachi Jain",
     "authorAvatar": "",
@@ -288,7 +454,7 @@
   },
   {
     "id": 119,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Eileen Guo, Gisela Perez de Acha, Martin Sona",
     "authorAvatar": "",
@@ -303,7 +469,7 @@
   },
   {
     "id": 118,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Thomas Macaulay",
     "authorAvatar": "",
@@ -317,8 +483,8 @@
     "likes": 80
   },
   {
-    "id": 150,
-    "timestamp": "08:26",
+    "id": 151,
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Will Knight",
     "authorAvatar": "",
@@ -332,8 +498,8 @@
     "likes": 70
   },
   {
-    "id": 149,
-    "timestamp": "08:26",
+    "id": 150,
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Caroline Haskins",
     "authorAvatar": "",
@@ -347,8 +513,8 @@
     "likes": 70
   },
   {
-    "id": 148,
-    "timestamp": "08:26",
+    "id": 149,
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Fernanda González",
     "authorAvatar": "",
@@ -363,7 +529,7 @@
   },
   {
     "id": 117,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Lorenzo Franceschi-Bicchierai",
     "authorAvatar": "",
@@ -378,7 +544,7 @@
   },
   {
     "id": 116,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "TechCrunch Events",
     "authorAvatar": "",
@@ -393,7 +559,7 @@
   },
   {
     "id": 115,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Tim De Chant",
     "authorAvatar": "",
@@ -408,7 +574,7 @@
   },
   {
     "id": 114,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "TechCrunch Events",
     "authorAvatar": "",
@@ -423,7 +589,7 @@
   },
   {
     "id": 113,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Lorenzo Franceschi-Bicchierai",
     "authorAvatar": "",
@@ -438,7 +604,7 @@
   },
   {
     "id": 112,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Sarah Perez",
     "authorAvatar": "",
@@ -454,7 +620,7 @@
   },
   {
     "id": 111,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Zack Whittaker",
     "authorAvatar": "",
@@ -469,7 +635,7 @@
   },
   {
     "id": 110,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Lucas Ropek",
     "authorAvatar": "",
@@ -484,7 +650,7 @@
   },
   {
     "id": 109,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Julie Bort",
     "authorAvatar": "",
@@ -499,7 +665,7 @@
   },
   {
     "id": 108,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "Kirsten Korosec",
     "authorAvatar": "",
@@ -514,7 +680,7 @@
   },
   {
     "id": 174,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "36氪",
     "authorAvatar": "",
@@ -529,7 +695,7 @@
   },
   {
     "id": 173,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "36氪",
     "authorAvatar": "",
@@ -544,7 +710,7 @@
   },
   {
     "id": 172,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "36氪",
     "authorAvatar": "",
@@ -559,7 +725,7 @@
   },
   {
     "id": 171,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "36氪",
     "authorAvatar": "",
@@ -574,7 +740,7 @@
   },
   {
     "id": 170,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "36氪",
     "authorAvatar": "",
@@ -588,99 +754,8 @@
     "likes": 65
   },
   {
-    "id": 147,
-    "timestamp": "08:26",
-    "date": "2026-08-07",
-    "author": "piotrgrabowski",
-    "authorAvatar": "",
-    "title": "Assembly Hall of Shame",
-    "content": "Article URL: https://github.com/xoreaxeaxeax/asm-hall-of-shame\nComments URL: https://news.ycombinator.com/item?id=49214098\nPoints: 329\n# Comments: 83",
-    "sourceUrl": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 146,
-    "timestamp": "08:26",
-    "date": "2026-08-07",
-    "author": "moonikakiss",
-    "authorAvatar": "",
-    "title": "Managing AI Coding Costs at Scale",
-    "content": "Article URL: https://www.databricks.com/blog/managing-ai-coding-costs-scale\nComments URL: https://news.ycombinator.com/item?id=49214468\nPoints: 228\n# Comments: 196",
-    "sourceUrl": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 145,
-    "timestamp": "08:26",
-    "date": "2026-08-07",
-    "author": "aagha",
-    "authorAvatar": "",
-    "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
-    "content": "Article URL: https://ancientlibrary.net/\nComments URL: https://news.ycombinator.com/item?id=49214770\nPoints: 199\n# Comments: 61",
-    "sourceUrl": "https://ancientlibrary.net/",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 144,
-    "timestamp": "08:26",
-    "date": "2026-08-07",
-    "author": "theanonymousone",
-    "authorAvatar": "",
-    "title": "Psychological Warfare in Reverse Engineering (2015)",
-    "content": "Article URL: https://github.com/xoreaxeaxeax/repsych\nComments URL: https://news.ycombinator.com/item?id=49214775\nPoints: 67\n# Comments: 4",
-    "sourceUrl": "https://github.com/xoreaxeaxeax/repsych",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 143,
-    "timestamp": "08:26",
-    "date": "2026-08-07",
-    "author": "Bender",
-    "authorAvatar": "",
-    "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
-    "content": "Article URL: https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070\nComments URL: https://news.ycombinator.com/item?id=49216362\nPoints: 183\n# Comments: 119",
-    "sourceUrl": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 142,
-    "timestamp": "08:26",
-    "date": "2026-08-07",
-    "author": "moelf",
-    "authorAvatar": "",
-    "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
-    "content": "Article URL: https://genesisopenmodels.anl.gov/\nComments URL: https://news.ycombinator.com/item?id=49216946\nPoints: 214\n# Comments: 71",
-    "sourceUrl": "https://genesisopenmodels.anl.gov/",
-    "sourceName": "Hacker News",
-    "tags": [
-      "商业航天",
-      "模型"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 96,
-    "timestamp": "08:26",
+    "id": 94,
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "\"space launch rocket\" - Google News",
     "authorAvatar": "",
@@ -694,8 +769,8 @@
     "likes": 60
   },
   {
-    "id": 94,
-    "timestamp": "08:26",
+    "id": 92,
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "\"space launch rocket\" - Google News",
     "authorAvatar": "",
@@ -709,8 +784,8 @@
     "likes": 60
   },
   {
-    "id": 88,
-    "timestamp": "08:26",
+    "id": 87,
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -726,7 +801,22 @@
   },
   {
     "id": 86,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
+    "date": "2026-08-07",
+    "author": "\"AI robot\" - Google News",
+    "authorAvatar": "",
+    "title": "World’s first autonomous robot that drives aboard moving ship tested by Hyundai - Interesting Engineering",
+    "content": "World’s first autonomous robot that drives aboard moving ship tested by Hyundai  Interesting Engineering",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNa2NJOXU0a1Z3RDBNMXFTeUJZQjRIb3BMOXVTeWd6Tk8zaTlBZV9uS1RScVhnN2picXVrSjNjMXVMV19GSWFYaDRHRmxiMV9VWHBuZ3NNNzBnd2xLSEJtS1phNHRLUDZPUEc5b1ZYN2JFYXdvc3Bpel9pMW1RUURMLWlmSi1IMEVlUngxeVhQZVVZSl91VHhB?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 83,
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -740,8 +830,8 @@
     "likes": 60
   },
   {
-    "id": 84,
-    "timestamp": "08:26",
+    "id": 82,
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -756,7 +846,7 @@
   },
   {
     "id": 81,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -771,22 +861,7 @@
   },
   {
     "id": 80,
-    "timestamp": "08:26",
-    "date": "2026-08-07",
-    "author": "\"artificial intelligence\" - Google News",
-    "authorAvatar": "",
-    "title": "Garbage-Truck Margin Boost Shows the AI Profit Boom Has Begun - Bloomberg.com",
-    "content": "Garbage-Truck Margin Boost Shows the AI Profit Boom Has Begun  Bloomberg.com",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOXNvQU55N1o3NEpVa2FmUlFhcmZBX2swNWstVXNpM0REc09OS0VDc0tJTkZWSGoxRm1VbTlnVkdnQlBCZG1XQi1YVEhuQTFwMFFiVXBwR25tdWNpenRkWm0ydDBhdmVfRHNYbEE3dkY2eXYycGxtX3ZZZWJSXzVCbVVHU3RMa3NORzlBQlBGTlgxdGRFSlg5VXdXRkFFbm5TbWdOTGMxaDN4c2NQeW5RMmln?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 79,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
@@ -801,13 +876,13 @@
   },
   {
     "id": 77,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
-    "title": "Nvidia Is a Massive Investor in the Genius Artificial Intelligence (AI) Stock Up 170% This Year - Yahoo Finance",
-    "content": "Nvidia Is a Massive Investor in the Genius Artificial Intelligence (AI) Stock Up 170% This Year  Yahoo Finance",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcEdFX3QtQ1Nmbk9kcEw3WUpGWmJKZURuQTg5c2FHcEFMNEVYSGFVX0o3OEFwdWpLN3pRNFF2TVg4NDNWMTByVzhnUUZrU1ZaQ3J2MTRHaUw3dWkwVk5MTXBWTU0zd1NDZmZkRjhKblpYNUpDOEYtRVN4aGFzQU1sd0kwRjVxQktlT3lScFhaMzRwcjU5QlByWnNOaXcxYmdwdG9MME5MVVVMZw?oc=5",
+    "title": "University of Pennsylvania researchers develop artificial intelligence tool to help speed autism evaluations - 6abc Philadelphia",
+    "content": "University of Pennsylvania researchers develop artificial intelligence tool to help speed autism evaluations  6abc Philadelphia",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeVBqMXo4dTQ4eXphN1BDNjk5dl9XaTFrZmcwV1NwU3FMbjhlOUNJTVhCNU9DMUVvamtIQVVCT3EtSUFDUTFxWUp3azFwVjNIRXZjNFBzbG12MWR5ZG5JeHJjYjVKbzFwbUVrZnRlWTJRRExvbDNXeWJEYUpaWkU5d3FHRW55VkYwWDVLMWRrSWZVNGZEZF9RY0l1dkpZam9YTXZ5Qzd1ZHNUOWE4eWZ2dFdFZnFmMC1XZU52cnJsekdEdVlwYmpIdHl4b29Ed1XSAdQBQVVfeXFMT29WODNYSTJiZFNCQkxUcmlKTkFsbzllWE1wZ0dBNVdIRFc4SldHblBRODBpVGQxUDhIem9mNEkzU2tZem5QZkR6QmFVY0o2RDE1alA2TmJHWFhhQ21JT0ZyZjZsUHV4M2s2bk5LVkluVTV5Z0d1SHBLbkVyMXF2TzZXOTVyV2tITUdhSFZieXNFeDRSUEVwcDRyYUJldFVQV01yVlJfT2FtYWNVSlpQU19waTdoV2NGZ0gyYTNWUzRVVUV3T1g3STMxRDRUblZxckd4RUM?oc=5",
     "sourceName": "Google News",
     "tags": [
       "行业"
@@ -816,22 +891,7 @@
   },
   {
     "id": 76,
-    "timestamp": "08:26",
-    "date": "2026-08-07",
-    "author": "\"artificial intelligence\" - Google News",
-    "authorAvatar": "",
-    "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly - CNBC",
-    "content": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly  CNBC",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVTJQeExfT19BZ29POG1GUkRSMXVnRFEyb2N2WFVILTI1S2tMSDZZNDc1SmVJMDgwLU1PeFo3RV9HRXY4MkVHc1RKYjMteURycUR0b1JCRmNjazlsLUMwc2Z2d2c2QW1ZeDJTcW5yOVVxZkdIcTR0LVZvX2N2enVtMHJSTExKMXd4MXByeUN0d216a1J6eUZ6WnVyYW55S09DcW9Z0gGoAUFVX3lxTFBwRmlOTVpHcjhhNmVYVHZxRTlmeWU5UmZCcUtqbFMyX0w3VzMtVFgyZ3lZemg2YWxxWXROeWlSWGNzWm5iWEw3YS0yZDFnWXU3TWdIcWVycF96VWtvbnp1NlZPcTlGcTZIbUtnZ0NaVkFha1JiWFJ6eUFqNG9VU1JKN1EzalRfVEpzNkN0WklrZTJuUjJhSXBBRXlLWWdtWVRGRWRzNjNDYw?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 75,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-07",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
@@ -845,8 +905,23 @@
     "likes": 60
   },
   {
+    "id": 75,
+    "timestamp": "14:21",
+    "date": "2026-08-07",
+    "author": "\"artificial intelligence\" - Google News",
+    "authorAvatar": "",
+    "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly - CNBC",
+    "content": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly  CNBC",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVTJQeExfT19BZ29POG1GUkRSMXVnRFEyb2N2WFVILTI1S2tMSDZZNDc1SmVJMDgwLU1PeFo3RV9HRXY4MkVHc1RKYjMteURycUR0b1JCRmNjazlsLUMwc2Z2d2c2QW1ZeDJTcW5yOVVxZkdIcTR0LVZvX2N2enVtMHJSTExKMXd4MXByeUN0d216a1J6eUZ6WnVyYW55S09DcW9Z0gGoAUFVX3lxTFBwRmlOTVpHcjhhNmVYVHZxRTlmeWU5UmZCcUtqbFMyX0w3VzMtVFgyZ3lZemg2YWxxWXROeWlSWGNzWm5iWEw3YS0yZDFnWXU3TWdIcWVycF96VWtvbnp1NlZPcTlGcTZIbUtnZ0NaVkFha1JiWFJ6eUFqNG9VU1JKN1EzalRfVEpzNkN0WklrZTJuUjJhSXBBRXlLWWdtWVRGRWRzNjNDYw?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
     "id": 120,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "Thomas Macaulay",
     "authorAvatar": "",
@@ -860,8 +935,8 @@
     "likes": 80
   },
   {
-    "id": 154,
-    "timestamp": "08:26",
+    "id": 155,
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "Lily Hay Newman",
     "authorAvatar": "",
@@ -876,8 +951,8 @@
     "likes": 70
   },
   {
-    "id": 153,
-    "timestamp": "08:26",
+    "id": 154,
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "Victoria Turk",
     "authorAvatar": "",
@@ -891,8 +966,8 @@
     "likes": 70
   },
   {
-    "id": 152,
-    "timestamp": "08:26",
+    "id": 153,
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "Brian Barrett, Zoë Schiffer, Leah Feiger, Molly Taft",
     "authorAvatar": "",
@@ -906,8 +981,8 @@
     "likes": 70
   },
   {
-    "id": 151,
-    "timestamp": "08:26",
+    "id": 152,
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "Maxwell Zeff",
     "authorAvatar": "",
@@ -923,7 +998,7 @@
   },
   {
     "id": 177,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "36氪",
     "authorAvatar": "",
@@ -938,7 +1013,7 @@
   },
   {
     "id": 176,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "36氪",
     "authorAvatar": "",
@@ -953,12 +1028,12 @@
   },
   {
     "id": 175,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "36氪",
     "authorAvatar": "",
     "title": "8点1氪丨DeepSeek宣布大幅涨价；贾国龙再创业，开店“天边羊多”；河南试行周五下午弹性离岗",
-    "content": "今日热点导览\n字节跳动内部严禁蒸馏开源模型\n中信证券：韩股杠杆去化尚未完成\n印尼电商企业自11月1日起代征卖家收入所得税\n字节跳动全员会：整合豆包、飞书与火山引擎，AI业务重点转向ToB生产力\n万科组织架构再“瘦身”：办公事业部解散，事业部缩减至7个\nTOP 3大新闻\nDeepSeek宣布大幅涨价\n8月6日，DeepSeek公告：“计划近期整体上调DeepSeek API服务的定价，预计涨幅较大，请合理安排您的使用。具体方案以正式通知为准。”8月3日，海外开发者平台OpenCode披露了一组数据：8月1日当天，DeepSeek V4 Flash在其平台上单日处理Token总量达8万亿。其中5万亿来自免费试用额度，3万亿来自开发者付费调用。（每日经济新闻）\n贾国龙再创业，新店“天边羊多”近期开业\n8月5日，记者获悉，在“天边砂锅焖面”之后，西贝创始人贾国龙探索的新业态“天边羊多”于8月7日在北京开出全国首店。\n记者在天边店小二官方公众号发布的预告视频看到，“天边羊多”新店将主打内蒙古鲜羊肉到店加工，菜品包括羊肉烧麦、烤羊肉串、手把肉、涮鲜羊肉锅等，视频中特别强调了“好肉不用腌，只撒一把盐”“鲜羊直达”等特色。记者从接近西贝的人士处了解到，天边羊多定位鲜羊料理，属于西北菜，是西贝在西北菜基因上的品牌延伸与场景深耕。（每日经济新闻）\n河南试行周五下午弹性离岗，领导干部要带头休假\n近日，河南省委组织部、省人力资源社会保障厅等六部门联合印发《关于进一步推动落实职工带薪错峰休假的通知》（以下简称《通知》），《通知》明确，凡连续工作满12个月的职工，不分编制、合同、劳务派遣或临时用工，均平等享受带薪年休假。\n为了让职工轻松规划短途、长途出行，新政推出灵活拼假方案。《通知》提出，鼓励职工将带薪年假与周末、法定小长假、寒暑假、中小学春秋假等衔接，形成3—7天弹性长假。有条件的单位可调整夏季作息，试行周五下午弹性离岗，构建“周五半天+周末+年假”短途度假模式。（极目新闻）\nAI最前沿\n字节跳动内部严禁蒸馏开源模型\n8月6日，记者从字节跳动内部人士处获悉，今年国内竞争对手开源模型的快速发展给字节跳动带来更大的压力。在近日的内部会议中，字节跳动创始人张一鸣表示，做模型要坚持长期主义、延迟满足感，而不是用别人的输出，换一时的榜单排名。\n今年以来，国内AI大模型竞争已经极为激烈，几乎每隔几天就有新模型发布，每当有一个强大的开源新模型发布，字节跳动内部关于蒸馏的争论就会升温。澎湃新闻记者了解到，张一鸣很少在Seed团队的会议上发言，但此次明确表态，字节跳动“应该愿意为长期目标牺牲一部分短期收益”。\n据了解，字节跳动内部对开源模型严禁蒸馏，甚至通过API检测等方式在内部加强相关限制，张一鸣认为，蒸馏会干扰真正意义上的长期技术突破。（澎湃新闻）\nMeta推出Muse Code：面向大型代码库的AI智能体\n在人工智能应用赛道一度略显落后的Meta，正加速追赶同行。本周，该公司推出一款全新终端编码智能体，帮助程序员处理大型软件代码库中的复杂开发任务。Meta首席执行官马克・扎克伯格周三在社交媒体发文表示，目前处于测试版的Muse Code能够“在大型代码仓库中完成完整软件工程任务”，涵盖“方案规划、代码编写、结果验证”全流程。用户仅需一条命令即可安装Muse Code，底层依托Meta此前发布的代码大模型Muse Spark。面对大型项目时，它会自动生成多个智能体并行开展工作。（新浪财经）\n豆包接入原生音视频全双工大模型SeedRealtime\n36氪获悉，豆包宣布视频通话功能升级，正式接入原生音视频全双工大模型SeedRealtime。\n小红书加大AI投入：布局AI社交方向，开启AI陪伴产品自研\n小红书正全面提速AI战略，布局AI社交产品、AI社区互动工具等方向，从后台技术应用转向前台自研、产品化与生态化全面竞速。小红书近日正密集招���AI应用研发人才。其中，“AI社交产品经理”岗位职责包括：主导AI陪伴产品的设计与打造，探索AI在情感连接、兴趣匹配、个性化互动等维度的深度应用，构建有温度的AI陪伴体验。（新浪科技）\n大公司/大事件\n三星海力士美光产能提前售罄，内存短缺或持续至2027年\n据科技媒体近日报道，内存芯片供应紧张态势预计将持续至2027年，业内消息人士透露，三大内存原厂已基本完成明年的产能分配谈判。简言之，三星(SSNLF)、SK海力士(SKHY.US)和美光(MU.US)2027年的预计内存供应已全部售罄，且暂无新增产能规划。 \n报道称，三大供应商已分配完毕2027年全部DRAM和HBM产能。客户最终获得的配货量仅为其初始请求的60%至70%。业内人士指出，2027年将进入内存短缺最严峻的阶段。配货数量目前已基本敲定，但最终发货定价将更接近交付时",
+    "content": "今日热点导览\n字节跳动内部严禁蒸馏开源模型\n中信证券：韩股杠杆去化尚未完成\n印尼电商企业自11月1日起代征卖家收入所得税\n字节跳动全员会：整合豆包、飞书与火山引擎，AI业务重点转向ToB生产力\n万科组织架构再“瘦身”：办公事业部解散，事业部缩减至7个\nTOP 3大新闻\nDeepSeek宣布大幅涨价\n8月6日，DeepSeek公告：“计划近期整体上调DeepSeek API服务的定价，预计涨幅较大，请合理安排您的使用。具体方案以正式通知为准。”8月3日，海外开发者平台OpenCode披露了一组数据：8月1日当天，DeepSeek V4 Flash在其平台上单日处理Token总量达8万亿。其中5万亿来自免费试用额度，3万亿来自开发者付费调用。（每日经济新闻）\n贾国龙再创业，新店“天边羊多”近期开业\n8月5日，记者获悉，在“天边砂锅焖面”之后，西贝创始人贾国龙探索的新业态“天边羊多”于8月7日在北京开出全国首店。\n记者在天边店小二官方公众号发布的预告视频看到，“天边羊多”新店将主打内蒙古鲜羊肉到店加工，菜品包括羊肉烧麦、烤羊肉串、手把肉、涮鲜羊肉锅等，视频中特别强调了“好肉不用腌，只撒一把盐”“鲜羊直达”等特色。记者从接近西贝的人士处了解到，天边羊多定位鲜羊料理，属于西北菜，是西贝在西北菜基因上的品牌延伸与场景深耕。（每日经济新闻）\n河南试行周五下午弹性离岗，领导干部要带头休假\n近日，河南省委组织部、省人力资源社会保障厅等六部门联合印发《关于进一步推动落实职工带薪错峰休假的通知》（以下简称《通知》），《通知》明确，凡连续工作满12个月的职工，不分编制、合同、劳务派遣或临时用工，均平等享受带薪年休假。\n为了让职工轻松规划短途、长途出行，新政推出灵活拼假方案。《通知》提出，鼓励职工将带薪年假与周末、法定小长假、寒暑假、中小学春秋假等衔接，形成3—7天弹性长假。有条件的单位可调整夏季作息，试行周五下午弹性离岗，构建“周五半天+周末+年假”短途度假模式。（极目新闻）\nAI最前沿\n字节跳动内部严禁蒸馏开源模型\n8月6日，记者从字节跳动内部人士处获悉，今年国内竞争对手开源模型的快速发展给字节跳动带来更大的压力。在近日的内部会议中，字节跳动创始人张一鸣表示，做模型要坚持长期主义、延迟满足感，而不是用别人的输出，换一时的榜单排名。\n今年以来，国内AI大模型竞争已经极为激烈，几乎每隔几天就有新模型发布，每当有一个强大的开源新模型发布，字节跳动内部关于蒸馏的争论就会升温。澎湃新闻记者了解到，张一鸣很少在Seed团队的会议上发言，但此次明确表态，字节跳动“应该愿意为长期目标牺牲一部分短期收益”。\n据了解，字节跳动内部对开源模型严禁蒸馏，甚至通过API检测等方式在内部加强相关限制，张一鸣认为，蒸馏会干扰真正意义上的长期技术突破。（澎湃新闻）\nMeta推出Muse Code：面向大型代码库的AI智能体\n在人工智能应用赛道一度略显落后的Meta，正加速追赶同行。本周，该公司推出一款全新终端编码智能体，帮助程序员处理大型软件代码库中的复杂开发任务。Meta首席执行官马克・扎克伯格周三在社交媒体发文表示，目前处于测试版的Muse Code能够“在大型代码仓库中完成完整软件工程任务”，涵盖“方案规划、代码编写、结果验证”全流程。用户仅需一条命令即可安装Muse Code，底层依托Meta此前发布的代码大模型Muse Spark。面对大型项目时，它会自动生成多个智能体并行开展工作。（新浪财经）\n豆包接入原生音视频全双工大模型SeedRealtime\n36氪获悉，豆包宣布视频通话功能升级，正式接入原生音视频全双工大模型SeedRealtime。\n小红书加大AI投入：布局AI社交方向，开启AI陪伴产品自研\n小红书正全面提速AI战略，布局AI社交产品、AI社区互动工具等方向，从后台技术应用转向前台自研、产品化与生态化全面竞速。小红书近日正密集招募AI应用研发人才。其中，“AI社交产品经理”岗位职责包括：主导AI陪伴产品的设计与打造，探索AI在情感连接、兴趣匹配、个性化互动等维度的深度应用，构建有温度的AI陪伴体验。（新浪科技）\n大公司/大事件\n三星海力士美光产能提前售罄，内存短缺或持续至2027年\n据科技媒体近日报道，内存芯片供应紧张态势预计将持续至2027年，业内消息人士透露，三大内存原厂已基本完成明年的产能分配谈判。简言之，三星(SSNLF)、SK海力士(SKHY.US)和美光(MU.US)2027年的预计内存供应已全部售罄，且暂无新增产能规划。 \n报道称，三大供应商已分配完毕2027年全部DRAM和HBM产能。客户最终获得的配货量仅为其初始请求的60%至70%。业内人士指出，2027年将进入内存短缺最严峻的阶段。配货数量目前已基本敲定，但最终发货定价将更接近交付时确定",
     "sourceUrl": "https://36kr.com/p/3928685883308165?f=rss",
     "sourceName": "36氪",
     "tags": [
@@ -968,8 +1043,8 @@
     "likes": 65
   },
   {
-    "id": 87,
-    "timestamp": "08:26",
+    "id": 89,
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -984,37 +1059,7 @@
   },
   {
     "id": 85,
-    "timestamp": "08:26",
-    "date": "2026-08-06",
-    "author": "\"AI robot\" - Google News",
-    "authorAvatar": "",
-    "title": "HII Signs Performance-based Production Agreements with Path Robotics and GrayMatter Robotics - HII",
-    "content": "HII Signs Performance-based Production Agreements with Path Robotics and GrayMatter Robotics  HII",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXZlUGFCcWdVNW9MVmZVRC1XbUZxQkIyRnpFci00U3lwbTZaemNCcmstUnpoR1ZIQjFYTERjTlNQa0EtWUMxOC1GTkFGb1dWUjlWcU8tSU5tS0g2NmFwRU9kRHUzMEZ3N1Q5T3hOYzgxQjhpdEFyRHp2a1VTTDZzek9fZTBHclpXOHZxTnZZTUlKc0pMS0ZLczZMQUkwa3ZhY0hLZ3NvMWl5UVZxQUg2Zm9YTjYzajJ2?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "机器人"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 83,
-    "timestamp": "08:26",
-    "date": "2026-08-06",
-    "author": "\"AI robot\" - Google News",
-    "authorAvatar": "",
-    "title": "Can Robots Save Japan’s Aging Cherry Blossom Farmers? - The New York Times",
-    "content": "Can Robots Save Japan’s Aging Cherry Blossom Farmers?  The New York Times",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYnZaUDRYdG9yNXNxLTQ4VURWVXQ4UVcwWi1BNlRtUHRNOThISjlOWkt3U01vMFdTRGRyVmVvTGN6WDhIOVdmcWNJV3FmWUd1SHVtcG5pXzhIM0VZUkJlbnUybjhFclp2clgxY2dtejkyS3N1czdkckdCMnhEMVIzeE9saERKdU9O?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "机器人"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 82,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -1028,14 +1073,29 @@
     "likes": 60
   },
   {
+    "id": 84,
+    "timestamp": "14:21",
+    "date": "2026-08-06",
+    "author": "\"AI robot\" - Google News",
+    "authorAvatar": "",
+    "title": "HII Signs Performance-based Production Agreements with Path Robotics and GrayMatter Robotics - HII",
+    "content": "HII Signs Performance-based Production Agreements with Path Robotics and GrayMatter Robotics  HII",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXZlUGFCcWdVNW9MVmZVRC1XbUZxQkIyRnpFci00U3lwbTZaemNCcmstUnpoR1ZIQjFYTERjTlNQa0EtWUMxOC1GTkFGb1dWUjlWcU8tSU5tS0g2NmFwRU9kRHUzMEZ3N1Q5T3hOYzgxQjhpdEFyRHp2a1VTTDZzek9fZTBHclpXOHZxTnZZTUlKc0pMS0ZLczZMQUkwa3ZhY0hLZ3NvMWl5UVZxQUg2Zm9YTjYzajJ2?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 60
+  },
+  {
     "id": 78,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
-    "title": "India’s IT sector is surviving artificial intelligence - The Economist",
-    "content": "India’s IT sector is surviving artificial intelligence  The Economist",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdUJVM1FGT2Z0VmVvdF82NUhHYl9INllVUDJqb0U1X0ZQVDUwTGxPXzRNclc2azVVTUNfeDB2ZFY3aXVZTHlrZXpoUWluWUpLcEpCRm1kQjkyZ0RoODdWeVhuaVVKWmt2VkRPd3VQV05Odmc3bm5vNER0emFnaDVUdW1nbVQ1RHJQaEZYWXdGWGxpYzdKeWx3Y2h6M25qak00R2lkRmR0MGdYNXhqc2NtWTJB?oc=5",
+    "title": "An African vision of artificial intelligence - The Economist",
+    "content": "An African vision of artificial intelligence  The Economist",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORHdhRkM0RW96TzFrYkRxblloV3dNWTBHVDIzdEhWaTZiUmdENVlTdTVfcXp0MzRLWE1zdFVKdHV4UzFwbTRkWms0ZHc1ZEZCZWxLWUJ6c2tEWFFrZTlnWkxiSVB1Z1U5Z2RodWhYOVZ4ZW1BUTNVZEZIcnBoc1o4cWsxVXZqTWhvdWFkeVJuNUJ1YTV1NS1QOHNSRHlpaFNaN1phVm1LNA?oc=5",
     "sourceName": "Google News",
     "tags": [
       "行业"
@@ -1043,23 +1103,8 @@
     "likes": 60
   },
   {
-    "id": 73,
-    "timestamp": "08:26",
-    "date": "2026-08-06",
-    "author": "\"artificial intelligence\" - Google News",
-    "authorAvatar": "",
-    "title": "AI designs new virus not found in nature - Axios",
-    "content": "AI designs new virus not found in nature  Axios",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYaVQyU0NhTUFLMEUycVI2ZlgzTWMwdVp6aEdYV3BMYlN6UHhtSFVRTmZBbFpKRnFSN0ROOVBuelZlMDhEb2ZwOG1NWGRoSFlMM0Z5bzRWOEI1V3BxenVyM0FhLTBDTDc3ZnVPUTN5N3VNSnZoZVE?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
     "id": 72,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
@@ -1074,7 +1119,7 @@
   },
   {
     "id": 71,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-06",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
@@ -1089,7 +1134,7 @@
   },
   {
     "id": 130,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-05",
     "author": "Pauleth Jaramillo",
     "authorAvatar": "",
@@ -1106,7 +1151,7 @@
   },
   {
     "id": 123,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-05",
     "author": "Robin George Andrews",
     "authorAvatar": "",
@@ -1121,7 +1166,7 @@
   },
   {
     "id": 122,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-05",
     "author": "Charlotte Jee",
     "authorAvatar": "",
@@ -1136,7 +1181,7 @@
   },
   {
     "id": 121,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-05",
     "author": "Michael S. Branicky, ScD ’95",
     "authorAvatar": "",
@@ -1151,22 +1196,7 @@
   },
   {
     "id": 157,
-    "timestamp": "08:26",
-    "date": "2026-08-05",
-    "author": "Will Knight",
-    "authorAvatar": "",
-    "title": "AI Hacks Are Bad. AI Worms and Viruses Will Be Worse",
-    "content": "Chinese researchers have shown that AI models have the capacity to act like aggressive and adaptive computer viruses.",
-    "sourceUrl": "https://www.wired.com/story/ai-agents-could-act-like-computer-viruses-and-worms/",
-    "sourceName": "Wired",
-    "tags": [
-      "模型"
-    ],
-    "likes": 70
-  },
-  {
-    "id": 156,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-05",
     "author": "Lily Hay Newman",
     "authorAvatar": "",
@@ -1180,8 +1210,8 @@
     "likes": 70
   },
   {
-    "id": 155,
-    "timestamp": "08:26",
+    "id": 156,
+    "timestamp": "14:21",
     "date": "2026-08-05",
     "author": "Matt Burgess",
     "authorAvatar": "",
@@ -1195,14 +1225,14 @@
     "likes": 70
   },
   {
-    "id": 98,
-    "timestamp": "08:26",
+    "id": 100,
+    "timestamp": "14:21",
     "date": "2026-08-05",
     "author": "\"space launch rocket\" - Google News",
     "authorAvatar": "",
-    "title": "See photos of SpaceX launching 3 AST SpaceMobile satellites from Florida - Florida Today",
-    "content": "See photos of SpaceX launching 3 AST SpaceMobile satellites from Florida  Florida Today",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOaGhEamx6WVVjSV9mTlNyeFptaGlJMmNTYVgwMWdYUEY4b1JuOWVDaWRwQ1dlQUd3M0E1cHZtbkRJZjl0S09NLV8zZWVmVzlDRXMySnNhTXVMQjBrc0xBQnZfVXM2T0xzZ1otSVA4cHM2MUtiX09FeERuXzNpb0lpaDRTYUFrUjVGRldkS0dEeUgxRXgzWFdGcGVLM3FCUENDT0h4bkdtMVRVdUc4V256STFHMld3bG1XSVk1WlhEV2t0bnZCakNkX1ZheHZPU2MzVHZaRXQ0YWVFQll0a3g0NGZjOFptM1dvMTZxWmJMR1pVREszbndMaktvc1ZpZ1RHVFE?oc=5",
+    "title": "Space Coast launch schedule: - Orlando Sentinel",
+    "content": "Space Coast launch schedule:  Orlando Sentinel",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1vNFN5WlRicWJOSTlLU0NIRUVheGZYNV82Q0ItVkJ3NXlzNkUyR0RTZ0hNdzk5Vk5VVU8teFVjQmEyeG1LNTVyN0ZtRWJBY3gxNVVPREh3a2F4YzhTWDB4OGdUYWFuYjdlNGlrV2NpemJLcEpUS0xieklHZw?oc=5",
     "sourceName": "Google News",
     "tags": [
       "商业航天"
@@ -1210,23 +1240,8 @@
     "likes": 60
   },
   {
-    "id": 97,
-    "timestamp": "08:26",
-    "date": "2026-08-05",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "Live updates: SpaceX launches AST SpaceMobile satellites from Florida - Florida Today",
-    "content": "Live updates: SpaceX launches AST SpaceMobile satellites from Florida  Florida Today",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNVNTMEh4OWJYaTdDalpzWHlUckxvOGk5enNDcTJZY1FycGZ5N0lkX1lOalMxQWc1SmU1LWNyOWluWDdhS2o3TmJ6YWVxSWU4M2F6LW9pZ3JaT05OVVQtUS1XYlQ1YjMzY1RUVUh4RmVzaXFNalkxaHRKVnhWVmM2anYwOGRMdTNSdnh5U3JCQkEyUzRUNkZDY1cwZ2tYcS02eVk1MFV4MkZkV25NUWxEN2tWcDNNRjdPOHRlQzFYV1FmX0ZpRXY1LXEwZzhhX0ZHMzRYQUNMWHVVVzRrNTduWmk5N0QzTjhOSkZEcWVaRE5KWWZYWUdJLTFzYjBCdFdMZkFWTkVFbnRyVmx3?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 91,
-    "timestamp": "08:26",
+    "id": 99,
+    "timestamp": "14:21",
     "date": "2026-08-05",
     "author": "\"space launch rocket\" - Google News",
     "authorAvatar": "",
@@ -1240,23 +1255,23 @@
     "likes": 60
   },
   {
-    "id": 90,
-    "timestamp": "08:26",
+    "id": 95,
+    "timestamp": "14:21",
     "date": "2026-08-05",
-    "author": "\"AI robot\" - Google News",
+    "author": "\"space launch rocket\" - Google News",
     "authorAvatar": "",
-    "title": "Mitsubishi to make 1,000 humanoids per month at idle engine plant - Interesting Engineering",
-    "content": "Mitsubishi to make 1,000 humanoids per month at idle engine plant  Interesting Engineering",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ19qNll1eTkyZ1p5MWp2N0RiZVNGOEM5WTJENlNsY3ZFVjBiZjBWdGtoa2FyTlJudzAyZHZoRjEwbkw1d3lrZnNaY0JIS01uWWhJM3B2NDFlcFhYc3JFZUN4TVU3a3lRNmk3ODItVzdIU2pSeUtGNmV6MFpfV004eVZsNmtiQVkyWWp6VXBB?oc=5",
+    "title": "Live updates: SpaceX launches AST SpaceMobile satellites from Florida - Florida Today",
+    "content": "Live updates: SpaceX launches AST SpaceMobile satellites from Florida  Florida Today",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNVNTMEh4OWJYaTdDalpzWHlUckxvOGk5enNDcTJZY1FycGZ5N0lkX1lOalMxQWc1SmU1LWNyOWluWDdhS2o3TmJ6YWVxSWU4M2F6LW9pZ3JaT05OVVQtUS1XYlQ1YjMzY1RUVUh4RmVzaXFNalkxaHRKVnhWVmM2anYwOGRMdTNSdnh5U3JCQkEyUzRUNkZDY1cwZ2tYcS02eVk1MFV4MkZkV25NUWxEN2tWcDNNRjdPOHRlQzFYV1FmX0ZpRXY1LXEwZzhhX0ZHMzRYQUNMWHVVVzRrNTduWmk5N0QzTjhOSkZEcWVaRE5KWWZYWUdJLTFzYjBCdFdMZkFWTkVFbnRyVmx3?oc=5",
     "sourceName": "Google News",
     "tags": [
-      "机器人"
+      "商业航天"
     ],
     "likes": 60
   },
   {
-    "id": 89,
-    "timestamp": "08:26",
+    "id": 90,
+    "timestamp": "14:21",
     "date": "2026-08-05",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -1271,7 +1286,7 @@
   },
   {
     "id": 131,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-04",
     "author": "Patsnap",
     "authorAvatar": "",
@@ -1287,7 +1302,7 @@
   },
   {
     "id": 124,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-04",
     "author": "Charlotte Jee",
     "authorAvatar": "",
@@ -1301,23 +1316,8 @@
     "likes": 80
   },
   {
-    "id": 95,
-    "timestamp": "08:26",
-    "date": "2026-08-04",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
-    "content": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO  Space",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPUHUxR2UtWnZHMFVRZ3I4eVJNWHFHWVctUjlaRk5RcG9WbWxaTjVKWDMzQ2hseFF4bHByMUpxZ2lwME1jTHJWSExyMVZtLUlZUm14N0oyYlBjcU9aa2FQWE84RmVrcVVHVTZoZl9Mb0lRSklvRHF1STV5amZ4UFE2a19sZzRKYzF4SU1ybHFzamRYZkkxQTBqN21yQ2tlNWgyQkJNQ3J2aGlwR0xCWnZCYWdqN1ZYcHBLTzA4TEpLT2FKeEtpa2prSHJiUldhU0hLbzRSTndRaDJuNVJvenVORUhWZ3NCYUFBSXdIX2RmZGtUTVZlb2k0d0JhSkRrRFFvNXlqanVEdVo5ams?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
     "id": 64,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-03",
     "author": "MaxMussio",
     "authorAvatar": "",
@@ -1332,7 +1332,7 @@
   },
   {
     "id": 133,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-03",
     "author": "Joseph Carew",
     "authorAvatar": "",
@@ -1348,7 +1348,7 @@
   },
   {
     "id": 132,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-03",
     "author": "Joanna Goodrich",
     "authorAvatar": "",
@@ -1365,7 +1365,7 @@
   },
   {
     "id": 127,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-03",
     "author": "Grace Huckins",
     "authorAvatar": "",
@@ -1381,7 +1381,7 @@
   },
   {
     "id": 126,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-03",
     "author": "Charlotte Jee",
     "authorAvatar": "",
@@ -1397,7 +1397,7 @@
   },
   {
     "id": 125,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-03",
     "author": "James O'Donnell",
     "authorAvatar": "",
@@ -1412,7 +1412,7 @@
   },
   {
     "id": 134,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-02",
     "author": "Allison Marsh",
     "authorAvatar": "",
@@ -1426,8 +1426,8 @@
     "likes": 80
   },
   {
-    "id": 100,
-    "timestamp": "08:26",
+    "id": 96,
+    "timestamp": "14:21",
     "date": "2026-08-02",
     "author": "\"space launch rocket\" - Google News",
     "authorAvatar": "",
@@ -1442,7 +1442,7 @@
   },
   {
     "id": 135,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-08-01",
     "author": "Harry Goldstein",
     "authorAvatar": "",
@@ -1457,7 +1457,7 @@
   },
   {
     "id": 137,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-07-30",
     "author": "David Schneider",
     "authorAvatar": "",
@@ -1473,7 +1473,7 @@
   },
   {
     "id": 136,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-07-30",
     "author": "IEEE Publishing Ethics",
     "authorAvatar": "",
@@ -1487,8 +1487,8 @@
     "likes": 80
   },
   {
-    "id": 99,
-    "timestamp": "08:26",
+    "id": 97,
+    "timestamp": "14:21",
     "date": "2026-07-29",
     "author": "\"space launch rocket\" - Google News",
     "authorAvatar": "",
@@ -1502,23 +1502,8 @@
     "likes": 60
   },
   {
-    "id": 92,
-    "timestamp": "08:26",
-    "date": "2026-07-24",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "SpaceX Starship megarocket hits key milestones in ‘Lucky 13’ test flight as big hurdles loom - CNN",
-    "content": "SpaceX Starship megarocket hits key milestones in ‘Lucky 13’ test flight as big hurdles loom  CNN",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZldJMDR4emN0bld3Rm5iNmZ3NWlDNndkX2pIb19TcEVCSktqdGNlVGZrZWZ0UzBqRENMS3BVVzZKYlRsNEhvYnAtWVBzeDM4Z3ZCNWdUT01KOVJ1dU1sX2sxQVBRUGNlMzd0azM0b0xhaFlJTkMyanpVd05yczJ6QXRQQmlYQzhw?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
     "id": 36,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-07-09",
     "author": "logickkk1",
     "authorAvatar": "",
@@ -1532,8 +1517,23 @@
     "likes": 200
   },
   {
+    "id": 98,
+    "timestamp": "14:21",
+    "date": "2026-07-09",
+    "author": "\"space launch rocket\" - Google News",
+    "authorAvatar": "",
+    "title": "Making history! China lands rocket during an orbital launch for 1st time ever (video) - Space",
+    "content": "Making history! China lands rocket during an orbital launch for 1st time ever (video)  Space",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOb1RuQ0JIVVgtUnl6QnpFTmxlSGRaWFFtOVRRMDVtUzlvd011ekN5ejhFTTJGaV9oQkFOY1J6eGRxTFRhbnczM2dza00zSExaUEpnb05wY055bmZ6MnlNNEl5eUFkRVZMWDg0eFZ5OGNuLUxFaGNpSzN6LWIyQlM0S1dETzNMeXR1Yy14RnZmMjZ2Z241SkdlMWNYZ0ROMXg5dGZrQVdNaUNVdkd2UXBJaF82Y3U4bzdudEdJNkJSMERtaE1lb1VqOWlJNGw1SUpxNUE?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "商业航天"
+    ],
+    "likes": 60
+  },
+  {
     "id": 57,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-06-16",
     "author": "itsmarcelg",
     "authorAvatar": "",
@@ -1548,7 +1548,7 @@
   },
   {
     "id": 39,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-06-15",
     "author": "cloudking",
     "authorAvatar": "",
@@ -1563,7 +1563,7 @@
   },
   {
     "id": 93,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-06-08",
     "author": "\"space launch rocket\" - Google News",
     "authorAvatar": "",
@@ -1578,7 +1578,7 @@
   },
   {
     "id": 67,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-06-07",
     "author": "poisonfountain",
     "authorAvatar": "",
@@ -1593,7 +1593,7 @@
   },
   {
     "id": 54,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-06-06",
     "author": "maltalex",
     "authorAvatar": "",
@@ -1609,7 +1609,7 @@
   },
   {
     "id": 59,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-06-04",
     "author": "tristanj",
     "authorAvatar": "",
@@ -1624,7 +1624,7 @@
   },
   {
     "id": 12,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-06-03",
     "author": "lordleft",
     "authorAvatar": "",
@@ -1639,7 +1639,7 @@
   },
   {
     "id": 9,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-05-27",
     "author": "theorchid",
     "authorAvatar": "",
@@ -1654,7 +1654,7 @@
   },
   {
     "id": 101,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-05-19",
     "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
     "authorAvatar": "",
@@ -1672,7 +1672,7 @@
   },
   {
     "id": 7,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-05-15",
     "author": "reasonableklout",
     "authorAvatar": "",
@@ -1687,7 +1687,7 @@
   },
   {
     "id": 34,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-04-23",
     "author": "rd",
     "authorAvatar": "",
@@ -1702,7 +1702,7 @@
   },
   {
     "id": 1,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-03-11",
     "author": "usefulposter",
     "authorAvatar": "",
@@ -1717,7 +1717,7 @@
   },
   {
     "id": 8,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-02-24",
     "author": "Qem",
     "authorAvatar": "",
@@ -1732,7 +1732,7 @@
   },
   {
     "id": 5,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-02-12",
     "author": "scottshambaugh",
     "authorAvatar": "",
@@ -1747,7 +1747,7 @@
   },
   {
     "id": 37,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-02-05",
     "author": "meetpateltech",
     "authorAvatar": "",
@@ -1762,7 +1762,7 @@
   },
   {
     "id": 102,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-01-22",
     "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
     "authorAvatar": "",
@@ -1780,7 +1780,7 @@
   },
   {
     "id": 103,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-01-19",
     "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
     "authorAvatar": "",
@@ -1799,7 +1799,7 @@
   },
   {
     "id": 104,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-01-16",
     "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
     "authorAvatar": "",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": 105,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-01-13",
     "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
     "authorAvatar": "",
@@ -1835,7 +1835,7 @@
   },
   {
     "id": 106,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-01-12",
     "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
     "authorAvatar": "",
@@ -1852,7 +1852,7 @@
   },
   {
     "id": 107,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2026-01-07",
     "author": "michael.nunez@venturebeat.com (Michael Nuñez)",
     "authorAvatar": "",
@@ -1869,7 +1869,7 @@
   },
   {
     "id": 40,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2025-12-11",
     "author": "atgctg",
     "authorAvatar": "",
@@ -1884,7 +1884,7 @@
   },
   {
     "id": 66,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2025-10-09",
     "author": "meetpateltech",
     "authorAvatar": "",
@@ -1899,7 +1899,7 @@
   },
   {
     "id": 33,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2025-08-07",
     "author": "rd",
     "authorAvatar": "",
@@ -1914,7 +1914,7 @@
   },
   {
     "id": 41,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2025-07-23",
     "author": "hakonjdjohnsen",
     "authorAvatar": "",
@@ -1929,7 +1929,7 @@
   },
   {
     "id": 61,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2025-07-15",
     "author": "SwoopsFromAbove",
     "authorAvatar": "",
@@ -1944,7 +1944,7 @@
   },
   {
     "id": 4,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2025-06-02",
     "author": "tabletcorry",
     "authorAvatar": "",
@@ -1959,7 +1959,7 @@
   },
   {
     "id": 68,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2025-05-06",
     "author": "felixrieseberg",
     "authorAvatar": "",
@@ -1974,7 +1974,7 @@
   },
   {
     "id": 43,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2025-03-12",
     "author": "meetpateltech",
     "authorAvatar": "",
@@ -1990,7 +1990,7 @@
   },
   {
     "id": 65,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2025-01-25",
     "author": "gradus_ad",
     "authorAvatar": "",
@@ -2005,7 +2005,7 @@
   },
   {
     "id": 62,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2024-09-12",
     "author": "fofoz",
     "authorAvatar": "",
@@ -2020,7 +2020,7 @@
   },
   {
     "id": 10,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2024-08-29",
     "author": "iancarroll",
     "authorAvatar": "",
@@ -2035,7 +2035,7 @@
   },
   {
     "id": 14,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2024-08-20",
     "author": "bx376",
     "authorAvatar": "",
@@ -2050,7 +2050,7 @@
   },
   {
     "id": 47,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2024-08-03",
     "author": "pedrodelfino",
     "authorAvatar": "",
@@ -2065,7 +2065,7 @@
   },
   {
     "id": 3,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2024-07-23",
     "author": "atgctg",
     "authorAvatar": "",
@@ -2080,7 +2080,7 @@
   },
   {
     "id": 32,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2024-05-13",
     "author": "Lealen",
     "authorAvatar": "",
@@ -2095,7 +2095,7 @@
   },
   {
     "id": 70,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2024-04-08",
     "author": "tosh",
     "authorAvatar": "",
@@ -2110,7 +2110,7 @@
   },
   {
     "id": 2,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2024-02-27",
     "author": "todsacerdoti",
     "authorAvatar": "",
@@ -2125,7 +2125,7 @@
   },
   {
     "id": 6,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2023-12-06",
     "author": "dmotz",
     "authorAvatar": "",
@@ -2140,7 +2140,7 @@
   },
   {
     "id": 63,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2023-12-03",
     "author": "plibither8",
     "authorAvatar": "",
@@ -2155,7 +2155,7 @@
   },
   {
     "id": 69,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2023-11-29",
     "author": "tfinch",
     "authorAvatar": "",
@@ -2170,7 +2170,7 @@
   },
   {
     "id": 38,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2023-04-12",
     "author": "rushingcreek",
     "authorAvatar": "",
@@ -2185,7 +2185,7 @@
   },
   {
     "id": 31,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2023-03-14",
     "author": "e0m",
     "authorAvatar": "",
@@ -2200,7 +2200,7 @@
   },
   {
     "id": 35,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2023-02-09",
     "author": "squidhunter",
     "authorAvatar": "",
@@ -2215,7 +2215,7 @@
   },
   {
     "id": 45,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2022-11-16",
     "author": "zikohh",
     "authorAvatar": "",
@@ -2230,7 +2230,7 @@
   },
   {
     "id": 23,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2022-10-15",
     "author": "abrax3141",
     "authorAvatar": "",
@@ -2245,7 +2245,7 @@
   },
   {
     "id": 24,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2022-05-07",
     "author": "carlycue",
     "authorAvatar": "",
@@ -2260,7 +2260,7 @@
   },
   {
     "id": 29,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2021-09-22",
     "author": "7d7n",
     "authorAvatar": "",
@@ -2275,7 +2275,7 @@
   },
   {
     "id": 18,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2021-09-02",
     "author": "cratermoon",
     "authorAvatar": "",
@@ -2290,7 +2290,7 @@
   },
   {
     "id": 49,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2021-04-26",
     "author": "HiroProtagonist",
     "authorAvatar": "",
@@ -2305,7 +2305,7 @@
   },
   {
     "id": 52,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2020-05-30",
     "author": "tosh",
     "authorAvatar": "",
@@ -2320,7 +2320,7 @@
   },
   {
     "id": 13,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2020-01-04",
     "author": "ckcheng",
     "authorAvatar": "",
@@ -2335,7 +2335,7 @@
   },
   {
     "id": 11,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2019-11-13",
     "author": "jbredeche",
     "authorAvatar": "",
@@ -2350,7 +2350,7 @@
   },
   {
     "id": 30,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2019-10-10",
     "author": "hughzhang",
     "authorAvatar": "",
@@ -2365,7 +2365,7 @@
   },
   {
     "id": 27,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2019-07-30",
     "author": "oldgun",
     "authorAvatar": "",
@@ -2380,7 +2380,7 @@
   },
   {
     "id": 46,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2019-07-01",
     "author": "dankohn1",
     "authorAvatar": "",
@@ -2395,7 +2395,7 @@
   },
   {
     "id": 42,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2019-02-13",
     "author": "grzm",
     "authorAvatar": "",
@@ -2410,7 +2410,7 @@
   },
   {
     "id": 15,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2018-10-15",
     "author": "superfx",
     "authorAvatar": "",
@@ -2425,7 +2425,7 @@
   },
   {
     "id": 17,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2018-05-10",
     "author": "e15ctr0n",
     "authorAvatar": "",
@@ -2441,7 +2441,7 @@
   },
   {
     "id": 55,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2018-03-23",
     "author": "middle1",
     "authorAvatar": "",
@@ -2456,7 +2456,7 @@
   },
   {
     "id": 21,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2018-03-01",
     "author": "matant",
     "authorAvatar": "",
@@ -2471,7 +2471,7 @@
   },
   {
     "id": 51,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2018-02-06",
     "author": "mpweiher",
     "authorAvatar": "",
@@ -2486,7 +2486,7 @@
   },
   {
     "id": 22,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2017-12-14",
     "author": "flor1s",
     "authorAvatar": "",
@@ -2501,7 +2501,7 @@
   },
   {
     "id": 20,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2017-09-02",
     "author": "nshr",
     "authorAvatar": "",
@@ -2516,7 +2516,7 @@
   },
   {
     "id": 26,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2017-03-20",
     "author": "jasikpark",
     "authorAvatar": "",
@@ -2531,7 +2531,7 @@
   },
   {
     "id": 53,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2017-02-27",
     "author": "runesoerensen",
     "authorAvatar": "",
@@ -2546,7 +2546,7 @@
   },
   {
     "id": 50,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2016-11-18",
     "author": "stablemap",
     "authorAvatar": "",
@@ -2561,7 +2561,7 @@
   },
   {
     "id": 58,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2016-11-17",
     "author": "phenylene",
     "authorAvatar": "",
@@ -2576,7 +2576,7 @@
   },
   {
     "id": 25,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2016-10-15",
     "author": "georgehdd",
     "authorAvatar": "",
@@ -2591,7 +2591,7 @@
   },
   {
     "id": 16,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2016-10-08",
     "author": "BucketSort",
     "authorAvatar": "",
@@ -2606,7 +2606,7 @@
   },
   {
     "id": 60,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2016-09-01",
     "author": "mariusz79",
     "authorAvatar": "",
@@ -2621,7 +2621,7 @@
   },
   {
     "id": 28,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2016-05-18",
     "author": "hurrycane",
     "authorAvatar": "",
@@ -2637,7 +2637,7 @@
   },
   {
     "id": 44,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2016-03-17",
     "author": "doener",
     "authorAvatar": "",
@@ -2652,7 +2652,7 @@
   },
   {
     "id": 56,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2015-12-22",
     "author": "clessg",
     "authorAvatar": "",
@@ -2667,7 +2667,7 @@
   },
   {
     "id": 19,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2015-04-16",
     "author": "seanlevan",
     "authorAvatar": "",
@@ -2682,7 +2682,7 @@
   },
   {
     "id": 48,
-    "timestamp": "08:26",
+    "timestamp": "14:21",
     "date": "2014-12-03",
     "author": "r721",
     "authorAvatar": "",
