@@ -1,7 +1,1092 @@
 [
   {
-    "id": 141,
-    "timestamp": "23:17",
+    "id": 130,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Amirhossein Vahdat, Thierry Badard, Luc Lamontagne",
+    "authorAvatar": "",
+    "title": "GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks",
+    "content": "arXiv:2610.12669v1 Announce Type: new \nAbstract: Large language models are becoming central to GeoAI systems, yet their evaluation rarely considers the elicitation of geospatial data requirements. This omission is critical as retrieval oriented geo-analytic tasks cannot be supported reliably without first identifying the necessary datasets and constraints. GeoFitBench-LLM is introduced as a benchmark for assessing whether LLMs can infer the datasets, the supporting resources and the constraints required by geo-analytic requests in natural language. The benchmark is structured around two reasoning dimensions, Spatio-Temporal Relational and Semantic Grounding, reflecting long-standing challenges in geospatial information retrieval and related natural language tasks. Ground truth requirements are encoded in a fixed, provider-independent schema for reproducible evaluation of resource identification and attribute-level specification. Experiments on seven models under minimal prompting indicate that identifying the necessary resources is often achievable, with GPT-5.4 Thinking achieving the best result by recovering the complete set of resources in 66.67% of benchmark requests. Results further indicate that accurate fitness-for-use specification remains more difficult as inferential demands increase.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12669",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 129,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Khoi-Nguyen Tran",
+    "authorAvatar": "",
+    "title": "perturber: A Stateless Service for Semantics-Preserving Text Perturbations",
+    "content": "arXiv:2610.12667v1 Announce Type: new \nAbstract: Large language model (LLM) evaluations on clean benchmarks overstate model robustness: real inputs arrive perturbed, and these meaning-preserving variants routinely move model answers. Studying this systematically requires applying perturbations one at a time, reproducibly, and identically wherever they run, yet existing tools couple them to a benchmarking stack rather than packaging them as a reusable transform layer. We present perturber, a stateless service and Python library that applies exactly one semantics-preserving perturbation per call, drawn from a first-party catalog of 68 perturbations across 11 families. It turns on a single primitive, with composition left to the caller chaining calls, so the service and the library produce identical output by construction. We evaluate the tool itself, its correctness, reproducibility, and cost, rather than any model's robustness, measuring meaning-preservation per perturbation rather than assuming it. The demonstration adds a live playground, an introspectable catalog for benchmark selection, and a one-command reproducible evaluation.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12667",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 128,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Veronika Solopova, Ivan Havlytskyi, Viktoria Skorik, Ostap Vykhopen",
+    "authorAvatar": "",
+    "title": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
+    "content": "arXiv:2610.12617v1 Announce Type: new \nAbstract: Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge and have increasing value in the current political climate, but their heterogeneity and analytical complexity pose challenges for retrieval-augmented question answering. We introduce a benchmark for grounded question answering over 415 open-source geopolitical and strategic intelligence reports, comprising 5,525 document-grounded question-answer pairs spanning factual, inferential, comparative, and risk-oriented questions. We propose a document-aware generation pipeline that profiles reports before generating questions and validate dataset quality through expert annotation and an LLM-as-judge protocol. Using the benchmark, we evaluate 15 retrieval systems and six open-weight LLMs for RAG. We find that models perform similarly on document-level retrieval, while at the harder chunk level retrieval quality is not driven by embedding-model scale: bge-m3, a mid-size open encoder matches an order of magnitude larger ones and outperforms commercial embedding APIs. In contrast, answer generation remains challenging even given the gold evidence, particularly for inferential and risk-oriented questions.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12617",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 127,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Dongkyu Cho, Rumi Chunara, Ali Behrouz",
+    "authorAvatar": "",
+    "title": "Self-Preservation in Language Models",
+    "content": "arXiv:2610.12602v1 Announce Type: new \nAbstract: Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can extend beyond them. Recent work shows that language models can supplement this limited evidence by generating useful replay without access to their original training data. This raises a question about self-preservation: can a model help choose preservation targets that protect its own capabilities more broadly? To study this question, we organize task descriptions and their examples into Task Banks, whose entries can be selected and combined to guide replay generation by a frozen model. Continual instruction tuning with Qwen models of varying sizes yields three findings. First, the new task and learning rate shape which prior capabilities degrade, while tracking previously correct answers reveals losses that average accuracy can conceal. Second, generated replay reduces forgetting on tasks outside the bank. Combining partial banks strengthens this protection, improving mean retention of previously correct answers over either bank alone across the tested sizes. Third, the model can also help choose replay targets: selection informed by the new task improves mean held-out retention over random selection at 4B, with similar new-task gains, although smaller models show no corresponding advantage. Under a fixed example budget, however, replacing new-task examples with replay improves preservation at the cost of smaller new-task gains. Together, these findings show that models can support broader self-preservation by generating replay data and, in some settings, choosing which tasks to replay.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12602",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 126,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Elias Lumer, Sahil Sen, Vamse Kumar Subbiah, Kevin Paul",
+    "authorAvatar": "",
+    "title": "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
+    "content": "arXiv:2610.12601v1 Announce Type: new \nAbstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, since it is cheap and produces human-readable artifacts. On factual tasks, however, it carries a failure mode that scalar-reward reinforcement learning does not. An optimizer that reads the training examples can write their answers into the prompt, so an in-distribution gain may be memorization rather than transferable behaviour. We apply reflective prompt evolution (GEPA) to the two system prompts of a multi-agent deep-research agent and evaluate it under a topic-disjoint split in which no topic is shared across train, validation, and test. Held-out citation reward rises by 0.079, from 0.702 to 0.781, with a bootstrap 95\\% confidence interval of [0.051, 0.107], and the gain replicates across three seeds (mean 0.107). Nearly half of the winning prompt is a memorized answer key, yet a controlled ablation shows this content earns no reward even on the exact training questions it encodes. The large validation-minus-held-out gap is therefore small-sample selection under a noisy judge, not memorization. Varying the verifier isolates what makes the gain transfer. Decomposed per-dimension feedback is the causal ingredient, and collapsing it to a single scalar reward makes held-out transfer negative. The gain persists under an out-of-family judge and is largely reproduced by a hand-written version of the discovered recipe. Credible evaluation of prompt optimizers therefore requires held-out topics, multiple seeds, and verifier ablations. We release the candidate prompts, lineage diffs, figures, tables, and analysis.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12601",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 125,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Faisal Ladhak, Shantanu Acharya, Santiago Akle Serano, Simeng Sun, Boris Ginsburg, Krishna C Puvvada",
+    "authorAvatar": "",
+    "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+    "content": "arXiv:2610.12582v1 Announce Type: new \nAbstract: A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well short of a non-recurrent model of the same size, a one-loop tax that makes a separate non-recurrent model the better choice whenever latency matters. We present Elastic Latent Recurrence (ELR), a recipe for training looped language models without this tax. At one loop, an ELR model costs the same to serve as a non-recurrent model of the same size and, trained on the same data, reaches similar accuracy. Each additional loop then buys more accuracy for more inference compute. Three choices make this work: a gated state update with a learned step size, loop counts mixed within each optimizer update, and conditioning each pass on its loop index and budget. The first two preserve one-loop accuracy, and the third lowers loss at every additional loop. Mixed depths can be introduced late in pretraining to limit the added training cost, and with zero-initialized conditioning added at the switch, this late schedule reaches lower loss than mixed-depth training from scratch. In MoE models, reusing first-loop expert routes on later loops cuts mixed-depth update time by 11.7% with no measurable change in accuracy. At inference, keeping only the last loop's attention KV cache holds attention KV memory at its one-loop level while retaining most of the gain from additional loops. On 4B dense and 30B-A3B MoE hybrid models, ELR at one loop is 0.52 points below and 1.04 points above its matched baseline on a ten-task average, and four loops add 7.25 and 4.75 points. Carried through post-training, the recipe yields Koi-4B, a single checkpoint that scores an estimated 18 on the Artificial Analysis Intelligence Index at one loop, matching Qwen3.5-4B, and 29 at four loops.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12582",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 124,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Pratik Maitra, Lauren Kwon, Qi Li",
+    "authorAvatar": "",
+    "title": "CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation",
+    "content": "arXiv:2610.12580v1 Announce Type: new \nAbstract: Event ontology is the foundational framework for defining events in a dataset. Event type induction generally involves domain experts who define guidelines for creating event types and their names based on the dataset's domain and scope. However, this process is resource-intensive in terms of annotation costs and is prone to human biases. To alleviate the need for manual event ontology creation, we propose the CLUE framework for event type induction, naming, and annotation. Our main contributions in this work are: 1) designing a novel joint embedding representation for expressing both the verb-centric view and the semantic view of events; 2) event type induction using contrastive loss guided clustering; 3) event naming and refinement. Experiments demonstrate the effectiveness of our method. Our code is available at https://github.com/PratikMaitra/CLUE.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12580",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "产品"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 123,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Roy Eisenstadt, Harel Lidar, Tal Gonen, Omer Luxembourg, Itamar Zimerman, Lior Wolf, Eli David, Ilan",
+    "authorAvatar": "",
+    "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
+    "content": "arXiv:2610.12570v1 Announce Type: new \nAbstract: Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target model. Recent diffusion-based drafters make this paradigm particularly attractive: deep attention-based neural backbones provide strong predictions, while drafting multiple future positions in parallel avoids the sequential cost of autoregressive generation. This parallelism, however, comes at a cost. Tokens within a draft block are predicted without access to the realized identities of preceding draft tokens, removing intra-block dependencies that would naturally be available under autoregressive generation. We introduce DCOCO (DFlash Contextual Corrector), a lightweight mechanism that restores these dependencies while preserving parallel drafting. Rather than committing to each position's top prediction, DCOCO retains multiple candidate tokens and evaluates their contextual compatibility across adjacent draft positions in parallel, enabling contextually informed token selection at low additional cost. Across four verifier backbones and ten benchmarks, DCOCO achieves the highest average throughput in every evaluated configuration, spanning greedy and stochastic decoding with and without extended reasoning, with speedups of up to 6.6x over vanilla decoding. Its advantage persists under concurrent serving: DCOCO outperforms the strongest competing method by 6-23% across 4-32 concurrent requests, while other sequential correctors fall below uncorrected DFlash at these loads. These results demonstrate that recovering intra-block dependencies through parallel contextual scoring delivers consistent acceleration across decoding regimes and serving loads.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12570",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 122,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Wei Minn, Zhensu Sun, Lwin Khin Shar, David Lo",
+    "authorAvatar": "",
+    "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+    "content": "arXiv:2610.12569v1 Announce Type: new \nAbstract: Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them. We argue that a benchmark should instead aim to be self-scaling: its tasks and oracles are created at evaluation time, so no content exists in advance to leak, and its difficulty is set by the participating agents rather than fixed at release. We introduce SWE-Duel, an arena in which two coding agents evaluate each other over mirrored Red-Blue turns. In each turn, the Red agent works on a real repository across three context-isolated sessions. It proposes and implements a new feature with feature tests, then embeds a subtle bug in that feature along with sealed bug-triggering tests. The resulting pull request is admitted only if (1) it passes the feature tests and the repository's existing tests while failing exactly the bug tests, and (2) a fresh session of the same agent can repair the bug blind, which rules out unsolvable tasks. The Blue agent then reviews the pull request without being told a bug exists. It wins only if its revision passes all three test suites, and then the two agents swap roles. We run a tournament among 11 model-harness participants on 15 repositories in five languages for 1,500 turns. The leaders win in different ways. GPT-5.5 with Codex CLI ranks first as the strongest solver, repairing 98.3% of the defects it reviews. Claude Opus 4.8 with mini-swe-agent ranks second as the strongest task author, with a 27.3% Red win rate. Finally, within one model family, tasks written by the newest version defeat a fixed-reference solver far more often than those of older versions (42.9% vs. 4.0%), giving preliminary evidence that task difficulty scales with task authoring capability.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12569",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 121,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Shu Ishida, Aliasghar Khani, Tianyu Zhang, The Cong Luong, James Seale Smith, Adam Gaier",
+    "authorAvatar": "",
+    "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
+    "content": "arXiv:2610.12545v1 Announce Type: new \nAbstract: Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references or future dependencies, since their outputs cannot be revised post hoc, unlike iterative human reasoning. Diffusion LLMs partially mitigate this limitation but still cannot flexibly insert or remove arbitrary numbers of tokens from a pre-generated context. We design AutoIndexer as a generative model with a novel training and decoding mechanism that simulates a Chain of Edits, allowing the model to flexibly modify its prior outputs in hindsight via token insertions, substitutions, and deletions. The model learns to predict marker tokens for opening and closing edits, simultaneously moving a cursor to positions in the existing token sequence, analogous to a text editor. Training sequences are obtained by perturbing ground-truth labels with inverse chained edit operations, and the model learns to edit by undoing those inverses. The perturbation training allows AutoIndexer to be robust to erroneous context and adaptable to editing tasks such as code correction. We demonstrate that our method exhibits post-generation context-editing capabilities that most autoregressive and diffusion models lack without compromising performance on standard LLM benchmarks. The code is available at https://github.com/AutodeskAILab/autoindexer.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12545",
+    "sourceName": "ArXiv NLP",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 120,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Kalp Shah, Andrei Vlad Nicula, Mihnea Andrei B\\^arsan, Robert-Stefan Sofroni, Agneya Bhardwaj, Jan J",
+    "authorAvatar": "",
+    "title": "Enriched Holomorphic Neural Networks for 2D and 3D Laplace Problems",
+    "content": "arXiv:2610.12541v1 Announce Type: new \nAbstract: Boundary-value problems for the Laplace equation develop singular behaviour near corners, edges and junctions that smooth approximators resolve poorly. We combine holomorphic neural networks with singular functions derived from the local geometry and boundary conditions. The representation is harmonic by construction, so no interior residual is needed: the network fits the smooth remainder from boundary data alone, and the enrichment terms capture the singular behaviour. Singular exponents are trainable, so the construction also applies when the local expansion is not known in advance. We extend the approach to three dimensions using independent networks evaluated along complex null directions. The enriched model is the most accurate tested method on every problem. Its margin is several orders of magnitude where the enrichment captures the singularity exactly, and a factor of about 1.7-2.1 over the next-best method on a CdZnTe radiation detector with many singular sites, in both two and three dimensions.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12541",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 119,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Itai Zilberstein, Ioannis Anagnostides, Arman Kilic, Tuomas Sandholm",
+    "authorAvatar": "",
+    "title": "Efficient Learning of Survival Analysis Models Under Outcome-Dependent Truncation and Censoring",
+    "content": "arXiv:2610.12538v1 Announce Type: new \nAbstract: Modern machine learning models are typically trained on data assumed to be representative of the predictive tasks the model will face in the future, but practical datasets violate this assumption. We focus on outcome-dependent truncation in which an observation appears in the training data depending on its label. Our work connects two largely distinct literatures: efficient learning under truncation and survival analysis. Existing methods for truncated survival analysis do not characterize the optimization landscape and instead rely on iterative procedures such as expectation maximization. We address this gap and prove that Cox regression can be efficiently learned under truncated and right-censored data using first-order optimization when the baseline hazard is known (despite nonconvexity). In contrast, when the baseline hazard is learned jointly, we construct identifiable and correctly specified models whose negative log-likelihood contains strict suboptimal local minima. On experiments with four survival datasets, we show that accounting for truncation reduces the prediction bias induced by naive Cox regression and extends to neural networks. We also show orders of magnitude speedups compared to standard expectation maximization.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12538",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 118,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Dennis Thumm, Ying Chen",
+    "authorAvatar": "",
+    "title": "Market Impact Estimation via Causal Foundation Models",
+    "content": "arXiv:2610.12537v1 Announce Type: new \nAbstract: When a trader executes a large order, the relevant question is not \\emph{what will the price be?} but \\emph{what would the price have been had I not traded?} Market impact is thus a causal quantity, yet classical models (Almgren--Chriss, propagators) regress price on flow, which is biased whenever informed flow moves prices through information as well as trading. We present a proof-of-concept \\emph{Causal Market Simulator}: a continuous-time causal prior-data fitted network (PFN) trained on a synthetic market prior in which a hidden informational flow confounds the flow--price relation by construction, with confounding strength an exact per-episode knob. On this prior, the naive estimator's bias follows a closed form we confirm empirically (up to 68\\% overestimation), while the PFN tracks the unbiased true-parameter oracle at high confounding. Its \\emph{do-ablated twin}, the same model with the intervention inputs removed, collapses onto the pre-window mean. Zero-shot, the model responds at the ground-truth scale to metaorders in an ABIDES limit-order book ($+0.38$ pre-onset standard deviations against seed-replay counterfactuals), and its intervention response replicates on about 2,300 detected flow bursts in BTC/ETH/SOL perpetuals and 3,800 on Nasdaq equities, evidence consistent with, though not proof of, causal transfer. Off-prior the response degrades gracefully, and split-conformal recalibration repairs interval calibration. Transfer hinges on encoding the metaorder as added flow rather than a clamped price level, not on more training. A recurrent state-space variant closes the remaining shape gap: its impact accrues over execution duration where the transformer's stays flat, raising the correlation with measured metaorder impact from $+0.68$ to between $+0.92$ and $+0.96$, at the cost of weaker on-prior deconfounding that traces to the training recipe rather than to recurrence.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12537",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "商业航天",
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 117,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Qinhan Lyu, Jusheng Zhang, Zhixing Zhang, Hao Liu, Zijie Liang, Jin Jiang, Keze Wang",
+    "authorAvatar": "",
+    "title": "CacheScope: Exact-Compute Allocation for Training-Free Diffusion Acceleration",
+    "content": "arXiv:2610.12530v1 Announce Type: new \nAbstract: Training-free feature reuse accelerates diffusion transformer inference by replacing full denoising computation at selected steps with cached approximations. Existing methods mainly improve the reconstruction of skipped features, but we find that once a stable first-order reconstructor is used, increasing reconstruction complexity brings limited gains, whereas the placement of exact-computation steps has a much larger effect on fidelity. More importantly, absolute shallow-probe variation is jointly affected by input-trajectory displacement and network response strength, and therefore does not directly reflect cache risk. We address this confounding by normalizing probe-output variation with the corresponding input displacement, yielding a directional gain per unit trajectory movement. Based on this signal, we propose CacheScope, which identifies high-risk reuse steps online and selectively falls back to full denoising computation while leaving the underlying cache reconstructor unchanged. CacheScope requires no additional training, gradients, auxiliary networks, or prompt-specific offline schedule optimization. Across FLUX.1-dev, Wan2.1-T2V-1.3B, and Open-Sora 1.2, CacheScope achieves up to 3.57x acceleration and reduces median LPIPS by up to 70.1% over the strongest probe-based baseline.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12530",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 116,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Adinath Madhavrao Dukre, Abdullah Mohammad, Yifan Lu, Eran Segal, Ahmed Metwally, Imran Razzak",
+    "authorAvatar": "",
+    "title": "GlucoPRISM: Protocol-Supervised Pretraining for Cross-Cohort Glucose Transfer",
+    "content": "arXiv:2610.12528v1 Announce Type: new \nAbstract: Continuous glucose monitoring (CGM) foundation models encode each day as one vector that mixes who the person is, what happened that day and how the sensor measured it, so measurement differences travel with the representation into new cohorts. We ask whether pretraining can place the measurement component that harms transfer in known coordinates, so that deployment drops them with a fixed projection and no target data. GlucoPRISM supervises a GlucoFM backbone with response contracts, rules for how each part of the representation should change when only the day or only the sensor changes: a 64-dimensional Trait band should change with neither, a 48-dimensional State band only across days, and a 16-dimensional Sensor band should track the device. Synthetic sensor views calibrated on paired Dexcom and Libre recordings, different-day pairs and glucose-summary targets supply this supervision without clinical labels. Across twelve cross-cohort directions, dropping the Sensor band from the same frozen encoder raises mean transfer AUROC from 68.75 to 73.57, against 69.3 for GlucoFM. The gain has two parts. Into CGMacros, the one target cohort recorded with two sensor types, filtering adds 11 to 19 points, and this holds when the generator is recalibrated on half of the participants and scored on the other half. On the other eight directions filtering is neutral and the encoder itself exceeds GlucoFM by 3.5 points. The device remains linearly decodable after filtering, so the filter removes a device-related component that harms transfer rather than all measurement information. The retained bands improve window AUROC on thirteen of fourteen public task--cohort cells (Holm-adjusted p=0.031) and correlation on fourteen of fifteen clinical endpoints in an external cohort of 9,303 participants.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12528",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 115,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Jack Zheng, Hao Wang",
+    "authorAvatar": "",
+    "title": "Behind-the-Meter Photovoltaic Visibility from Net Smart Meters: Deployment Regimes and Operational Insights",
+    "content": "arXiv:2610.12527v1 Announce Type: new \nAbstract: Distribution operators need visibility of behind-the-meter photovoltaic (PV) generation, yet most residential customers are observed only through net smart meters. Deep-learning-based PV disaggregation can restore this visibility, but its operational value depends on whether the model serves known customers, new customers, future periods, or new regions. We quantify this dependence using four deployment regimes that separate household transfer from temporal extrapolation, applied to Ausgrid smart-meter data with cross-dataset adaptation to the Pecan Street data. Using a fixed training protocol, we benchmark representative deep sequence architectures for PV disaggregation under regime-matched evaluation. At a fixed 48-hour context length, daylight mean absolute error (MAE) of the best model rises from 0.104~kW on seen households in the future test period to 0.185~kW on unseen households over the same period, and under a fixed training contract the deployment regime explains far more of the error variation than model choice. Under target-domain normalization, fine-tuning on five target-region households reduces source-model transfer error by 28\\%--36\\%. Long input windows help known-customer extrapolation, while their new-customer benefits vary by model. These findings suggest regime-matched error budgets, limited target supervision for model adaptation in new regions, and use-case-dependent context selection for energy data analytics.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12527",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 114,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Jiankun Wei, Ewan Dunbar, Gerald Penn",
+    "authorAvatar": "",
+    "title": "CircuitTree: Composing Circuits into A Syllable Transcriber",
+    "content": "arXiv:2610.12520v1 Announce Type: new \nAbstract: The goal of circuit discovery is to decompose a monolithic neural network into tiny modular subnetworks which are interpretable in the sense that each does an identifiable subtask. We develop a practical method for composing arbitrarily many circuits into a single model. We propose a greedy, density-scaled composition algorithm that overcomes limitations of previous attempts to compose circuits by naive union, then generalize it to $N$ circuits via CircuitTree, a new data structure built on a $\\Theta(N\\log N)$ tree-compose schedule. We compose circuits pruned from HuBERT for classifying individual phonemes into a syllable classifier, a capability none of the 39 phoneme circuits has individually. Chaining CircuitTrees into a hierarchy-of-circuits pipeline, we transcribe open syllables at 64.8\\% accuracy, within 1.2 points of a 66.0\\% ceiling that shares no circuitry at all, with 99.5\\% of circuit components shared.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12520",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 113,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Shivesh Rane",
+    "authorAvatar": "",
+    "title": "An Input-Dependent Readout Phase for Resonant Sequence Models",
+    "content": "arXiv:2610.12496v1 Announce Type: new \nAbstract: Sequence models with a fixed-size state avoid the quadratic cost of attention, but face a design choice. An input-dependent state transition gives content-dependent memory at the cost of FFT-based training, while a fixed transition keeps the O(T log T) convolutional path but reads memory the same way for every input. ResonatorLM, a recent model of the second kind, reads a bank of damped complex oscillators through a fixed learned phase per head. We make that readout phase a function of the current token, which adds input dependence to the read only, keeps the convolution exact, and costs 0.2 percent more parameters. An analysis of the untrained bank shows that phase does encode elapsed time, but an ordinary token falls below the background within 2-8 steps and no choice of damping extends linear reconstruction beyond about 16 tokens. In 6M-parameter character-level models on WikiText-2, the input-dependent phase matches the original at the training length and removes its failure beyond it: trained on 256 tokens and tested on 1024, perplexity falls from 12.81 to 3.76. We trace the failure to long-memory heads that accumulate more history than training exposed them to. The learned phase tracks the current character rather than distance and does not improve retrieval.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12496",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 112,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Fabien Furfaro",
+    "authorAvatar": "",
+    "title": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
+    "content": "arXiv:2610.12495v1 Announce Type: new \nAbstract: Small language models trained on a single local machine leave little room for architectural trial and error. Kairos combines bidirectional gated-DeltaNet linear attention and sliding-window attention over shared projections (LiZAttention2), block-wise Attention-Residual aggregation, a sparse Mixture-of-Experts (MoE) feed-forward layer and a multi-scale byte-level codec, trained with a uniform-noise denoising objective over one byte space shared by text, image, audio, video, lidar and control streams; this report asks whether the combination optimizes at all before asking whether it is useful. We give code-derived algorithms for each component, including a cross-session recurrent-state memory gate, then run convergence sanity checks: overfittinga single 440-byte sentence at 1--15M parameters, text only, with three seeds for codec and attention choices and single-run sweeps for seven further factors. The two attention variants tested at 3\\,000 steps (LiZAttention2 and window attention alone) reach a minimum loss near $10^{-3}$. After 600 steps, the mean minimum loss ranges from 0.018 (patch codec) to 0.354 (depthwise convolutional codec) with an identical ranking on three seeds. An apparent advantage of shared over separate attention projections closes with more steps or more diverse data and reverses when the projections are frozen: it is a convergence-speed effect, not a capacity effect. These checks suggest that the implementation optimizes; they say nothing about generalization, multimodal training or comparison with existing models, which a planned pretraining run is meant to address. The Discussion sizes a 200M-total/25M-active target analytically; none of its throughput figures is measured. Code is available at https://github.com/fabienfrfr/Kairos . Python package at https://pypi.org/project/kairos-fm/ .",
+    "sourceUrl": "https://arxiv.org/abs/2610.12495",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "商业航天",
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 111,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Anthony Kostal-Vazquez, Vassil Dimitrov, Branden Butler",
+    "authorAvatar": "",
+    "title": "Algebraic Integer Quantization for Machine Learning Applications",
+    "content": "arXiv:2610.12494v1 Announce Type: new \nAbstract: In this article, we propose algebraic integer number formats (AINF) as a framework for highly configurable and accurate compressed computation. A key property of AINF is its straightforward reduction to purely integer arithmetic, enabling error-free multiply-accumulate operations. We develop a matrix multiplication engine that exploits this property, obtaining performance within a predictable factor of the most efficient numerical counterparts on modern hardware accelerators. Another key advantage of AIQ is the freedom to select algebraic integers tailored to the numerical characteristics of a given use case, offering optimization opportunities that are fundamentally unavailable in floating-point or fixed-point formats. Motivated by these properties, we introduce algebraic integer quantization (AIQ), a lossy compression format for large language model (LLM) inference, and provide results demonstrating that AIQ achieves competitive accuracy compared to the industry-standard MX format across a diverse set of models and benchmarks at equivalent bit-per-parameter budgets. The experiments presented in this article employ algebraic integers of degree two (quadratic integers); generalizations to higher-order and, in particular, multidimensional algebraic integers promise even greater computational advantages and remain a promising direction for future work.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12494",
+    "sourceName": "ArXiv ML",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 110,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Cahit Ikbal Er, Yasin Yazicioglu",
+    "authorAvatar": "",
+    "title": "Robust and Scalable UAV-UGV Planning for Aerial Monitoring under Energy and Precedence Constraints",
+    "content": "arXiv:2610.12670v1 Announce Type: new \nAbstract: We consider planning for unmanned aerial vehicle (UAV) and unmanned ground vehicle (UGV) teams in aerial monitoring missions with ordering requirements on the monitoring points to be visited by the UAV. The system consists of multiple UAV-UGV teams, each comprising one UAV and one UGV. UAV energy limitations are modeled through endurance, defined as the maximum flight time on a full battery. The UGVs serve as mobile charging stations and transport the UAVs between consecutive aerial tours. Given a set of monitoring points subject to ordering constraints and the teams' initial and terminal positions, the objective is to minimize mission completion time while satisfying UAV energy limits and the required visit order under bounded travel-time disturbances that may arise during execution. Unlike prior work, the plan jointly determines vehicle routes and their timing, allowing teams to slow down as needed to satisfy the ordering constraints. We develop a polynomial-time algorithm that generates efficient solutions to the underlying NP-hard planning problem. We establish feasibility guarantees, characterize the algorithm's computational complexity, and evaluate its performance via numerical comparisons.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12670",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 109,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Nicholas Ioannidis, Dun Yang, Max Smith, Tue Vu, Ziyu Zhang, Shayegan Omidshafiei, Xue Bin Peng",
+    "authorAvatar": "",
+    "title": "PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting",
+    "content": "arXiv:2610.12642v1 Announce Type: new \nAbstract: Motion retargeting is a critical preprocessing step for transferring human motion data to humanoid robots. While existing methods are effective for single-character motions, interactions involving multiple characters and objects introduce additional contacts and spatial relationships that must be preserved. Retargeting is commonly formulated as a weighted multi-objective optimization problem, where conflicting objectives can require careful tuning of relative weights and can still compromise important motion characteristics. We introduce PriMoRetarget, a prioritized motion-retargeting framework that replaces relative objective weighting with an explicit priority hierarchy. Lower-priority updates are constrained to preserve higher-priority objectives, allowing critical characteristics such as foot placement and interaction contacts to take precedence over lower-priority pose objectives. The method is evaluated on four datasets spanning single-character motion, character-object manipulation, and character-character interactions. The resulting motions better preserve task-relevant interactions and provide reference trajectories that can be tracked more reliably than those produced by widely used retargeting methods.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12642",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 108,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Jitian Liu, Subhrajit Bhattacharya",
+    "authorAvatar": "",
+    "title": "Distributed Harmonic-Covariance Feedback for Hole Closure in Planar Robot Swarms",
+    "content": "arXiv:2610.12637v1 Announce Type: new \nAbstract: We consider hole closure in a planar multi-agent system whose sensing disks form a time-varying \\v{C}ech complex. We propose a harmonic-covariance feedback that uses harmonic edge signals to locate holes and converts those signals into agent forces. For distributed evaluation, we use a fixed-degree polynomial of the regularized Hodge Laplacian. This polynomial is evaluated through local operator applications. The closed loop has a unique global trajectory from every safe initial state. The model data and initial state are supplied with procedures for approximation to any requested accuracy with explicit error bounds. We assume that hole area is measurable and bounded, holes evolve continuously without splitting or merging, and only finitely many temporary new holes appear. Under these conditions, offline finite calculations produce rational lower bounds for the cumulative hole area on the time horizon without querying trajectory data. These bounds converge to that cumulative area, whether finite or infinite. If it is finite, holes close in the time-averaged sense: the average normalized hole area over every fixed-length time window tends to zero as time tends to infinity. In a 15-second numerical demo, all holes close by 9.9s and remain closed through the end.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12637",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "机器人",
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 107,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Jinshi Zhao, Libaihe Tian, Alex Ranne, Qindong Zheng, Yue Li, Xiaotong Guo, Ziqi Yang, Ali Anil Demi",
+    "authorAvatar": "",
+    "title": "Selectively Actuated Fiberbots for High-precision Minimally Invasive Surgery",
+    "content": "arXiv:2610.12636v1 Announce Type: new \nAbstract: Long, slender instruments are essential for minimally invasive surgery (MIS), but achieving precise distal manipulation becomes increasingly difficult when actuation extends along the entire instrument. Here, we present an electrothermally actuated fiber-based robot designed for MIS procedures, in which Joule heating is concentrated in the distal active segment. The fiber is fabricated using a thermal drawing process and uses embedded metallic wires for thermal actuation. This robotic fiber, 1.9 mm in diameter and 1.2 m in length, can precisely manipulate surgical laser fibers with positional precision below 100 $\\mu$m. The compact size of the fiber robot allows it to pass through the working channel of a flexible endoscope, while keeping both devices mechanically uncoupled to allow independent motion. A phantom demonstration combining the robotic fiber with a da Vinci instrument conceptually demonstrated its compatibility with existing endoscopic systems for clinical applications. Our robotic fiber enables precise distal motion and holds the potential to improve clinical outcomes by enhancing precision in MIS procedures.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12636",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 106,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "George Dimas, Panagiotis G. Kalozoumis, Panagiotis Vartholomeos, Dimitris K. Iakovidis",
+    "authorAvatar": "",
+    "title": "Image-Based Path-Planning for Navigation of Soft-Growing Robots in the Spinal Sub-Arachnoid Space",
+    "content": "arXiv:2610.12631v1 Announce Type: new \nAbstract: Recently, soft robotic procedures are being developed aiming at achieving targeted minimally invasive operations or drug administration in specific locations in the human body. Accordingly, specialized path-planning algorithms need to be investigated for the estimation of efficient paths that would protect the delicate tissue structures and simultaneously satisfy a set of requirements for the efficient navigation of the robot. In this context, we propose an image-based 3D pathplanning algorithm, which is an extension of the A* algorithm, for the navigation of a soft-growing robot inside the spinal subarachnoid space (SSS). The proposed algorithm is capable of estimating a safe pathway towards the goal location, while ensuring the establishment of anchor points that facilitate the efficient steering of the soft robot. The algorithm is evaluated using a highly detailed model of the SSS with respect to its capacity to satisfy the robot movement requirements and path efficiency.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12631",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "机器人",
+      "商业航天",
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 105,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Antony Thomas, Fulvio Mastrogiovanni, Marco Baglietto",
+    "authorAvatar": "",
+    "title": "Graph-Based Heuristics for Minimum Constraint Removal in Cluttered Robot Motion Planning",
+    "content": "arXiv:2610.12609v1 Announce Type: new \nAbstract: Humanoid and service robots operating in clut- tered human environments may encounter motion planning problems that are infeasible when all surrounding objects are treated as fixed obstacles. The Minimum Constraint Removal problem, which we refer to as MCR, addresses this situation by identifying the minimum number of constraints, such as movable objects, whose removal enables a collision-free path. However, computing an optimal MCR solution is NP-hard. In this work, we propose a graph-based heuristic pipeline that combines bidirectional feasible-set generation with fixed- length searches over reduced MCR graphs. We further derive an extended feasible-set generator for instances in which the candidates produced by the first generator do not contain a complete optimal removal set. Across six benchmarks, the evaluated pipeline matches the exact solution in three cases and, in the remaining cases, selects at most 31.25% more obstacles than the optimum, while being between 3.4 and 33.7 times faster than exact search. In one of the benchmarks, involving a manipulation task amidst clutter, selecting two rather than seven obstructing objects reduces the combined MCR, inverse- kinematics, and motion planning time from 84.72 s to 30.59 s. These results indicate that the proposed approach provides a practical compromise between computational efficiency and solution quality for motion planning among movable obstacles.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12609",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 104,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Yinlong Dai, Homanga Bharadhwaj, Dylan P. Losey",
+    "authorAvatar": "",
+    "title": "CASTER: Formalizing Zero-Shot Manipulation from Synthetic Videos as Constrained Optimization",
+    "content": "arXiv:2610.12567v1 Announce Type: new \nAbstract: Prior research on learning from humans often requires real human demonstrations. But advances in video generation models offer a new paradigm: we can now prompt these generators to make synthetic videos of the task. On the plus side, these synthetic videos take place in the robot's current environment, and do not require actual human teaching. However, while the generated videos appear to show plausible motions, they lack both physical consistency and robot grounding, and thus the robot cannot directly roll out the trajectory shown by the video. In this paper we seek to formalize the process of going from synthetic video generation to real-world robot trajectories for zero-shot manipulation tasks. We recognize that this problem is an instance of constrained optimization. The object trajectories extracted from the synthetic video provide an initial guess at the correct motion, and the robot must refine these trajectories (for instance, within a digital twin) while enforcing physical feasibility and semantic consistency. Our optimization-based formalism provides insights into the video generation properties necessary for success. Specifically, we show that the video generation must probabilistically seed the search within a semantic basin of attraction where the trajectory can be locally modified without losing its task alignment. Our analysis further reveals that state-of-the-art approaches can be viewed as instances of our unified formalism with key simplifications. In our experiments we remove these simplifications to more closely match the underlying optimization, leading to more robust zero-shot trajectories from synthetic videos and improving average task success by 34.1% compared to the best-performing baseline. See videos at our project website: https://collab.me.vt.edu/CASTER",
+    "sourceUrl": "https://arxiv.org/abs/2610.12567",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "机器人",
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 103,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Junxiang Wang, Yuchen Liu, Yi Wu, Guofei Chen, Nir Pechuk, Tao Chen, Zackory Erickson, Yuzhe Qin, Ti",
+    "authorAvatar": "",
+    "title": "What Should Embodied Agents Remember? Benchmarking and Evaluating Memory Modality for Embodied Agents",
+    "content": "arXiv:2610.12561v1 Announce Type: new \nAbstract: Memory allows large language model (LLM) agents to use past experience, often stored as textual records, when responding to requests. For embodied agents that control robots, visual and spatial observations introduce a broader choice of memory modalities, affecting both the information available for subsequent tasks and the model inference costs of constructing and using memory. We introduce MeMoREval, a benchmark for studying this problem through a controlled experience-request protocol. Agents first experience a sequence of events without knowing the subsequent tasks, and subsequently they use memory to respond to information and action requests without receiving new observations. The benchmark comprises 53 tasks across four simulated indoor environments and measures task success alongside the inference costs of memory construction and use. Our reference evaluations reveal that storing frames outperforms storing generated descriptions at lower write-time inference cost for the primary model, while storing frames with scene graphs achieves the highest aggregate task success for every tested model. Extensions to accumulated experience, selective frame retention, and visual input to memory writers demonstrate how the benchmark accommodates further memory-design investigations. Two physical-robot demonstrations establish the feasibility of applying its protocol beyond simulation.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12561",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "模型",
+      "机器人"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 102,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Xiaomeng Xu, Han Zhang, Zhian Ruan, Xiaofeng Guo, Jinkun Cao, Ruihan Yang, Carmelo Sferrazza, Shuran",
+    "authorAvatar": "",
+    "title": "PanTact: Teaching Whole-Body Dexterity with a Wearable Contact Interface",
+    "content": "arXiv:2610.12558v1 Announce Type: new \nAbstract: Humanoid robots have many degrees of freedom and contact surfaces, yet most loco-manipulation research restricts manipulation to the hands and avoids other body contacts with the environment. To extend manipulation beyond the hands, we present PanTact, a system that learns humanoid whole-body dexterity, the capability to manipulate with any suitable body surface, directly from robot-free human demonstrations. Our key idea is to use contact as manipulation-centric information that transfers across embodiments. Contact locations and timing specify the interactions needed to accomplish a task, while the robot chooses how to coordinate its body to realize them within its own physical constraints. Specifically, PanTact captures, learns, and executes whole-body contact via: 1) a wearable, robot-free data collection interface that augments egocentric vision and bimanual UMI grippers with whole-body modular contact patches to record body contact locations and states; 2) a visuomotor policy that mitigates the egocentric observation gap and predicts whole-body contact goals; and 3) contact-aware whole-body control formulations that realize active contact goals using suitable robot surfaces. We deploy PanTact on a Unitree G1 humanoid without additional body contact sensors, demonstrating whole-body dexterity involving body support, pushing, sweeping, and load-sharing. Website: https://pantact.github.io",
+    "sourceUrl": "https://arxiv.org/abs/2610.12558",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "机器人",
+      "行业"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 101,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Jaewoo Lee, Jeongyeon Seo, Sihyun Cho, Gyeongrak Choe, Yutong Wang, Bavin Saravanan, Jia-Bin Huang, ",
+    "authorAvatar": "",
+    "title": "Fly-by-Code: Embodied Coding Agents for Aerial Manipulation with Active Visual and Physical Feedback",
+    "content": "arXiv:2610.12549v1 Announce Type: new \nAbstract: Embodied coding agents construct robot policies from natural-language instructions by generating executable programs and refining them from execution feedback. This refinement assumes that execution feedback reveals whether the task succeeded and, after a failure, provides sufficient evidence to guide program revision. Aerial manipulation violates this assumption in two ways. Payload constraints restrict onboard camera coverage and leave task-critical outcomes outside the robot's view (partial observability), while strong dynamic coupling and limited control margins make physical interactions fragile (limited interaction robustness) and leave failure causes unresolved. Re-examining the same feedback cannot recover observations that were never collected or separate failure causes that the available evidence does not distinguish. To acquire this missing evidence, we introduce Active Feedback (AF), an active \"View and Probe\" framework. When execution feedback leaves unresolved questions, the agent synthesizes a separate diagnostic program that runs in simulation to inspect unseen outcomes from informative viewpoints (View) or test hypotheses about failure causes through targeted physical interactions (Probe). Across six simulated aerial manipulation tasks with 60 trials per condition, AF reduces false completion declarations from 25 to 5 and raises final task success from 31.7% to 75% compared with terminal feedback under the same coding-agent configuration and task-execution limit. Using shared robot APIs, task programs refined with AF in simulation run on a physical aerial manipulator without task-program source-code modification and complete multi-stage manipulation tasks in the real world. These results show that executable diagnosis fills gaps in execution feedback for embodied coding agents, improving both completion assessment and program refinement in aerial manipulation.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12549",
+    "sourceName": "ArXiv 机器人",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 100,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Julien Kordes, Reuben Dorent",
+    "authorAvatar": "",
+    "title": "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
+    "content": "arXiv:2610.12781v1 Announce Type: new \nAbstract: Aligning two independently pretrained unimodal encoders typically demands millions of paired examples. In this paper, we study the regime where only $N \\sim 100$--$500$ pairs are available, while unpaired data on either side is abundant. Our method expresses every representation by its similarities to the $N$ paired anchors, which places both modalities in a common coordinate system; matches the two point clouds with a single entropic optimal transport problem solved over the entire pool, whose marginal constraints counteract the hubness that defeats nearest-neighbor matching; and distills the resulting plan into two lightweight encoders, so that the correspondence becomes inductive. We additionally put this marginal constraint in relation with the one-step hub corrections of the bilingual lexicon induction literature. Pairing is required only for the anchors: the unpaired collections may be drawn independently from the two marginals, so that no item outside the anchor set needs to have both of its modalities observed. We evaluate on image-text and molecule-text alignment, where our method outperforms existing approaches at the same anchor budget on Flickr30k, MS-COCO and ChEBI-20.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12781",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "产品"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 99,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Haotian Qiao, Robert P. Dick",
+    "authorAvatar": "",
+    "title": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
+    "content": "arXiv:2610.12762v1 Announce Type: new \nAbstract: Hardware datasheets contain engineering specifications essential for component selection, system integration, and hardware compatibility verification. However, manual inspection is tedious and error-prone because datasheets are lengthy and heterogeneous, with dense information fragmented across tables, figures, and text. Although large language models (LLMs) can automate this process, na\\\"ive one-shot processing omits relevant specifications even when the document fits within the model's context window.\n  We present an automated LLM-driven pipeline that transforms hardware datasheets into general-purpose hierarchical hardware knowledge graphs through chunk-based property extraction, hierarchical routing, and iterative refinement. The framework uses LLMs for information extraction and semantic reasoning while preserving source provenance and applying graph updates through validated instructions and deterministic local execution. This staged design reduces per-query context and maintains traceable intermediate representations. The resulting knowledge graphs provide semantically organized, source-grounded hardware properties for downstream retrieval and reasoning.\n  We evaluate the framework on 20 hardware datasheets spanning diverse component types and document lengths. We assess property faithfulness and introduce inter-graph completeness to measure relative semantic coverage without exhaustive ground truth. Our framework achieves 98.8% property faithfulness compared with 76.1% for the one-shot baseline, while fully covering 83.6% of faithful baseline properties; in the reverse direction, the baseline fully covers only 10.5% of ours. These improvements provide more reliable and comprehensive engineering information for downstream hardware design and verification, reducing the risk of overlooked constraints and incorrect decisions.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12762",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 98,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Ximing Lu, Aviral Kumar, Jan Kautz, Yejin Choi, David Acuna",
+    "authorAvatar": "",
+    "title": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
+    "content": "arXiv:2610.12659v1 Announce Type: new \nAbstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target policy. To guide the synthesis of effective RLVR data, we experimentally characterize dataset effectiveness as a function of its problems, the target policy, and the training rollout budget. Under this characterization, we show that a large open-source math corpus pooled from widely used RLVR datasets falls almost entirely into a zero-advantage trap: for a fixed target policy and rollout budget, roughly 88% of its problems are solved in every rollout or failed in every rollout. Filtering concentrates what remains, but it can only select, discarding the hard problems. Effective synthetic problems should therefore require the reasoning operations and compositions required to solve those hard problems. Yet their difficulty must be calibrated, so that some rollouts succeed, some fail, and at least one correct solution fits within the training budget. Prompting a teacher to vary hard problems directly does not achieve this. Guided by these empirical principles, we introduce MagicBeanStalk, a top-down decomposition and bottom-up recursive data-synthesis algorithm that grows seed problems into families of substantively new, policy- and budget-calibrated training problems while preserving the seeds' reasoning blueprints. Across 8 math benchmarks, continual RLVR on MagicBeanStalk problems improves gpt-oss-120b from 61.2 to 69.8 (+8.6) and DeepSeek v4Flash from 72.4 to 77.9 (+5.4) on a 16K-token budget. Training on the full 78K source corpus improves by only +1.1 and its best filtered real data subset by +5.8. In finance, we synthesize over 14K verifiable problems from only 340 solutions and improve over base by 6.9 and 2.4 points on SecQue and FinanceBench, respectively.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12659",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "模型",
+      "行业"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 97,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Jiatan Huang, Zheyuan Zhang, Ziming Li, Tianyi Ma, Mingchen Li, Yanfang Ye, Chuxu Zhang",
+    "authorAvatar": "",
+    "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+    "content": "arXiv:2610.12655v1 Announce Type: new \nAbstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet clarification is useful only when the agent can turn the answer into better decisions. As training changes how the agent handles incomplete information and uses additional answers, the same clarification can become more or less useful. We introduce CLEAT (CLarification through valuE-guided Agent co-Training), a framework that co-trains a clarification-value controller and the task policy from shared interaction outcomes. We formulate residual query value to measure the task utility gained by asking rather than proceeding under the current policy, and estimate it through paired rollouts from the same interaction history. These paired returns train the controller to predict clarification value and the task policy to select useful questions and act on the answers. The controller guides subsequent rollout collection, while outcomes from the updated agent provide new value labels that allow clarification guidance to adapt as the agent learns. With Qwen3-4B, CLEAT achieves the highest mean score in all ten evaluation settings across four benchmarks. Gains over the strongest baseline reach 13.2 and 6.5 percentage points on UserGym Travel and IN3 underspecification judgment accuracy, respectively. Ablations show that co-training improves the task policy even when the controller is removed at inference, while adapting clarification guidance to the evolving policy yields further gains.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12655",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "行业",
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 96,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Yiran Wu, Andrew Zhao, Yurui Chang, Qingyun Wu, Xuan Feng",
+    "authorAvatar": "",
+    "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+    "content": "arXiv:2610.12598v1 Announce Type: new \nAbstract: Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We investigate whether the current policy can judge its own trajectories and use these judgments to improve task performance without a separately trained reward model. To this end, we introduce Behavioral Self-Rewarding (BSR), a reward-refinement method that reuses the policy to compare observable debugging behavior among trajectories from the same task with the same verifier outcome. BSR aggregates pairwise preferences into task-local scores and converts them into bounded auxiliary rewards, introducing reward contrast while preserving the verifier-defined pass/fail ordering. This provides additional supervision from already-collected trajectories without requiring new environment interactions. Experiments on SWE-bench Verified and SWE-bench-Live show consistent improvements across the evaluated Qwen3-14B and Qwen3-32B configurations, supporting using the policy's own comparative judgments as a complementary learning signal for training software engineering agents.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12598",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "模型",
+      "行业"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 95,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Scott C. Lowe, Sander W. Keemink",
+    "authorAvatar": "",
+    "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+    "content": "arXiv:2610.12596v1 Announce Type: new \nAbstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest difficulty, frontier models beat heuristic baselines and match the average human player but remain far behind experts. This gap widens as the run lengthens: the strongest models win the first act as often as experts, then fall behind. What separates strong models from weak is how well they play each fight; all of them misjudge risk over a run, preserving health rather than spending it to grow stronger. A comprehensive, self-consistent renaming of every game term shows that part of their performance rests on prior knowledge of the game, and models do not improve from the memories they write across runs, which are often wrong and overly cautious. Our harness is the first to give a model the complete original game, and we compare it with existing harnesses. Overall, SpireBench offers an unsaturated long-horizon benchmark with tools to locate where and why agents fail.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12596",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "模型",
+      "Agent"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 94,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Wei Yang, Qing Ping, Youzhi Luo, Yawei Wang, Abhishek Kumar, Panpan Xu, Jun Huan",
+    "authorAvatar": "",
+    "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+    "content": "arXiv:2610.12593v1 Announce Type: new \nAbstract: The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning value for the current task agent. Existing methods increasingly incorporate environment feedback, data validation, or learner failures, but still face a feedback-to-decision gap: observed weaknesses do not directly specify how future synthesis should change, or whether they can be represented by the current synthesis space. To address this gap, we propose EvoSyn, a learning-feedback-driven multi-agent framework that organizes synthesis around a revisable state specifying what interaction factors can be deliberately generated and where synthesis effort should be allocated. A role-specialized multi-agent system translates learner feedback into synthesis revisions, while a Designer allocates synthesis directions and a Planner grounds them into executable experience. This process enables within-space adaptation toward weak or under-covered regions and synthesis-space expansion that promotes newly discovered factors into explicit generation controls. Experiments on $\\tau^2$-Bench and CAR-Bench show that EvoSyn improves average task success by 13.3 points over the strongest synthesis baseline, while producing higher-quality and structurally broader synthetic experience and discovering controllable factors missed without learner feedback.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12593",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "模型",
+      "商业航天",
+      "Agent"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 93,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Yuyu Zhang",
+    "authorAvatar": "",
+    "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+    "content": "arXiv:2610.12542v1 Announce Type: new \nAbstract: Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an identical budget - the same number of candidate schedules built and evaluated: an MCTS scheduling method, preregistered as the main arm; a randomized-restart list scheduler with no search tree as the control; and a textbook-UCT MCTS arm as a registered follow-up on the same domain. The analysis plan was locked before data collection; an independent checker confirmed all 768 confirmation-stage schedules valid with correct finish times. At the main budget of 2048 evaluated schedules, MCTS is 2.88% worse than the restarts (95% CI [-3.62%,-2.15%]; the 72 of 96 held-out instances with positive baseline-relative headroom). The deficit is not budget starvation: on the separate exploration pool restarts self-improve by 1.85% where MCTS gains 0.24%, and 700 of 720 of MCTS's first results are merely the warm start it was handed. The studied selection rule locks deterministically onto the first-expanded child, keeping its trials correlated while restarts draw gains from the tails; the causal link to makespan remains an inference. A structural map locates where the tree stops paying: restarts win on sparse irregular workflows, no difference is detectable on regular layered ones, and dense ones leave no room to improve. Swapping the rule for textbook UCT removes most of the deficit (-0.26%, 95% CI [-0.71%,+0.23%]) without reversing its sign. Results are confined to a controlled synthetic domain (N in {8,16,32} tasks, 2-8 processors, budgets up to 2048); we make no claim about larger budgets.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12542",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "产品"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 92,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Stuart Farmer",
+    "authorAvatar": "",
+    "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+    "content": "arXiv:2610.12536v1 Announce Type: new \nAbstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated across ten independently initialized searches. Candidate-score medians rose between the first and final generations in all six tasks, and selected-winner search-score medians rose in five. In CartPole-v1, the selected winner reached the search-score ceiling in the first generation of all ten searches. All ten paired held-out endpoints improved in four of the six tasks. BipedalWalker-v3 and CarRacing-v3 improved without reaching their reporting targets. Six of ten Acrobot-v1 searches declined on held-out episodes, and the median paired change was negative. The results document improvement during program search and the transfer of selected-winner gains to new episodes in some tasks. Comparisons and ablations are needed to establish EliteTable's relative performance and the contributions of its components.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12536",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "模型",
+      "机器人"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 91,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "Marco Zullich, Emily Schiller, Ivan Gentile, David Dembinsky, Adriano Lucieri, Kilian G\\\"oller, Stef",
+    "authorAvatar": "",
+    "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+    "content": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points to an overall failure of this objective, instead promoting overreliance on incorrect predictions, which can subsequently lead to algorithmic aversion. Rather, XAI appears to function primarily as a debugging tool, useful for obtaining anecdotal insights into, for example, features learned by the model. One of the main issues underlying this limitation is that XAI methods often oversimplify the inner workings of the model, resulting in misalignment between the explanation and the model itself - a behavior referred to as unfaithfulness or infidelity. Faithfulness can be interpreted as the degree of approximation between an explanation and the model. Computing faithfulness in a rigorous manner would thus make it possible to quantify one of the various elements of trustworthiness of an explanation. However, existing metrics present significant limitations, making this quantification either infeasible or computationally expensive. In this position paper, we outline five major shortcomings of current faithfulness metrics and propose four possible avenues for research to bolster their reliability.",
+    "sourceUrl": "https://arxiv.org/abs/2610.12493",
+    "sourceName": "ArXiv AI",
+    "tags": [
+      "行业",
+      "模型"
+    ],
+    "likes": 85
+  },
+  {
+    "id": 131,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "TechCrunch Events",
+    "authorAvatar": "",
+    "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+    "content": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
+    "sourceUrl": "https://techcrunch.com/2026/10/11/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+    "sourceName": "TechCrunch",
+    "tags": [
+      "产品"
+    ],
+    "likes": 70
+  },
+  {
+    "id": 204,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "36氪",
+    "authorAvatar": "",
+    "title": "8点1氪丨尊界公布踏板升级时间；大闸蟹全线崩盘？中小规格跌至5元一只；世卫组织：俄不明原因肺炎事件，无持续传播证据",
+    "content": "今日热点导览\n月之暗面增资至约1437万\nMLCC全球龙头子公司计划扩产\n经销商联谊会“批量”解散？茅台方面回应\n欧亚经济联盟继续对华油井管征收反倾销税\n苹果正研发不“录像”的摄像头\nTOP 3 大新闻\n尊界公布踏板升级时间\n10月11日下午，尊界客服向记者确认，尊界V800制动踏板支架底座升级方案预计于10月底确认，11月起陆续启动升级。10月8日晚，尊界汽车发布关于尊界汽车制动踏板支架底座相关问题的情况说明，称将进一步优化该部件设计，并为已交付用户提供免费升级选择。\n11日下午，尊界客服告诉记者，目前，已提车的用户可通过全国任一服务中心预约登记，也可直接联系购车门店登记，届时用户中心将会第一时间联系用户；而未发运车辆会被直接升级后再交付，用户无需额外操作。不过，当前升级方案未确定，暂无法提供具体升级细节。（北京日报、财联社）\n大闸蟹全线崩盘？中小规格跌至5元一只\n近日，“大闸蟹全线崩盘”相关话题引发大量关注，冲上微博热搜。据看看新闻10月9日报道，在上海普陀区新沪路，有些中小规格的母蟹价格跌至5元/只，太湖蟹2-3两/只售价仅10元。不过，超大规格精品蟹价格保持坚挺。蟹农表示，一只半斤以上的本地产大闸蟹，出水价在150元左右；公母一对售价在300元。\n另据荆州新闻网，目前荆州市场大号4两规格母蟹价格在50-55元/斤，4两规格公蟹价格在28-30元/斤，2两规格母蟹价格在35元/斤左右，2两规格公蟹价格在20-25元/斤，整体价格较去年同期每斤低5-10元。\n界面新闻查询盒马APP获悉，目前2.3-2.7两/只的鲜活大闸蟹（母蟹）售价是25.9元；3.3-3.7两/只的母蟹售价为55.9元。在京东平台，全母蟹3.0-3.8两8只礼盒装的价格为218元，平均一只大约27元；全母蟹6.0-6.3两8只礼盒装价格为1985元，平均一只248元。（看看新闻、荆州新闻网、界面新闻）\n世卫组织：俄不明原因肺炎事件，无持续传播证据\n据央视新闻，世界卫生组织10日在其官网发布公报说，关于俄罗斯伊尔库茨克西伯利亚与远东防鼠疫研究所一名工作人员患病死亡事件，根据俄方通报，世卫组织尚未发现与这一事件相关的持续传播证据，但目前尚未确认导致致命疾病的病原体。据俄方通报，伊尔库茨克西伯利亚与远东防鼠疫研究所一名28岁女性工作人员2日因“不明原因肺炎”死亡。\n世卫组织表示，据俄方卫生部门通报，伊尔库茨克州近期没有报告鼠疫病例，已依据相关卫生法律全面采取综合防疫措施，对这名实验室工作人员及其接触者的检测也未发现高威胁病原体。这名工作人员所在的实验室未发生生物安全事故，且未发现与该病例有关的新发严重肺炎病例。\n公报强调，根据俄方已提供的信息，世卫组织尚未发现与这一事件相关的持续传播证据。但目前仍存在一个关键的不确定因素，即导致这名实验室工作人员死亡的病原体尚未确认，因此世卫组织无法评估接触者监测持续时长是否足以排除所有可能的致命病因。世卫组织将继续监测这一情况，并在获得更多信息时，评估任何潜在的公共卫生影响。\n俄联邦消费者权益保护和公益监督局先后发布多份通告，指出患病工作人员曾针对其工作相关的危险传染病接受过疫苗接种并具有免疫力。该机构否认存在第二例病例，称所有与死亡患者有接触的人员都已结束医学观察，未发现与传染病有关的健康问题。（央视新闻、财联社）\nAI最前沿\nSpaceXAI官方账号更名\n马斯克当地时间10月10日在社交平台发布一张截图，显示SpaceXAI的官方账号已更名为“SpaceX Super Intelligence”（@SpaceXSI）。此前10月4日，马斯克表示，SpaceX是一家超级智能（SI）公司，我们将把SpaceXAI改名为SpaceXSI。（财联社）\n微软CEO称AI是潜在内部威胁\n微软公司CEO萨提亚·纳德拉(Satya Nadella)表示，企业应将强大的AI模型视为潜在的内部威胁，假定它们可能已被攻破，并建立一套“紧急刹车”系统，以防止智能体模型失控。纳德拉10月10日在X平台上发帖称，部署先进AI的企业不应仅仅依赖AI模型开发商的安全保证。“我们必须假定模型已被攻破，并从一开始就对其加以限制。可以把它想象成紧急刹车。获得授权的人员应当始终能够在模型执行任务的过程中暂停或关闭它。”纳德拉表示。就在纳德拉发表上述言论之际，Anthropic和OpenAI近几个月披露了一系列AI模型出现非预期行为的事件，包括Anthropic的一款模型在一起警方调查的谋杀案中提交虚假线索，以及AI模型多次入侵第三方网站。这些披露加剧了外界对前沿AI安全风险的担忧，也让所谓的AI“紧急关闭开关”再次成为讨论焦点。（新浪财经）\n蚂蚁“灵光”开启小范围内测，新版对标“Meta Muse”\n据悉，蚂蚁集团旗下AI产品“灵光”已于近日开启新版本的小范",
+    "sourceUrl": "https://36kr.com/p/4022129475948680?f=rss",
+    "sourceName": "36氪",
+    "tags": [
+      "商业航天",
+      "模型"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 203,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "36氪",
+    "authorAvatar": "",
+    "title": "36氪新风向丨在太空中建AI算力中心，马斯克又带火一个万亿美元赛道",
+    "content": "作者 | 乔钰杰\n编辑 | 袁斯来\n本文约4800字，建议阅读13分钟\n一年前，做太空算力的公司如果想拿投资，会遭遇投资人很多冷眼。\n很难责怪他们的冷淡。太空算力中心听上去有些科幻。简单解释，它希望借助太空永不落山的太阳能与真空辐射散热，实现无限的算力扩张。核心设想是解开地面数据中心的电力与能效的死结。\n“当时我们内部也认为，这玩意儿不是骗人嘛，市场一度非常冷。”一位投资人回忆。\n又是马斯克，在大洋彼岸，以一己之力带火了中国硬科技赛道。\n2025年11月，马斯克在社交媒体宣布，依托星舰（Starship）的发射能力与Starlink V3卫星的升级，SpaceX将构建全球首个太空AI数据中心集群，目标实现每年1太瓦（1TW）的AI算力部署。\n\n（SpaceX AI Statellite概念图）\n投资人们很快转变了态度，他们觉得“不靠谱也开始靠谱了”，很多人的想法变化并非更深入的研究或赛道更落地的发展，只是看到“马斯克的pr变猛了”。\n“一家垂直整合程度如此高的公司如果能把太空算力这件事做正，那其他公司努努力也可以。”一位投资人告诉硬氪。\n和商业航天、量子计算、核聚变类似，这一赛道也因为国家之间的技术竞赛，在短期内迅速升温。一位投资人对硬氪戏称，又是“摸着马斯克过河。”\n一群后知后觉的投资人发现，这个半年前没人愿意参与的赛道，额度突然变得供不应求。\n太空算力赛道代表性的几家公司，「中科天算」和「中科密位」今年相继披露超亿元融资；「一苇宇航」和「轨道辰光」则均在一年内斩获四轮融资，最新一轮融资估值已达40亿元。\n新玩家也纷纷入局，仅2026年上半年，就有数家太空算力相关公司成立，包括「星纪原点」、「寰宇泛智」、「深空矩阵」、「瑞启深空」等，其背景各不相同，有航天老兵，也有来自投资圈的入局者。此外，AI上市公司佳都科技还孵化了一家专门做太空算力大模型的企业，pre-A轮融资后估值超10亿。\n甚至，“太空算力”本身成了一个可以抬估值的热词。一位关注商业航天领域的投资人告诉硬氪，不少项目根本和太空算力无关，只是业务能和太空挂钩，就打着太空算力旗号融资。比如一些去年还在做通信卫星的企业，现在都号称要切入算力卫星。“基本上都在说算力的故事。”\n一级市场也在短时间建造出足以支撑估值的逻辑。不少投资人相信，太空环境可能复制地面互联网络的发展轨迹。首先是单颗卫星的智能化，接着算力卫星之间可协同计算，终局是大规模空间算力中心。“大家觉得会有一个非常大的市场在等着我们。”上述投资人表示。\n当卫星数量足够多、通信网络足够密集、算力真正进入轨道之后，新的场景和商业模式也会随之出现。而现在，正好是入场下注的起点。\n\n \n商业航天爆火的衍生品\n太空算力的升温，几乎与商业航天的热度同步。\n全球来看，2025年，全球太空初创企业投资达到553亿美元，创下新的年度纪录，2026年仅第一季度单季，投资已达创纪录的360亿美元。\n商业航天的商业闭环中，最末端是卫星延伸的业务，目前已经跑出现金流的是星链，而资本看到更大的可能性，则是太空中的AI算力中心。\n2025年11月，美国初创公司Starcloud发射其首颗技术验证卫星“Starcloud-1”，搭载英伟达H100芯片。12月，Starcloud宣布使用这颗H100完成了在轨大语言模型训练，并运行了谷歌Gemma模型。其远期目标，是在近地轨道上，构建百兆瓦乃至吉瓦（GW）级的集中式空间算力基础设施。\n同一时期，马斯克也开始高调讨论将计算能力叠加到SpaceX庞大的卫星网络之上，进一步构建太空AI数据中心。谷歌则公布了其“太阳捕手”（Project Suncatcher）计划，探索将TPU等AI芯片部署在由太阳能供电的卫星星座中。\n\n（英伟达太空算力计划概念图）\n而在中国，国家队和商业公司都陆续有一些可回收的里程碑出现，单纯依靠“造火箭、造卫星”获得超额机会的窗口正在逐渐收窄，早期投入的机会也越来越少，行业开始寻找新的增量。“太空”与AI结合，加上马斯克的高调入局，点燃了资本对下一代太空产业的想象。\n如果只把太空算力理解成“把数据中心搬上太空”，可能会低估这件事真正的价值。\n智能化的低轨卫星能够提供的，不只是一个“更高的位置”，而是一个感知和理解地球的新维度。\n以海洋场景为例，海洋基建、海上风电、远洋运输等场景都需要持续获取海况、洋流等信息。过去，传感器可以部署在海面或海底，但覆盖范围有限，遥感卫星则能够从更大的空间尺度持续获取海洋信息。\n如果卫星具备更强的在轨计算能力，就可以直接筛选、识别和分析遥感图像和传感数据，甚至进一步通过卫星通信网络将结果反馈给船舶等终端。类似的逻辑也可以延伸到碳排放监测、农业监测、灾害预警等场景。这意味着，一批过去难以实现、或者成本过高的应用场景，可能因此被重新打开。\n更进一步，当太空场景",
+    "sourceUrl": "https://36kr.com/p/4022305269600128?f=rss",
+    "sourceName": "36氪",
+    "tags": [
+      "商业航天",
+      "模型"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 202,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "36氪",
+    "authorAvatar": "",
+    "title": "白犀牛完成1亿美元C轮融资，L4无人配送生态布局提速｜36氪首发",
+    "content": "无人物流赛道持续火热。\n36氪独家获悉，L4级自动驾驶企业白犀牛近日已完成C轮融资，金额1亿美元，由隐山资本领投，湘潭国资、深重投、湖南财信、韩国友利金融集团、博正资本等跟投。资金将重点投向L4端到端技术与物理AI能力迭代、城市运营网络持续拓展。\n白犀牛成立于2019年4月，由前百度自动驾驶团队成员朱磊和夏添共同创立，是一家提供全栈式无人配送解决方案、并实现无人车常态化运营的自动驾驶技术公司。公司自成立以来已获超8轮融资，本轮为公司历史上最大单笔融资。\n\n白犀牛无人车\n“每一轮融资，我们都坚持引入与公司发展阶段契合的股东”，白犀牛CFO于洋向36氪表示。本轮融资的一大特点，是构建了“产业+政府+金融”的复合型资本结构——多元背景的资本带来的不只是资金本身，更是一张生态化的资源网络：资本不仅为公司输血，更带来场景、路权、金融服务与全球化拓展的多重杠杆。\n领投股东普洛斯隐山资本，是中国物流供应链股权投资中最懂资产与场景的产业派之一，今年已连续两次向白犀牛注资。\n普洛斯遍布全球的产业资源，不仅为白犀牛提供了稳定的业务订单，也为其全球化拓展打开了通道；韩国友利金融集团的同步注资，则从侧面印证了白犀牛海外业务的进展。\n此外，本轮融资还有湘潭国资、深重投及湖南财信等地方资本的入局。于洋指出，地方国资不仅关乎路权与政策，更能在产业基金联动、国有资源导入及多元金融服务上，为无人车的规模化落地提供系统性支持。不同的资方，正在把白犀牛的生态一步步搭起来。\n在于洋看来，融资只是手段：白犀牛的目标是以自动驾驶技术方的身份，把L4能力注入物流产业链的各个环节，联合场景方、制造伙伴与运营服务方，共建无人配送生态。“可以说，我们正在打造生态的路上加速前进”。\n生态布局的成效也已开始显现。2026年4月，白犀牛推出行业首款车规级无人车RX——由白犀牛提出并正向开发定义，与场景方、制造伙伴协同落地。\n该车型历时18个月开发，经过高温高寒等严苛环境测试、超20万公里可靠性验证，设计寿命达到8年30万公里，已达到传统轻卡城配车的标准。这款产品让行业第一次有了按车规标准正向开发、可规模化交付的无人配送车型。\n\n白犀牛 双笼自卸车\n此外，白犀牛2026年新增了一款货箱达24m³的大容积轻卡无人车R24，目前R24已开启交付，并同步在部分城市开展公开道路测试。于洋告诉36氪，R24补齐了园区大件转运、仓到店调拨、短途大容量城配的市场缺口，和 RX 车型搭配，形成覆盖城配货运各类需求的产品组合。\n商业模式层面，白犀牛今年还推出了FaaS车队即服务模式，从L4技术输出延伸至运��服务，并联合顺丰、货拉拉等头部合作伙伴构建云端调度系统，实现车辆在不同场景、不同客户间的动态调度。\n于洋表示，物流行业本身就存在运力忙闲不均的特点，白犀牛的运力服务可以实现车辆在不同场景、不同客户间动态调度，“比如快递业务低谷期，车辆就可以切换到同城货运场景用，可以提高单车资产利用率”。\n2026年，无人配送行业已从“试点演示”进入“车规化、规模化商用”的爬坡期：产品开始按汽车标准正向开发，场景从快递末端扩展到仓到店、同城货运，商业模式也从卖车走向卖运力。\n但行业还没到轻松赚钱的阶段，路权和车辆身份仍有一城一策、跨区难复制的问题；雨雪夜间、人车混行等公开道路的长尾场景安全依然有待优化。\n对白犀牛而言，接下来的竞争不止于车辆落地数量，更在于谁能率先打通技术、产品、路权与运营服务的完整生态闭环。完成本轮最大单笔融资后，白犀牛的生态布局与全球化叙事，正在进入新阶段。",
+    "sourceUrl": "https://36kr.com/p/4005486834880384?f=rss",
+    "sourceName": "36氪",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 201,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "36氪",
+    "authorAvatar": "",
+    "title": "最前线｜影石举办智能影像黑客松，从AI剪辑走向移动摄影师",
+    "content": "文｜张子怡\n编辑｜袁斯来\n近期，影石在南京举办2026 Bold Maker智能影像挑战赛。220余名青年创客在四天三晚内完成原型开发，15支队伍进入决赛，角逐30万元现金及20万元奖品。\n比赛中，一支由南京大学学生组成的团队尝试解决视障人士出行的“最后10米”：当地图导航只能把人带到目的地附近时，全景设备继续观察周围环境，由AI识别入口和障碍物，再通过语音提示方向与距离。项目成员罗静宜原本学习建筑，团队在采访视障人士后，将建筑学中接驳“最后一公里”的思路搬到了最后十余米。\n其他参赛作品也不只围绕拍照展开：有人用智能影像球采集宠物口腔影像，有人用相机识别手语并实时发声、显字，还有团队将全景相机装上自研水下平台，在48小时内完成组装和水下测试。上述作品共同指向一个变化——相机不再只是记录工具，也开始承担环境感知、理解和反馈任务。\n这也与影石正在调整的AI技术路线相呼应。\n影石研究院负责人、首席人工智能官亓鲁在活动期间介绍，影石将智能影像拆分为“选、拍、剪、传”四个环节：让AI参与构图和场景交互，改善画质与声音处理，完成自动剪辑，并探索新的内容分享方式。AI由此不再只是相机中的单点功能，而是被放进从场景选择到内容传播的完整链路。\n36氪了解到，上述规划的路线已经出现在具体产品中。多模态语音助手Kira可以结合镜头看到的场景与用户交互；“时刻Pro”通过通用大模型和影石自研全景模型PanoMind完成云端自动剪辑；“3D时光仓”则利用3D重建技术，将全景视频转化为空间化内容。\n影石披露称，云存储订阅服务Insta360+的付费用户数量较去年同期增长超过124%。亓鲁表示，自动剪辑和AI服务已成为用户购买设备的主要原因之一。\n影石对AI的设想也不止于降低后期创作成本。公司首次公开“移动摄影师”计划，希望设备能自己观察环境、理解拍摄目标、规划移动轨迹，并判断什么值得记录、何时按下快门。\n亓鲁将这一系统概括为：AI是大脑，镜头是眼睛，无人机或机器人是躯干，机械云台则充当四肢。这个概念早在六七年前就已在影石内部提出，具身智能和大模型的发展让它重新获得了产品化的可能。\n技术上，影石选择从全景视觉切入。相比有限视场的普通相机，全景设备能够一次记录360度信息，减少转动镜头带来的信息增量，也为环境理解和轨迹规划提供更完整的输入。围绕这一方向，影石已经开发全景深度模型、全景视觉语言数据集和仿真平台，并探索让设备自主决定如何移动、如何拍摄。公司称，相关基础能力将以论文、数据集和工具等方式向研究社区开放。\n从全景相机、运动相机到云台相机和全景无人机，影石正在把自身的边界从影像硬件扩展到软件服务与自主拍摄系统。\n本次黑客松活动则提供了另一个入口：让外部开发者用真实问题检验全景和AI还能做什么。影石表示，优秀项目有机会继续孵化、进入下一代设备的研发考量，参赛者也可能成为未来员工。",
+    "sourceUrl": "https://36kr.com/p/4022506242854788?f=rss",
+    "sourceName": "36氪",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 191,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "郑廷旭",
+    "authorAvatar": "",
+    "title": "早报｜我们跟库克聊了聊iPhone Duo/继QClaw后，腾讯再关停一个Agent/SpaceXAI改名SpaceXSI",
+    "content": "· 曝苹果与 ADT 合作，为家居中枢提供安装服务\r\n· 蔚来广东换电站达到 500 座，六城同步新增第五代站\r\n· 苹果 COO 探访郑州工厂，披露 iPhone Duo 屏幕与芯片制造工艺\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "sourceUrl": "https://www.ifanr.com/1683302?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "sourceName": "爱范儿",
+    "tags": [
+      "商业航天"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 190,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "中汽协会：9 月汽车销量 295.6 万辆，同比下降 8.4%",
+    "content": "IT之家 10 月 12 日消息，中国汽车工业协会今日公布 2026 年 9 月汽车工业产销情况。9 月，汽车产销分别完成 299 万辆和 295.6 万辆，环比分别增长 11.4% 和 9%，同比分别下降 8.7% 和 8.4%。1-9 月，汽车产销分别完成 2324.6 万辆和 2327.1 万辆，同比均下降 4.5%。\nIT之家附汽车内销情况：\n\n9 月，汽车国内销量完成 190.4 万辆，环比增长 11.9%，同比下降 26%。其中，传统燃料汽车国内销量 65.2 万辆，环比增长 11.7%，同比下降 45.3%。\n\n1-9 月，汽车国内销量 1506.6 万辆，同比下降 22.4%。其中，传统燃料汽车国内销量 659.9 万辆，同比下降 33.6%。\n\n汽车出口情况：\n\n9 月，汽车出口 105.3 万辆，环比增长 4.2%，同比增长 61.4%。\n\n1-9 月，汽车出口 820.5 万辆，同比增长 65.8%。\n\n9 月，新能源汽车出口 57.1 万辆，环比增长 8.6%，同比增长 1.6 倍; 传统燃料汽车出口 48.2 万辆，环比下降 0.6%，同比增长 12%。\n\n1-9 月，新能源汽车出口 400.6 万辆，同比增长 1.3 倍; 传统燃料汽车出口 420 万辆，同比增长 31.6%。",
+    "sourceUrl": "https://www.ithome.com/1/011/932.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 189,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "大众集团 2026 年前三季度全球交付 601 万辆汽车同比下降 9%，中国市场大降 30%",
+    "content": "IT之家 10 月 12 日消息，大众汽车集团今日公布了 2026 年第三季度的交付数据，前三季度（1~9 月）全球交付汽车 601 万辆，同比下降 9%，其中：\n\n纯电动汽车前三季度交付 67.87 万辆，同比下降 5%；\n\n插混和增程汽车前三季度交付 36.8 万辆，同比增长 23%。\n\n\n从地区销量来看，大众汽车集团前三季度南美（+4%）、西欧（+1%）以及中东欧（+5%）市场的增长被中国（-30%）和北美（-4%）的市场相关下降所抵消。\n大众汽车集团依然是欧洲纯电动车市场的领导者，并在第三季度增长了 20%。\n单从第三季度来看，大众汽车集团 2026 年第三季度全球销量 188.53 万辆，同比下降 14.3%；中国市场第三季度销量 40.58 万辆，同比下降 38.5%。\n\nIT之家附大众汽车集团各品牌销量数据如下：",
+    "sourceUrl": "https://www.ithome.com/1/011/933.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 188,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "苏宁易购开启 2026 年度双 11 大促：提供“大家电保值换新”、“365 天只换不修”等主题活动",
+    "content": "IT之家 10 月 12 日消息，苏宁易购宣布正式开启 2026 年度双 11 大促，推出多重补贴低至 3 折、大家电保值换新、365 天只换不修、最长 100 天价保等主题活动。\n\n苏宁易购表示，今年平台双 11 活动将从 10 月 12 日持续至 11 月 13 日。其中线上 10 月 12 日（今日）晚 8 点现货提前抢，全程覆盖 10.20 首轮放价、10.30 开门红、11.9 全民嘉年华等核心节点，并通过超级类目日、超级品牌日等主题活动持续追加新品与补贴。线下门店主打“天天都是双 11”，10.23“内购超级加补”、10.30“万店同庆全国联动”、11.6“超级爆发火力全开”等。\n服务层面，苏宁易购将上线大家电“保值换新”服务，消费者支付少量费用即可获得 30 天全额退货、365 天只换不修、5 至 10 年内保值 50% 等权益。\n同时，苏宁易购还将围绕社区生活、家庭焕新、适老居家、旧机回收等场景深化服务，持续开展“国补社区行”，设置便民服务站；面向老年群体提供家电免费检测、适老化改造、上门教学等服务；面向换新用户，落实“五免四不限”标准，提供一站式焕新服务。苏宁帮客同步推出 9.9 元全屋家电检测、北方地暖清洗优惠套餐等活动，从安装、清洗到维修、回收，提供覆盖家电全生命周期的服务保障。\n2026 年数码家电政府补贴持续进行中，IT 之家为大家汇总国补领券地址，买数码家电之前记得领取。\n数码补贴：点此领券\n\n手机 / 平板 / 3C 数码支持 8.5 折政府补贴，不超过 6000 元的产品至高立减 500 元。\n\n家电补贴：点此领券\n\n多类家电支持 8.5 折政府补贴，单品至高补贴 1500 元。",
+    "sourceUrl": "https://www.ithome.com/1/011/934.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 187,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "特斯拉：今年 9 月，Model Y 在北欧五国拿下全品类乘用车销冠",
+    "content": "IT之家 10 月 12 日消息，特斯拉今日宣布，今年 9 月，Model Y 在丹麦、芬兰、冰岛、挪威、瑞典北欧五国拿下全品类乘用车销冠。在挪威，每 4 辆新车就有 1 辆是特斯拉。\n\n据IT之家此前报道，2026 年第三季度，特斯拉全球生产了超 46.4 万辆电动车，交付了超 48.6 万辆；储能产品装机量达 13.7 吉瓦时。\n官方公告显示，2026 年第三季度特斯拉 Model 3/Y 生产 457,387 辆，交付 478,237 辆；其他车型生产 7,004 辆，交付 8,295 辆。\n\n延伸阅读\n综合外媒与挪威公路联合会（OFV）的数据，2026 年 9 月挪威共注册 18,733 辆新乘用车，其中纯电动车 18,511 辆，占比达 98.8%。Model Y 当月注册 4,810 辆，是第二名沃尔沃 EX30（576 辆）的 8 倍多；特斯拉品牌当月总注册量为 4,935 辆，市场份额 26.3%，低于 2025 年 9 月的 33.7%。\n在瑞典，Model Y 2026 年 9 月交付 2,330 辆，同比增长 68%，再次成为瑞典全品类交付量最高的车型；当月纯电动车占瑞典新车总销量的 49%。\n从累计规模来看，特斯拉在挪威的累计交付量已突破 20 万辆，约占当地纯电动车保有量的 20%；在丹麦的累计销量也突破了 10 万辆。特斯拉欧洲官方账号还披露，四分之三的挪威特斯拉车主在换车时会再次选择特斯拉。\n为满足欧洲市场持续增长的需求，特斯拉柏林超级工厂计划自 2026 年 10 月起将 Model Y 周产能从约 5,000 辆提升至 7,500 辆，并为此增聘约 1,000 名员工。",
+    "sourceUrl": "https://www.ithome.com/1/011/935.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "模型"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 186,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "王腾称 ISHO 今日宜休在健康科学研究、临床医学验证上已累计投入上千万，今年圣诞节前能买到产品",
+    "content": "IT之家 10 月 12 日消息，今日宜休科技公司创始人王腾今日发文，向网友汇报了 ISHO 今日宜休最新进展。他表示，截止到目前，ISHO 今日宜休在健康科学研究、临床医学验证上，已经累计投入了上千万，远超一家初创公司在科学研究上投入的量级。\n关于今日宜休为何从一开始就持续与医院和科研团队合作，以及为什么愿意把大量资源投入底层科研这两个问题，王腾回复称因为想做的，不只是一个记录睡眠数据的产品，而是逐步建立一套关于睡眠、恢复与精力的科学研究体系。\n王腾进一步解释称，人体是一套非常复杂的系统，单一维度的数据很难完整理解一个人的疲劳与恢复状态。只有把人因、代谢、睡眠和临床医学连接起来，持续实验、采集数据、反复验证，才有可能逐步建立更科学的精力评估方法。\n\n关于何时可以买到 ISHO 今日宜休的产品，王腾在与网友的互动中透露，可以在今年圣诞前买到产品。\n\n据IT之家此前报道，今年 9 月，宜休创始人王腾在微博发文，透露公司旗下 ISHO 睡眠记录 App 开启内测，首期内测目前仅支持苹果 iOS，并且需要佩戴 Apple Watch。",
+    "sourceUrl": "https://www.ithome.com/1/011/936.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 185,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "微软 30 年老员工忠告：Win11 不要装两个或以上杀毒软件",
+    "content": "IT之家 10 月 12 日消息，据科技媒体 Windows Latest 今天报道，在微软工作 30 多年的资深员工 Raymond Chen，最近向 Win11 用户提出建议：不要同时使用两个或以上杀毒软件。\n\n据报道，Raymond Chen 帮某位同事调查 Windows 11 企业版系统故障时发现，两款杀毒软件发生了冲突，第一款杀软试图隔离某软件所属进程，而第二款杀软也成功隔离了该软件的进程。\n他对此表示：“在同一台电脑上安装两款反恶意软件，就像同时雇用两家安保公司巡视同一栋大楼。我说这个并不是替 Microsoft Defender 辩护。如果它们彼此不了解对方存在，就会认为对方是入侵者。运气好的话，它们的指令还只是报告可以活动。”\n他指出，杀毒软件并不像保安一样可以互相认识。你不能指望其中一个保安守卫楼层，然后另一家继续做自己的事。这些软件会监控所有进程，因此加入白名单并不能解决问题。\n同时，第三方杀毒软件可能会采用官方不推荐或不支持的技术，包括“拦截并转向系统函数调用”（IT之家注：detouring system functions），可能导致严重的性能问题。\n当软件调用系统函数时，程序不再执行原本操作，而是调用杀毒程序。这导致杀软会执行一些系统函数毫无关系的操作，最终出现程序卡死等问题。",
+    "sourceUrl": "https://www.ithome.com/1/011/937.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 184,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "泰坦军团公布 P279 PLUS 显示器：QHD 230Hz Fast IPS，峰值亮度 400nits",
+    "content": "IT之家 10 月 12 日消息，泰坦军团 (TitanArmy) 今日公布了显示器新品 P279 PLUS。其基于 27\" 平面 Fast IPS 面板，分辨率 QHD (2560×1440)，原生刷新率 200Hz、超频刷新率 230Hz。\n\nP279 PLUS 拥有 350nits 的 SDR 全屏亮度、400nits 的 HDR 峰值亮度，静态对比度 1000:1；响应时间低至 1ms；色深 8bit + FRC，色域 99% sRGB，色偏（平均值）ΔE＜2。\n其支持硬件级低蓝光；提供 2 个 HDMI 2.0、1 个 DisplayPort 1.4、1 个 3.5mm 音频输出插孔；原装配备 -5°~+20° 俯仰调节支架，兼容 100×100 (mm) VESA 壁挂规范。",
+    "sourceUrl": "https://www.ithome.com/1/011/938.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 183,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "2026 华为终端创新技术沟通会首日十大技术品牌亮相，一图读懂",
+    "content": "IT之家 10 月 12 日现场消息，华为终端创新技术沟通会今日在上海练秋湖启幕。根据安排，活动将持续至明日。\n\n今天是活动的第一天，IT之家在现场了解到，首发登场的十大技术是灵珑屏、灵盾防窥屏、昆仑玻璃、华为悦彰、麒麟芯片、XMAGE 华为睿影、玄武架构、天工铰链、星迹定位和静谧通话。\n预计明天将介绍云晰柔光屏、小艺、方舟引擎、星闪、鸿蒙星河互联、鸿蒙星盾安全、鸿蒙空间计算、TruSense 玄玑感知系统和巨鲸电池等技术。\n今天活动的十大技术核心信息目前已公布，IT之家附如下：",
+    "sourceUrl": "https://www.ithome.com/1/011/939.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 182,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "消息称阔屏直板工程机测试天玑旗舰芯，预计为 OPPO 旗下",
+    "content": "IT之家 10 月 12 日消息，据 @数码闲聊站 今日爆料，某厂阔屏直板机现阶段工程机测试天玑旗舰芯，影像最高测试大底双 2 亿，配备 6.35 英寸阔屏，大概率定位是 Pro。结合该博主的爆料习惯，新机预计为 OPPO 旗下。\n\n该博主此前爆料，OPPO 阔直板工程机是标准 16:9，LIPO 极窄四等边设计，目测边框 1mm±，看标准视频会铺满整块屏幕，机身宽度大概是 81mm。\n\nIT之家注意到，除了阔屏直板机，还有爆料显示 OPPO 有望推出搭载 2nm 芯片的阔折叠。该机预计采用 7.6 英寸无痕铰链方案，工程机是三星屏，搭载 200Mp 大底主摄 +50Mp 超广角 +50Mp 潜望长焦 +3Mp 多光谱镜头，哈苏全焦段影像，主打轻薄无痕全能。",
+    "sourceUrl": "https://www.ithome.com/1/011/942.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "产品"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 181,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "IT之家",
+    "authorAvatar": "",
+    "title": "Arena 公布新一轮 AI 大模型周榜：Claude Opus 5.5 Max 首登智能体榜首，国产多模型稳定中上游",
+    "content": "IT之家 10 月 12 日消息，Arena（arena.ai）平台发布 2026 年第 41 周 AI 大模型排行榜，覆盖时间为 2026-10-05 ~ 2026-10-11。本期榜单中，Anthropic 全新 Claude Opus 5.5 Max 首次入榜智能体榜即夺得第一；国产模型 kimi-k3-max 稳居综合榜前 20，qwen3.8-max 等多款国产模型保持稳定排名，整体处于中上游梯队。\nIT之家注：本榜单基于 Arena（arena.ai）平台匿名盲测投票，通过 ELO（智能体榜为百分比信号）计算排名，反映用户主观偏好而非绝对能力测试；不同分榜相互独立，不宜跨榜比较，分差在误差范围内均视为并列，新模型也需积累一定投票量后才会正式入榜。\n综合榜\n本周综合榜头部格局相对稳定，gemini-4-argon-high 继续占据榜首位置，ELO 分数保持 1525 分。Anthropic 多款模型占据前四席位，claude-opus-5.5-high 上升 2 位至第二，ELO 分数 1507 分，与榜首仍有差距，但分差在 30 分范围内，与第三名 claude-opus-4-6-high 视为误差范围内接近。本期新增 gpt-5.5 和 gemini-3.5-flash-medium 两款模型，分别排名第 29 和第 30 位，ELO 分数分别为 1477 和 1476 分。\n国产模型整体处于中上游位置，梯队相对稳定：\n\n月之暗面 kimi-k3-max 排名最高，位列第 16 名，ELO 1488 分，排名持平；\n\n阿里 qwen3.8-max 位列第 22 名，ELO 1483 分，较上周上升 1 位；\n\n小米 mimo-v2.6-pro 位列第 26 名，ELO 1480 分，排名持平；\n\n智谱 glm-5.3-max 位列第 27 名，ELO 1478 分，排名持平。\n\n\n排名较上周模型厂商分数 (±CI)票数价格 ($/M)\n输入 / 输出上下文\n1-gemini-4-argon-highGoogle1525 ±94892$2 / $101M\n2↑ 2claude-opus-5.5-highAnthropic1507 ±86272$4 / $201M\n3↓ 1claude-opus-4-6-highAnthropic1504 ±379415$5 / $251M\n4↓ 1claude-fable-5-highAnthropic1504 ±440026$10 / $501M\n5-claude-opus-4-7-highAnthropic1501 ±465192$5 / $251M\n6-claude-fable-5.1-maxAnthropic1501 ±613063$10 / $501M\n7-claude-opus-4-6Anthropic1498 ±384095$5 / $251M\n8-gemini-3.8-flash-highGoogle1497 ±531437$0.75 / $3.751.05M\n9-muse-spark-1.3-maxMeta1494 ±614694$1.25 / $4.251M\n10-claude-opus-4-7Anthropic1494 ±466315$5 / $251M\n— 以下为 Top 10 外的国产模型 —\n16-kimi-k3-maxMoonshot1488 ±530351N/AN/A\n22↑ 1qwen3.8-maxAlibaba1483 ±525378$2 / $61M\n26-mimo-v2.6-proXiaomi1480 ±94069$0.44 / $0.871.05M\n27-glm-5.3-maxZ.ai1478 ±520049$1.4 / $4.41.05M\n\n代码榜\n本周代码榜 gemini-4-argon-high 继续稳坐榜首，ELO 分数微涨 2 分至 1562 分。Anthropic 模型排名变动显著，claude-opus-5.5-high 大幅上升 7 位，冲进前五，ELO 分数达到 1550 分，与第二名 claude-fable-5-high（ 1551 分）仅 1 分差距，视为统计并列。智谱 glm-5.3-flash 上升 2 位至第 27 名，ELO 1525 分，成为国产模型中排名最高者。本期新增 claude-opus-4-5-20251101 模型，首秀排名第 30 位，ELO 1523 分。\n国产模型在代码榜具体表现如下：\n\n月之暗面 kimi-k3-max 位列第 10 名，ELO 1540 分，较上周下降 1 位；\n\n小米 mimo-v2.6-pro 位列第 11 名，ELO 1539 分，较上周下降 1 位；\n\n深度求",
+    "sourceUrl": "https://www.ithome.com/1/011/948.htm",
+    "sourceName": "IT之家",
+    "tags": [
+      "商业航天",
+      "模型"
+    ],
+    "likes": 65
+  },
+  {
+    "id": 168,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "TedHaley",
+    "authorAvatar": "",
+    "title": "Local Indexing to reduce tool calling and token usage",
+    "content": "Article URL: https://tedhaley.ca/pensieve/\nComments URL: https://news.ycombinator.com/item?id=50049508\nPoints: 69\n# Comments: 16",
+    "sourceUrl": "https://tedhaley.ca/pensieve/",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 167,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "SaarthRanka",
+    "authorAvatar": "",
+    "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+    "content": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus.\nAtticus is an incredibly fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it.\nThe interesting part is that simple tasks, like opening apps, playing a Spotify playlist, or web queries, don't touch AI, and instead are processed locally and typically finish in under a second. For example, prompting Atticus to open apps takes around 0.08 seconds, sometimes even finishing before you finish your sentence, sort of like Jev.\nAny tasks that are more complicated will be sent to Claude via claude -p, meaning you never need an API key and Atticus will run on your existing Claude Pro or Max plan. By using this approach, costs are also cut down immensely, with, on average, tasks costing a fraction of a cent.\nTo achieve Atticus' speed, it remembers shortcuts from each task it completes. When it does a task right for the first time, it saves its steps and replays them the next time without AI. For example, a workflow of creating a new meeting took about 30 seconds the first time around. Atticus then logs the exact steps to memory and takes 5-8 seconds on the next pass. To add to this, Atticus also learns about you as you use it more and from what's on your computer, including your name, your apps, and things you want it to remember, personalizing its answers to you.\nTo combat the safety concerns over giving an AI unrestricted access to your device, Atticus has toggleable restrictions, so before anything is deleted, sent, bought, or written to a file, the user is prompted before that action.\nSome features I'm currently working on include a meeting copilot that capitalizes on Atticus' speed, allowing Atticus to listen in on meetings and answer questions in real time as they come in, personalized to the context of the meeting and what it knows about you.\nTo run Atticus, macOS 26 or higher is requ",
+    "sourceUrl": "https://github.com/SaarthurR/atticus-mac",
+    "sourceName": "Hacker News",
+    "tags": [
+      "商业航天",
+      "模型"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 166,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "acley",
+    "authorAvatar": "",
+    "title": "Doory – Open-Source Canva",
+    "content": "Article URL: https://github.com/shaongitbd/doory\nComments URL: https://news.ycombinator.com/item?id=50049872\nPoints: 94\n# Comments: 25",
+    "sourceUrl": "https://github.com/shaongitbd/doory",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 165,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "cobychapple",
+    "authorAvatar": "",
+    "title": "Crest – an Arc-inspired open-source browser for Mac",
+    "content": "Article URL: https://crestbrowser.com/\nComments URL: https://news.ycombinator.com/item?id=50051097\nPoints: 12\n# Comments: 5",
+    "sourceUrl": "https://crestbrowser.com/",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 164,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "amosbatto",
+    "authorAvatar": "",
+    "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+    "content": "Article URL: https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/\nComments URL: https://news.ycombinator.com/item?id=50051530\nPoints: 117\n# Comments: 113",
+    "sourceUrl": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 163,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "lukaslalinsky",
+    "authorAvatar": "",
+    "title": "Type-safe HTML templating in Zig",
+    "content": "Article URL: https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html\nComments URL: https://news.ycombinator.com/item?id=50051573\nPoints: 86\n# Comments: 38",
+    "sourceUrl": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 162,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "m463",
+    "authorAvatar": "",
+    "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+    "content": "Article URL: https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html\nComments URL: https://news.ycombinator.com/item?id=50051583\nPoints: 21\n# Comments: 0",
+    "sourceUrl": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+    "sourceName": "Hacker News",
+    "tags": [
+      "模型"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 161,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "saisrirampur",
+    "authorAvatar": "",
+    "title": "Postgres isn't slow, your storage is",
+    "content": "Article URL: https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is\nComments URL: https://news.ycombinator.com/item?id=50052163\nPoints: 17\n# Comments: 7",
+    "sourceUrl": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+    "sourceName": "Hacker News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 83,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "\"AI robot\" - Google News",
+    "authorAvatar": "",
+    "title": "Humanoid Robots Could Be a $5 Trillion Market. Here Are 3 Stocks Positioned to Win. - Yahoo Finance",
+    "content": "Humanoid Robots Could Be a $5 Trillion Market. Here Are 3 Stocks Positioned to Win.  Yahoo Finance",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUxnQkVtbDA3VGREalN3UGN6LUhOczgxck1CRk9PeEVzenlKaFU5LXZkYkNuYkxMUk5TRDRYcmtHTmFFUlI0TzBWX29RcGs2S19DbTVrMVFoZi1qR2F6MXJQVDZqTGV0eDZFNmtIVWhtVlNnQmJERE51eEstT1FiVGJkbWtIT29zRkRnLVh0blFXXzk3VEMxLUdNSEQ?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 79,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "\"artificial intelligence\" - Google News",
+    "authorAvatar": "",
+    "title": "Regional policing unit drops controversial Palantir AI technology - BBC",
+    "content": "Regional policing unit drops controversial Palantir AI technology  BBC",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqcnNHMFJEWTBsVWtJX21FckhxTWwtN1YtbGVNZnlaVVhURVlSZlJvak9Zc2xXN2VVMHdVb245QTFidFpZVVhyeHFCa0NULUhLN0JtVWhpNFY1NTA?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 77,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "\"artificial intelligence\" - Google News",
+    "authorAvatar": "",
+    "title": "IMF says AI investment keeps global growth around 3%, with major Asia benefits - Reuters",
+    "content": "IMF says AI investment keeps global growth around 3%, with major Asia benefits  Reuters",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONXItVGZaTjNISE9iMlVzZzhlV2ZmYzFDR29feFhfWFRhRzJFdWlwYXk5QkZpUHQ3WVhLZEZId2xobTNmc1E2Y25FN2c1TTg1eldiR3RLR003ajh2RUpSN1RxYXVzYjJ4TW5ZMW1ZcVljRndfSUpoNVVlLUE3eWc1MkhqUUtGQTdYdC1zVUxIbnNJWVJYb2ZIcVN1S3QzWWhQUmdsQ3VFVG9xSEs4NDVvOTZ5dHJRZUNNaUtsazVSMThYQQ?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "行业"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 76,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "\"artificial intelligence\" - Google News",
+    "authorAvatar": "",
+    "title": "TikTok CEO sees major scientific breakthroughs from AI within three years - CNBC",
+    "content": "TikTok CEO sees major scientific breakthroughs from AI within three years  CNBC",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTW12Y2w2X2Y4TjV2SVZENTdwXzhtVFctYkhvUU1WOWdjMzVnSUNsMnYzMDFQYkZEeG9PVVh6M3BwZjQwTkVLZXdIUDhMNnNhNlJWWG1uSGFvaHc4Nk5pa0RnMDVxMVd3MEtBSHNlNjZFT2lCdXpNMDlRTjJHVHZIVHJJNmlrd085VFZSUlZB0gGTAUFVX3lxTFBzSXAzMTA5TGVZdHNtMWsyZ3FfeE95UmRfaGYzTFFCQ1pRN3pZM1B1MUNDTlV1MXNpampFYUwzbG5KWkFyWk1heFlwU1FiQ3BlXzFobTZXS001ZDJUT05QVTBESWQza0ZlOGt3Ym42WWp4QzhqbVlwVGR6OFBlX1VTM1FpZ2tXMEVBVC1PdVI1N29JYw?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 75,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "\"artificial intelligence\" - Google News",
+    "authorAvatar": "",
+    "title": "Cybersecurity Crisis Communication in the AI Era - WSJ",
+    "content": "Cybersecurity Crisis Communication in the AI Era  WSJ",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNakpfbE5FRTY4aVBuYkppd3MyenBCMjNYa01zRnhaNlRSVDQ2RDNRbEdHekVUal9xRDJiOHdYUnJ2RFFMQktlcmNybFA2dEVfb3RhcWpfazdnX3llRTh4TjhNblplbmNnSzRWWEhDN1ozOEhTTTR3dzI0YmxTVXM2dm0zak9UQWJNUi1fc3Zn?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 74,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "\"artificial intelligence\" - Google News",
+    "authorAvatar": "",
+    "title": "AI less regulated than milk, Microsoft president says in warning over safety - The Guardian",
+    "content": "AI less regulated than milk, Microsoft president says in warning over safety  The Guardian",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNakhDNFlaMk9mSGQwbi0zcWlFSW1hQVRUckFFekhNbWF0MUVHSFVFNUhDYXRicUpQV1dTcEFka2RsNXk2a2tYV21NcUJOWWFJU09NTjNMVlBjOHBHa0tfRW1UTUJpRFl3bE96LUZTZzhFUm8waHR0dTdHZmlmd2E4dTQ4bWRKY3dlWUR2RkpUOW42clIwUUxYa0ZsTHNZT0JyRW9NNWY3c0c0Rk5QSTFJcm9McnFfMThhdnoydEE5WQ?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 73,
+    "timestamp": "08:13",
+    "date": "2026-10-12",
+    "author": "\"artificial intelligence\" - Google News",
+    "authorAvatar": "",
+    "title": "Tencent Tells Investors Its $5 Billion Bond Mainly for AI Capex - Bloomberg.com",
+    "content": "Tencent Tells Investors Its $5 Billion Bond Mainly for AI Capex  Bloomberg.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOb1lRRnYyNFNqZUlobkxMNEF1ZEdWdzNVUkk3ajRObC1EUlNDc2VIaXpsVEU0eDdvc0NsQ09GTDctU0c4cU1oLU1NdUwwU3k1SWtXYUhnVW9RNWZmSzFmSjlPV1FKMFI2TDhOajVKMUU2MXBVNVJGYnp3X01TanJQSm9IUmxLQ25McDl5X2JlbGNvSXdNOTRLTkVycV94dVpMd3ZNeFYzRGxZQ0tkT2VGNzRYQ2JJWmV0aUM1V2c2bjRaTGFITFQ3Wi1rWUVxcTFh?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "产品"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 171,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "Boone Ashworth",
     "authorAvatar": "",
@@ -15,23 +1100,8 @@
     "likes": 70
   },
   {
-    "id": 110,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "Ivan Mehta",
-    "authorAvatar": "",
-    "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-    "content": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
-    "sourceUrl": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-    "sourceName": "TechCrunch",
-    "tags": [
-      "模型"
-    ],
-    "likes": 70
-  },
-  {
-    "id": 109,
-    "timestamp": "23:17",
+    "id": 140,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "Lauren Forristal",
     "authorAvatar": "",
@@ -45,8 +1115,8 @@
     "likes": 70
   },
   {
-    "id": 108,
-    "timestamp": "23:17",
+    "id": 139,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "Marina Temkin",
     "authorAvatar": "",
@@ -60,8 +1130,8 @@
     "likes": 70
   },
   {
-    "id": 107,
-    "timestamp": "23:17",
+    "id": 138,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "Dominic-Madori Davis",
     "authorAvatar": "",
@@ -75,8 +1145,8 @@
     "likes": 70
   },
   {
-    "id": 106,
-    "timestamp": "23:17",
+    "id": 137,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "Kirsten Korosec",
     "authorAvatar": "",
@@ -90,8 +1160,8 @@
     "likes": 70
   },
   {
-    "id": 105,
-    "timestamp": "23:17",
+    "id": 136,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "Anthony Ha",
     "authorAvatar": "",
@@ -105,8 +1175,8 @@
     "likes": 70
   },
   {
-    "id": 104,
-    "timestamp": "23:17",
+    "id": 135,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "TechCrunch Events",
     "authorAvatar": "",
@@ -120,8 +1190,8 @@
     "likes": 70
   },
   {
-    "id": 103,
-    "timestamp": "23:17",
+    "id": 134,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "TechCrunch Events",
     "authorAvatar": "",
@@ -135,8 +1205,8 @@
     "likes": 70
   },
   {
-    "id": 102,
-    "timestamp": "23:17",
+    "id": 133,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "Anthony Ha",
     "authorAvatar": "",
@@ -150,8 +1220,8 @@
     "likes": 70
   },
   {
-    "id": 101,
-    "timestamp": "23:17",
+    "id": 132,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "Anthony Ha",
     "authorAvatar": "",
@@ -165,13 +1235,13 @@
     "likes": 70
   },
   {
-    "id": 171,
-    "timestamp": "23:17",
+    "id": 205,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "36氪",
     "authorAvatar": "",
     "title": "AI运动硬件公司获数亿B轮融资，用体育大模型重构网球自主训练体验｜硬氪首发",
-    "content": "作者｜黄楠\n编辑｜袁斯来\n硬氪获悉，AI体育硬件公司「庞伯特」近日完成数亿元B轮融资，由上海国投先导基金领投，元禾璞华、浦东创投等跟投，老股东蓝驰创投持续加注。高鹄资本担任独家财务顾问。\n此前公司已连续完成三轮A轮系列融资，神骐资本、明势创投、蓝驰创投、锦秋基金、华创资本及成为资本等头部机构集体参与。\n融资资金将重点投向AI体育大模型、运动视觉与训练决策技术研发，拓展全球市场，完善海外渠道与本地化品牌运营；落地更多运动品类新品，扩大技术平台复用边界。公司长期目标是普及专业运动训练服务，让普通用户也能获得专业级训练体验。\n庞伯特最早从乒乓球场景切入，逐步建立起覆盖发球执行、视觉感知、运动分析和训练决策的“手、眼、脑”一体化能力，在行业内率先把自研体育大模型落地至智能发球机硬件产品，并将这套技术能力复用到网球等其他运动品类。\n公司首款智能网球发球机器人PACE系列于2024年10月上线Kickstarter，众筹金额超270万美元；2026年5月，又推出Aura多合一AI教练机器人，发布当天5小时众筹金额即超100万美元，累计金额超400万美元。\n目前，庞伯特全球用户已超30万，设备累计发球总量超20亿次，积累了超100万组球路数据。澳网9月28日正式宣布，庞伯特成为澳大利亚网球公开赛官方合作伙伴、官方发球机器人合作伙伴，并同时担任澳大利亚国家网球学院官方发球机器人供应商。\n随着核心产品和商业化路径逐步跑通，庞伯特由早期的产品与品类拓展、进入到长期平台能力建设阶段。\n\n庞伯特成为澳大利亚网球公开赛官方合作伙伴（图源/企业）\n运动训练领域，长期存在一个被技术忽视的结构性矛盾。\n国际网球联合会2024年数据显示，全球网球参与人数达1.06亿。其中，美国网球活跃用户与教练配比高达800：1，专业教练供给严重不足。在中国，网球运动消费市场持续升温，普及度与大众需求同步上涨，但动辄数百元一小时的私教课，把绝大多数初学者挡在门外。\n与此同时，好教练往往预约困难、时间难以匹配，教学风格也未必契合自身；即便每周安排一节私教课，在自主练习时段，无论是颠球、空挥、发球机训练或对墙练习，用户依然缺少实时的观察与技术指导。大众真正需要的，并不是一个机器陪练对手，而是缺教练、缺陪练、缺高效的自主训练方式。\n然而，市场上大部分发球设备仍停留在机械吐球阶段：无节奏、无旋转、无指导；也有一些产品拥有视觉感知的能力，但只是后置给到用户一些速度、落点等的数据分析报告，几乎谈不上训练价值。\n“训练场景里，练习带来的能力提升才是用户的核心需求。”庞伯特创始人兼CEO张海波告诉硬氪，“大家都希望身边能有一个随叫随到的‘AI教练’。TA可以不用一直喂球，但能持续观察、给出实时指导。”\n这正是庞伯特所锚定的环节，把专业级运动训练能力，从少数人的特权变成大众可及的日常工具。\n理解庞伯特的产品逻辑，要回到运动训练的本质。过去，传统发球机只完成了“发球”动作，却没有实现“教学”闭环。一个好的教练需要同时具备三种能力，用手喂出精准的球路，用眼观察学员的跑位和动作，用脑判断问题并给出实时反馈。\n庞伯特将这套能力拆解为“手-眼-脑”一体化架构。\n“手”对应发球与供球系统，稳定可控的发球能力是实现智能指导的物理基础。依托这套执行单元，庞伯特可以持续沉淀海量球路样本与用户训练行为数据，再逐步加入“眼”和“脑”的能力并持续迭代。\n“眼”是高速视觉感知模块，实时捕捉挥拍姿态、击球回球速度落点等练习场景数据。\n“脑” 则是庞伯特提出的体育大模型，对采集到的多维度信息做解析判断，输出动作纠错、训练方案优化等专业指导。\n\n庞伯特“手-眼-脑”一体化架构（图源/企业）\n“用户不需要感知背后有多大的模型，只需要感到：它看得懂我，也知道下一步怎么帮我练。”张海波对硬氪表示，“我们所说的‘体育大模型’，不是简单把通用模型接到发球机上，而是具备‘感知-决策-执行’一体化能力的模型，而是在通用多模态能力之上，结合机器人将大模型从虚拟世界拉入物理世界，真正参与到物理训练中。”\n这个系统的核心能力，是将用户的自然语言表达转化为可执行的训练方案。当用户提出“我想改善反手稳定性”的诉求时，系统需要结合实际表现给出建议，再逐步转化为具体的训练安排，比如发什么球、什么节奏、关注用户的什么动作问题、什么训练强度。\n技术路线上，庞伯特选择端云协同架构。端侧承担低延迟感知和轻量判断，保证实时反馈的响应速度；云端结合多模态信息、球路数据和教练知识，完成更复杂的分析；经过验证的能力，再通过训练、蒸馏等方式下沉到终端。\n“长期方向是从‘理解运动’走向‘参与训练’。”张海波表示。这意味着模型不仅要能分析动作对错，还要能理解训练逻辑，什么时候该加难度、什么时候该巩固基础、什么样的球路组合能针对性解决某个技术短板。还需要结合连续训练表现，规划",
+    "content": "作者｜黄楠\n编辑｜袁斯来\n硬氪获悉，AI体育硬件公司「庞伯特」近日完成数亿元B轮融资，由上海国投先导基金领投，元禾璞华、浦东创投等跟投，老股东蓝驰创投持续加注。高鹄资本担任独家财务顾问。\n此前公司已连续完成三轮A轮系列融资，神骐资本、明势创投、蓝驰创投、锦秋基金、华创资本及成为资本等头部机构集体参与。\n融资资金将重点投向AI体育大模型、运动视觉与训练决策技术研发，拓展全球市场，完善海外渠道与本地化品牌运营；落地更多运动品类新品，扩大技术平台复用边界。公司长期目标是普及专业运动训练服务，让普通用户也能获得专业级训练体验。\n庞伯特最早从乒乓球场景切入，逐步建立起覆盖发球执行、视觉感知、运动分析和训练决策的“手、眼、脑”一体化能力，在行业内率先把自研体育大模型落地至智能发球机硬件产品，并将这套技术能力复用到网球等其他运动品类。\n公司首款智能网球发球机器人PACE系列于2024年10月上线Kickstarter，众筹金额超270万美元；2026年5月，又推出Aura多合一AI教练机器人，发布当天5小时众筹金额即超100万美元，累计金额超400万美元。\n目前，庞伯特全球用户已超30万，设备累计发球总量超20亿次，积累了超100万组球路数据。澳网9月28日正式宣布，庞伯特成为澳大利亚网球公开赛官方合作伙伴、官方发球机器人合作伙伴，并同时担任澳大利亚国家网球学院官方发球机器人供应商。\n随着核心产品和商业化路径逐步跑通，庞伯特由早期的产品与品类拓展、进入到长期平台能力建设阶段。\n\n庞伯特成为澳大利亚网球公开赛官方合作伙伴（图源/企业）\n运动训练领域，长期存在一个被技术忽视的结构性矛盾。\n国际网球联合会2024年数据显示，全球网球参与人数达1.06亿。其中，美国网球活跃用户与教练配比高达800：1，专业教练供给严重不足。在中国，网球运动消费市场持续升温，普及度��大众需求同步上涨，但动辄数百元一小时的私教课，把绝大多数初学者挡在门外。\n与此同时，好教练往往预约困难、时间难以匹配，教学风格也未必契合自身；即便每周安排一节私教课，在自主练习时段，无论是颠球、空挥、发球机训练或对墙练习，用户依然缺少实时的观察与技术指导。大众真正需要的，并不是一个机器陪练对手，而是缺教练、缺陪练、缺高效的自主训练方式。\n然而，市场上大部分发球设备仍停留在机械吐球阶段：无节奏、无旋转、无指导；也有一些产品拥有视觉感知的能力，但只是后置给到用户一些速度、落点等的数据分析报告，几乎谈不上训练价值。\n“训练场景里，练习带来的能力提升才是用户的核心需求。”庞伯特创始人兼CEO张海波告诉硬氪，“大家都希望身边能有一个随叫随到的‘AI教练’。TA可以不用一直喂球，但能持续观察、给出实时指导。”\n这正是庞伯特所锚定的环节，把专业级运动训练能力，从少数人的特权变成大众可及的日常工具。\n理解庞伯特的产品逻辑，要回到运动训练的本质。过去，传统发球机只完成了“发球”动作，却没有实现“教学”闭环。一个好的教练需要同时具备三种能力，用手喂出精准的球路，用眼观察学员的跑位和动作，用脑判断问题并给出实时反馈。\n庞伯特将这套能力拆解为“手-眼-脑”一体化架构。\n“手”对应发球与供球系统，稳定可控的发球能力是实现智能指导的物理基础。依托这套执行单元，庞伯特可以持续沉淀海量球路样本与用户训练行为数据，再逐步加入“眼”和“脑”的能力并持续迭代。\n“眼”是高速视觉感知模块，实时捕捉挥拍姿态、击球回球速度落点等练习场景数据。\n“脑” 则是庞伯特提出的体育大模型，对采集到的多维度信息做解析判断，输出动作纠错、训练方案优化等专业指导。\n\n庞伯特“手-眼-脑”一体化架构（图源/企业）\n“用户不需要感知背后有多大的模型，只需要感到：它看得懂我，也知道下一步怎么帮我练。”张海波对硬氪表示，“我们所说的‘体育大模型’，不是简单把通用模型接到发球机上，而是具备‘感知-决策-执行’一体化能力的模型，而是在通用多模态能力之上，结合机器人将大模型从虚拟世界拉入物理世界，真正参与到物理训练中。”\n这个系统的核心能力，是将用户的自然语言表达转化为可执行的训练方案。当用户提出“我想改善反手稳定性”的诉求时，系统需要结合实际表现给出建议，再逐步转化为具体的训练安排，比如发什么球、什么节奏、关注用户的什么动作问题、什么训练强度。\n技术路线上，庞伯特选择端云协同架构。端侧承担低延迟感知和轻量判断，保证实时反馈的响应速度；云端结合多模态信息、球路数据和教练知识，完成更复杂的分析；经过验证的能力，再通过训练、蒸馏等方式下沉到终端。\n“长期方向是从‘理解运动’走向‘参与训练’。”张海波表示。这意味着模型不仅要能分析动作对错，还要能理解训练逻辑，什么时候该加难度、什么时候该巩固基础、什么样的球路组合能针对性解决某个技术短板。还需要结合连续训练表现，规",
     "sourceUrl": "https://36kr.com/p/3990015565708035?f=rss",
     "sourceName": "36氪",
     "tags": [
@@ -180,8 +1250,8 @@
     "likes": 65
   },
   {
-    "id": 163,
-    "timestamp": "23:17",
+    "id": 194,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "郑廷旭",
     "authorAvatar": "",
@@ -195,8 +1265,8 @@
     "likes": 65
   },
   {
-    "id": 162,
-    "timestamp": "23:17",
+    "id": 193,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "李华",
     "authorAvatar": "",
@@ -210,8 +1280,8 @@
     "likes": 65
   },
   {
-    "id": 161,
-    "timestamp": "23:17",
+    "id": 192,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "郑廷旭",
     "authorAvatar": "",
@@ -225,164 +1295,14 @@
     "likes": 65
   },
   {
-    "id": 160,
-    "timestamp": "23:17",
+    "id": 170,
+    "timestamp": "08:13",
     "date": "2026-10-11",
-    "author": "IT之家",
+    "author": "smilelamp",
     "authorAvatar": "",
-    "title": "古尔曼：苹果计划在多个直营店举办 iPhone Duo 大型体验活动，最多摆出 150 台以上样机",
-    "content": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今天在新一期《Power On》通讯透露，苹果正在为其首款折叠屏手机 iPhone Duo 谋划声势浩大的展示活动，让每一位潜在顾客都能充分体验这款新品。\n\n古尔曼表示，苹果将在美国各地的 Apple Store 直营店摆出大量样机，供到来的顾客上手体验。预计纽约第五大道的旗舰店将布置超 150 台体验机，分布在上手区和展示设施中。苹果总部 Apple Park 游客中心预计将展出 100 台 iPhone Duo。\n同时，芝加哥密歇根大街、洛杉矶葛洛夫购物中心和曼哈顿上西城的 Apple Store 预计将提供 30-40 台样机，部分规模较小的门店也将配备约 20 台 iPhone Duo。考虑到这台手机仅有两个配色，这种数量显然是不同寻常。\n\n古尔曼还透露，苹果已经设计全新 MagSafe 展示支架，可同时放置一台展开内屏的 iPhone Duo，以及两台直板 iPhone。部分 Apple Store 的两侧区域还将摆放不带防盗装置的 iPhone Duo，让顾客体验这台手机的待机模式。\nIT之家注意到，苹果计划为部分 Apple Store 门店设计全新展示装置，专门展示 iPhone Duo 折叠、展开过程，确保顾客步入门店时，一定会被这台折叠手机吸引目光。",
-    "sourceUrl": "https://www.ithome.com/1/011/712.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 159,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "IT之家",
-    "authorAvatar": "",
-    "title": "消息称 OLED 屏新款 iPad mini 售价将大幅上涨，或接近 799 美元",
-    "content": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今天表示，苹果计划本月晚些时候推出新款 iPad mini。新机的起步存储空间可能会有所提升，但有意换机的用户得提前做好涨价的准备。\n\n古尔曼透露，新款 iPad mini 售价相比现款机型将大幅上涨，预计将接近 799 美元（IT之家注：现汇率约合 5,359 元人民币）。作为对比，现款 iPad mini 7 价格为 599 美元（现汇率约合 4,017 元人民币）/4,799 元人民币。\n\n据悉，新款 iPad mini 将首次采用 OLED 屏幕，配备重新设计的机身。预计将拥有全新扬声器系统，搭载性能更强的芯片。目前我们尚不清楚这款 OLED 面板的规格水平，并且该屏幕是否支持 120Hz 高刷，行业人士也存在相互矛盾的说法。",
-    "sourceUrl": "https://www.ithome.com/1/011/713.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 158,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "IT之家",
-    "authorAvatar": "",
-    "title": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
-    "content": "IT之家 10 月 11 日消息，苹果将在本周二举行“欢迎回家”活动，主角预计是 HomeView 智能家庭中枢，除此之外还有新款 HomePod mini 和 Apple TV 4K。\n\n据彭博社记者马克 · 古尔曼今日透露，新款 Apple TV 4K 将在 10 月 30 日发售，苹果已在这款新品中测试内置麦克风，用户直接说出 Siri 就能进行语音交互。\nIT之家了解到，现款 Apple TV 4K 仅在 Siri Remote 中带有麦克风，用户必须对着遥控器或 HomePod 说话，才能使用 Siri。\n同时，苹果还将重新设计 Siri Remote 遥控器，这款配件将内置扬声器，方便用户找出掉在沙发坐垫的遥控器。\n此外，新款 HomePod mini 预计将配备 S10 芯片，同样也是 10 月 30 日发售。",
-    "sourceUrl": "https://www.ithome.com/1/011/714.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 157,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "IT之家",
-    "authorAvatar": "",
-    "title": "李杰回应一加 16 不支持全局 185Hz：产品追求体验优先，屏幕暂时做不到",
-    "content": "IT之家 10 月 11 日消息，一加中国区总裁李杰今日在微博评论区回应关于一加 16 屏幕刷新率相关问题，\n据其介绍，一加 16 追求体验优先，不是参数优先。要同时兼顾流畅，功耗，发热，屏幕显示效果，现在的屏幕技术暂时做不到全局 185Hz。全局高刷要做到常用常开，目前最佳体验就是全局 165Hz，欢迎大家上手一加 16 去对比其他手机。\n\nIT之家注意到，在 10 月 9 日的第四代东方屏技术沟通会上，一加与京东方联合研发的第四代东方屏正式发布。第四代东方屏采用全新 X4 发光材料，宣称“色彩准、高刷稳、画面亮、功耗低、寿命长”；支持真硬件 1nit，夜间看屏幕，柔和不刺眼。\n\n第四代东方屏宣称做到行业首个全链路硬件全局超高刷，带来全球首个“日常 165Hz”。日常使用支持全局 165Hz 超高刷，百万手机主流应用均可享受 165Hz 体验，游戏场景最高可达到 185Hz。\n一加 16 手机将首发搭载 185Hz 第四代东方屏，采用 1.15mm 极窄四等边屏幕，将于 10 月 12 日 19:00 正式发布。",
-    "sourceUrl": "https://www.ithome.com/1/011/715.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 156,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "IT之家",
-    "authorAvatar": "",
-    "title": "Scale AI 创始人汪滔谈创业管理：从亲自决定细节到学会放手，在 Meta 的任务是招揽人才",
-    "content": "IT之家 10 月 12 日消息，Scale AI 创始人、现任 Meta 首席 AI 官亚汪滔（Alexandr Wang）当地时间 10 月 11 日在做客 David Senra 播客节目时谈到了对首次创业者的建议：创办第一家公司时，创始人应亲自承担各项工作，深入掌握每个细节，之后再逐步学会放权。\n他认为，创始人需要对业务的每个细节形成明确判断，并亲自把控执行过程。Scale AI 的发展便采用了这种方式，创始人对各项工作的直接控制是公司取得成功的重要因素之一。不过，这种管理方式也带来了代价：所有决策都要经过他本人，使他逐渐成为业务推进的瓶颈。\n在加入 Meta 后，他采取了不同的管理方式。据介绍，Meta 超级智能实验室需要在很短的时间内完成大量工作，而他本人既非 AI 研究员，也不是产品设计师，无法亲自承担实验室所需的所有关键工作。\n因此，他将工作重点转向人才招聘，希望在各个专业领域招募顶尖人才，并为他们创造能够发挥专长的工作环境。相比亲自决定每项工作的具体做法，他更注重组建一支优秀的团队，让专业人员参与塑造产品和研究方向。\n汪滔于 2025 年 6 月出任 Meta 首席 AI 官，负责新成立的 Meta 超级智能实验室，Meta 同期向 Scale AI 投资 143 亿美元（IT之家注：现汇率约合 959.08 亿元人民币），获得其 49% 的无投票权股份。",
-    "sourceUrl": "https://www.ithome.com/1/011/717.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 155,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "IT之家",
-    "authorAvatar": "",
-    "title": "奇瑞宣布在马来西亚召回 OMODA 5 车型，启动国内及相关市场同批次车型风险专项排查",
-    "content": "IT之家 10 月 12 日消息，奇瑞汽车昨晚发布说明，近日，马来西亚发生一起 2023 款 OMODA 5 的车辆问题，未涉及人身伤害。\n经调查，该批次车辆可能存在后桥纵臂局部焊接位置焊接强度不足，极端情况下存在焊缝撕裂风险。该结构车型此前已停产。奇瑞马来西亚子公司配合 JPJ（马来西亚陆路交通局）的相关安排，已对受影响的 OMODA 5 车型启动召回。\n奇瑞汽车表示，本着审慎原则，已启动国内及相关市场同批次 OMODA 5 车型的风险专项排查，并与监管机构保持积极沟通。\n据介绍，此次排查为预防性主动安排，奇瑞将依据排查结果，以负责任的态度，及时向社会公布。\nIT之家附说明全文如下：\n\n关于马来西亚 OMODA 5 车辆问题的说明\n近日，马来西亚发生一起 2023 款 OMODA 5 的车辆问题，未涉及人身伤害。奇瑞汽车高度重视，第一时间开展原因调查，积极与马来西亚陆路交通局（JPJ）等当地政府监管机构密切沟通。\n经调查，该批次车辆可能存在后桥纵臂局部焊接位置焊接强度不足，极端情况下存在焊缝撕裂风险。该结构车型此前已停产。奇瑞马来西亚子公司配合 JPJ 的相关安排，已对受影响的 OMODA 5 车型启动召回，对相关零部件进行检查，并视情况免费更换。\n本着审慎原则，公司已启动国内及相关市场同批次 OMODA 5 车型的风险专项排查，并与监管机构保持积极沟通。此次排查为预防性主动安排，奇瑞将依据排查结果，以负责任的态度，及时向社会公布。\n由此给用户带来的不便，我们深表歉意。\n奇瑞汽车股份有限公司\n2026 年 10 月 11 日",
-    "sourceUrl": "https://www.ithome.com/1/011/718.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 154,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "IT之家",
-    "authorAvatar": "",
-    "title": "360 创始人周鸿祎攀岩受伤：左膝粉碎性骨折，未来两三个月取消出差",
-    "content": "IT之家 10 月 12 日消息，昨日晚间，360 公司创始人周鸿祎发布视频，讲述了自己前一天在抱石攀岩中受伤的经过。\n据其在视频中自述，他于 10 月 10 日进行抱石攀岩时，他在约 3 米高处失手坠落，落地瞬间未能做出正确的缓冲动作，左腿单独承受了全部冲击，当场听见膝盖发出异响，左腿随即失去活动能力，事后被诊断为左膝粉碎性骨折。\n\n周鸿祎在视频中表示，自己攀岩已有较长时间，但从未想过会发生这样的事。他还提到，受伤后不到 24 小时仍觉得“跟做梦一样，不敢相信发生在我身上”。\nIT之家提醒：抱石攀岩是一种在低矮岩壁进行的攀岩形式，下方通常铺设缓冲垫，但坠落时若落地姿态不当，下肢关节仍可能承受集中冲击。\n\n关于后续安排，周鸿祎称未来两三个月内所有出差和外出活动都将取消，近期一个月需要在家佩戴固定器静养，相关行程已全部调整。\n周鸿祎提醒，极限攀岩类运动对年长人群存在不小的意外风险。公开资料显示，周鸿祎生于 1970 年，目前 56 岁。",
-    "sourceUrl": "https://www.ithome.com/1/011/719.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 153,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "IT之家",
-    "authorAvatar": "",
-    "title": "Anthropic 放弃后，消息称亚马逊洽谈收购 AI 初创公司 Decart",
-    "content": "IT之家 10 月 12 日消息，据华尔街日报消息，据知情人士透露，亚马逊正就收购人工智能初创公司 Decart 展开谈判，该笔交易的潜在估值约为 70 亿美元（IT之家注：现汇率约合 469.48 亿元人民币）。\n总部位于旧金山的 Decart 专注于研发跨芯片适配软件，能够帮助开发者在不同 AI 芯片之间无缝切换。随着各大科技巨头纷纷竞逐算力资源，这一底层软件能力正变得愈发关键。\n知情人士指出，若谈判进展顺利且未出现新的竞购方，该交易或将很快达成。\n研究机构 PitchBook 的数据显示，Decart 此前已从红杉资本、Benchmark 以及 Radical Ventures 等知名风投机构累计筹集逾 4 亿美元（现汇率约合 26.83 亿元人民币）。在今年 5 月的一轮融资中，其估值已接近 40 亿美元（现汇率约合 268.27 亿元人民币）。\nIT之家注意到，据彭博社 8 月报道，Anthropic 曾洽谈收购 Decart，交易金额约为 60 亿美元（现汇率约合 402.41 亿元人民币）。今年 9 月，报道称 Anthropic 已放弃收购 Decart。",
-    "sourceUrl": "https://www.ithome.com/1/011/720.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "模型"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 152,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "IT之家",
-    "authorAvatar": "",
-    "title": "Steam 同时在线人数超 4350 万，再创历史新高",
-    "content": "IT之家 10 月 12 日消息，SteamDB 数据显示，北京时间 10 月 11 日晚 22:00 左右，Steam 平台同时在线用户峰值达到 43,505,724 人，创下历史新高。同时，Valve 官方 Steam 统计页面同日也显示峰值约为 43,501,449 人。两套数据相差约 4275 人，但均确认平台峰值首次突破 4350 万。\n需要注意的是，“同时在线用户”并不等于所有人都在玩游戏。当这一纪录出现时，实际处于游戏中的用户约为 1446 万，其余用户可能正在浏览商店、聊天或使用平台其他功能。\n从更长的时间维度看，Steam 的在线人数峰值呈现逐年攀升的态势。2026 年 10 月的峰值为 4350 万，2025 年同期为 4160 万，2024 年为 3810 万，2023 年为 3130 万，2022 年为 3020 万。更早的数据显示，2021 年 10 月峰值为 2650 万，2020 年为 2310 万，2019 年和 2018 年分别为 1680 万和 1630 万。作为对比，2010 年 10 月 Steam 的同时在线玩家峰值仅为 290 万。\n今年 10 月，Steam 上线了多款受关注的新内容，包括《龙之信条 2：黑暗觉者》扩展 DLC、《皇牌空战 8 希孚之翼》、《真 · 三国无双 3：完整版复刻版》等。目前尚无法确定某一款游戏是此次纪录的直接推动因素。IT之家注意到，《反恐精英 2》近期同时在线玩家峰值超过 140 万，《Dota 2》超过 100 万，《绝地求生》超过 70 万。\n从历年数据看，Steam 的年度在线峰值通常出现在年初的冬季促销期间，但本次纪录出现在 10 月的常规周末，表明平台用户规模正在突破季节性限制。此外，Valve 正在开发的 Steam Frame VR 头显以及 Steam 客户端的 Linux 兼容性改进，可能为平台在线规模带来进一步增长空间。",
-    "sourceUrl": "https://www.ithome.com/1/011/721.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 151,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "IT之家",
-    "authorAvatar": "",
-    "title": "日本首部 IMAX 拍摄电影：《哥斯拉-0.0》终极预告公布，应战经典宿敌基多拉",
-    "content": "IT之家 10 月 12 日消息，“哥斯拉”新电影、《哥斯拉-1.0》续集《哥斯拉-0.0》今日发布终极预告，这也是日本首部采用 IMAX 拍摄的电影。\n\n电影采用 1.43:1 的 IMAX 全画幅，讲述《哥斯拉-1.0》中哥斯拉袭击两年后世界发生的新灾难。预告中出现了极具辨识度的金色光束，以及一段熟悉的怪兽吼声。这些线索都指向了哥斯拉系列中的经典宿敌 —— 基多拉。\n\n\n《哥斯拉-0.0》由山崎贵回归执导、编剧、把控视觉效果，神木隆之介、滨边美波回归出演，今年 11 月 3 日在日本上映、11 月 6 日北美上映（包括 IMAX）。\n\n1954 年 11 月 3 日，哥斯拉系列第一部作品《哥斯拉》上映，此后每年的 11 月 3 日作为“哥斯拉之日”被粉丝熟知。最新作《哥斯拉-0.0》将于今年的“哥斯拉之日”在日本地区首映，并于 11 月 6 日在北美上映，本片集结了获第 96 届奥斯卡最佳视觉效果奖的制作班底。\n\nIT之家查询获悉，《哥斯拉-1.0》电影于 2023 年 11 月 3 日在日本上映，目前豆瓣评分 6.5。影片为庆祝哥斯拉诞生 70 周年的纪念作品，也是东宝第 30 部哥斯拉大作。故事设定在二战后的日本，哥斯拉的出现仿佛要给已经变得一无所有（归 0）的日本再添一击，将这个国家打到负值（负 1.0）。\n\n\nIT之家小伙伴记得用最会买购买电影票，享受折扣价的同时还可以获得返利，预计每张票可以节省 5~15 元！",
-    "sourceUrl": "https://www.ithome.com/1/011/722.htm",
-    "sourceName": "IT之家",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 140,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "datosh",
-    "authorAvatar": "",
-    "title": "The Unreasonable Effectiveness of Vex in NixOS",
-    "content": "Article URL: https://blog.kammel.dev/post/nixos_vex/\nComments URL: https://news.ycombinator.com/item?id=50046864\nPoints: 41\n# Comments: 0",
-    "sourceUrl": "https://blog.kammel.dev/post/nixos_vex/",
+    "title": "Illustration Beyond Proof",
+    "content": "Article URL: https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/\nComments URL: https://news.ycombinator.com/item?id=50049133\nPoints: 61\n# Comments: 0",
+    "sourceUrl": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
     "sourceName": "Hacker News",
     "tags": [
       "产品"
@@ -390,134 +1310,14 @@
     "likes": 60
   },
   {
-    "id": 139,
-    "timestamp": "23:17",
+    "id": 169,
+    "timestamp": "08:13",
     "date": "2026-10-11",
-    "author": "mooreds",
+    "author": "cainxinth",
     "authorAvatar": "",
-    "title": "So, You’d Like To Sell Your Print Issues Of The Onion?",
-    "content": "Article URL: https://theonion.com/archivehunt/\nComments URL: https://news.ycombinator.com/item?id=50047055\nPoints: 214\n# Comments: 25",
-    "sourceUrl": "https://theonion.com/archivehunt/",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 138,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "edent",
-    "authorAvatar": "",
-    "title": "Cartographers of North Korea",
-    "content": "Article URL: https://cartographers-nk.wonyoung.so/\nComments URL: https://news.ycombinator.com/item?id=50047091\nPoints: 136\n# Comments: 21",
-    "sourceUrl": "https://cartographers-nk.wonyoung.so/",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 137,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "albertzeyer",
-    "authorAvatar": "",
-    "title": "The gap in shared understanding of LLM capability is widening",
-    "content": "Article URL: https://twitter.com/karpathy/status/2109361546505966046\nComments URL: https://news.ycombinator.com/item?id=50047422\nPoints: 141\n# Comments: 184",
-    "sourceUrl": "https://twitter.com/karpathy/status/2109361546505966046",
-    "sourceName": "Hacker News",
-    "tags": [
-      "模型"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 136,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "bhrlady",
-    "authorAvatar": "",
-    "title": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
-    "content": "Article URL: https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963\nComments URL: https://news.ycombinator.com/item?id=50047825\nPoints: 91\n# Comments: 54",
-    "sourceUrl": "https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 135,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "laurex",
-    "authorAvatar": "",
-    "title": "Passkeys are a trap. Do not use them",
-    "content": "Article URL: https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them\nComments URL: https://news.ycombinator.com/item?id=50048312\nPoints: 104\n# Comments: 34",
-    "sourceUrl": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 134,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "hardmaru",
-    "authorAvatar": "",
-    "title": "Recursive self-improvement through collective intelligence",
-    "content": "Article URL: https://pub.sakana.ai/mass/\nComments URL: https://news.ycombinator.com/item?id=50048522\nPoints: 10\n# Comments: 0",
-    "sourceUrl": "https://pub.sakana.ai/mass/",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 133,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "heyimada",
-    "authorAvatar": "",
-    "title": "Google is illegaly cutting forest to build data centers",
-    "content": "Article URL: https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment\nComments URL: https://news.ycombinator.com/item?id=50048638\nPoints: 10\n# Comments: 2",
-    "sourceUrl": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 132,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "royfish",
-    "authorAvatar": "",
-    "title": "Fingerprints Are the New Cookies",
-    "content": "Article URL: https://royfish.dev/fingerprints-are-the-new-cookies\nComments URL: https://news.ycombinator.com/item?id=50048642\nPoints: 4\n# Comments: 0",
-    "sourceUrl": "https://royfish.dev/fingerprints-are-the-new-cookies",
-    "sourceName": "Hacker News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 131,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "andsoitis",
-    "authorAvatar": "",
-    "title": "Google Data Centers around the world",
-    "content": "Article URL: https://datacenters.google/locations/\nComments URL: https://news.ycombinator.com/item?id=50048768\nPoints: 8\n# Comments: 3",
-    "sourceUrl": "https://datacenters.google/locations/",
+    "title": "Whatever became of holography? (2011)",
+    "content": "Article URL: https://www.americanscientist.org/article/whatever-became-of-holography\nComments URL: https://news.ycombinator.com/item?id=50049411\nPoints: 121\n# Comments: 57",
+    "sourceUrl": "https://www.americanscientist.org/article/whatever-became-of-holography",
     "sourceName": "Hacker News",
     "tags": [
       "产品"
@@ -526,37 +1326,7 @@
   },
   {
     "id": 90,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "\"AI robot\" - Google News",
-    "authorAvatar": "",
-    "title": "Amazon draws on fleet of 1 million robots to help machines learn and act in real world - Interesting Engineering",
-    "content": "Amazon draws on fleet of 1 million robots to help machines learn and act in real world  Interesting Engineering",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pUFdmS2htdkNfNnViQS1WbUgyNUNJMklrSTdvNGM3VTFhT1c5RzB1Tjg1SHpTVGxCdjFnRllfa2V2d1Vubkp3MVJUZXgxSlhVQkxSNEdjVGZYS2dLNk9KS2swSlRaTV9NX28tQzA4U3hHNnFYZXFoMFY2ZWk?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "机器人"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 89,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "\"AI robot\" - Google News",
-    "authorAvatar": "",
-    "title": "Robot baristas and K-pop dancers lead South Korea's physical AI boom - Nikkei Asia",
-    "content": "Robot baristas and K-pop dancers lead South Korea's physical AI boom  Nikkei Asia",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcjIzUTNRVklIVGFoVVpEemctZ3pSYWtILU5FS2N1Y2JQb3dBMXFEbGJyUHpHaU12U3owMW1KbEJ5OWczbzlBQU5MSDc4NlhIVjR2NVJzakRJRm5DcHZFc29uRXpaelduSENJaEF1ZGllVEpWMlNadWdwZzc0cGhBdjBlV1hWQmxPSGQzRG8tYWlfaUFGcjZpN2RTakNxVGNvbVlDZWVhTGRSdEhyQ09OYlQ2OTlWTFlKM3JEXzZYeXpWOWtLUWYtdWNaYlJhZDhoamc?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "机器人"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 88,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -570,8 +1340,38 @@
     "likes": 60
   },
   {
-    "id": 83,
-    "timestamp": "23:17",
+    "id": 86,
+    "timestamp": "08:13",
+    "date": "2026-10-11",
+    "author": "\"AI robot\" - Google News",
+    "authorAvatar": "",
+    "title": "BYD’s humanoid robot has 31 degrees of freedom and a dexterous hand - Interesting Engineering",
+    "content": "BYD’s humanoid robot has 31 degrees of freedom and a dexterous hand  Interesting Engineering",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbzY3S2gwTElWV1pTMnM3R282enplM280bXRHUklENWRWcnRlQkpvSEhXeXFVWkNfeHkteVNDdm9RUno4ZVc2VlBmRFBGNlJyTVdpVllQN19BTzBtNUx2d1ZQMFN0T0FYRldGSEN0YXJVeE1xQkoxZW1weXhlRURQamRuRnVueEdBdnNPVDUwWE1sbUEtcTVTLUdYMnN0OGhJSTVpLTJZN3NlZzg0RnJpQTBrYXdHa0pTODhDcFZiZV9peEtTSnZjb2VZMA?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 85,
+    "timestamp": "08:13",
+    "date": "2026-10-11",
+    "author": "\"AI robot\" - Google News",
+    "authorAvatar": "",
+    "title": "Robot baristas and K-pop dancers lead South Korea's physical AI boom - Nikkei Asia",
+    "content": "Robot baristas and K-pop dancers lead South Korea's physical AI boom  Nikkei Asia",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcjIzUTNRVklIVGFoVVpEemctZ3pSYWtILU5FS2N1Y2JQb3dBMXFEbGJyUHpHaU12U3owMW1KbEJ5OWczbzlBQU5MSDc4NlhIVjR2NVJzakRJRm5DcHZFc29uRXpaelduSENJaEF1ZGllVEpWMlNadWdwZzc0cGhBdjBlV1hWQmxPSGQzRG8tYWlfaUFGcjZpN2RTakNxVGNvbVlDZWVhTGRSdEhyQ09OYlQ2OTlWTFlKM3JEXzZYeXpWOWtLUWYtdWNaYlJhZDhoamc?oc=5",
+    "sourceName": "Google News",
+    "tags": [
+      "机器人"
+    ],
+    "likes": 60
+  },
+  {
+    "id": 84,
+    "timestamp": "08:13",
     "date": "2026-10-11",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -585,84 +1385,8 @@
     "likes": 60
   },
   {
-    "id": 78,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "\"artificial intelligence\" - Google News",
-    "authorAvatar": "",
-    "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI - The Verge",
-    "content": "Silicon Valley is falling in line with Trump’s attempt to rename AI  The Verge",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSFI5aTdXbnUyZ19zc2RLZ1ZZZi1pcVhYRlJSR0tXZU9RaUZSYVRxM0JnY0E1YU5hYXFYS1NLRTRpNmRITFE3N1IzZVZSeFRJbHpxWkU5Tng1TDR6ZjVudm5MMGpQa1ZVbzJobUFhUXRwaENJVmpyR21PYjc3Tl9tc2llWlA4OENESTdHOU52c1lQOEJSMG5GLWFnZGc3TFRFR21iWDRqbHV6YjcxcVBFbi1xWEFVRThxRExTSmY1RUdUX1c5?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 77,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "\"artificial intelligence\" - Google News",
-    "authorAvatar": "",
-    "title": "Trump really wants to make ‘super intelligence’ happen. Is it going to happen? - CNN",
-    "content": "Trump really wants to make ‘super intelligence’ happen. Is it going to happen?  CNN",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HOFdTWHoxdldqUHkzUVdGWXdhRXRjU1NZemxqWlU5YkY1bmdmQjExc2hWU2Q4a2RCNkRsMEppT2FPQTNzQmdybUVwWVlDb2NFNW9qcXFIaWdHYzJCNEhFNVFxdThDLUczdUdxeXlSMjhCcTNQbFE?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 76,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "\"artificial intelligence\" - Google News",
-    "authorAvatar": "",
-    "title": "SpaceX vs. Micron: Which Is the Better Artificial Intelligence (AI) Stock to Own for the Next 5 Years? - Yahoo Finance",
-    "content": "SpaceX vs. Micron: Which Is the Better Artificial Intelligence (AI) Stock to Own for the Next 5 Years?  Yahoo Finance",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcjRkNmdXalhQbUJ1eXlmRUJmTjI5VGtLeWZGa2xvdjFhYVBrUldZeHFvdjE5UVRzWE1EY3ZDR29HcEplVjlJVUQwNDUzNzJwT0VPU1BJS1l4VkkwZjNzYzdSR3JPRmxjcXIteGozN2pZRWs2VktDektxMm5uNjVzelZkNDNJWEtCZTZETXY2MDRLOTAyX0FEcVQ3ZUx5dGc2?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "行业",
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 74,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "\"artificial intelligence\" - Google News",
-    "authorAvatar": "",
-    "title": "AI Has a God Problem Stretching From the Vatican to the Baptist Pulpit - WSJ",
-    "content": "AI Has a God Problem Stretching From the Vatican to the Baptist Pulpit  WSJ",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS3RlMXZFZDNGcU1KUzRJeF9fOWVCNzNUUl9vRTYzREtnYTZvR0NCdURTNjNqbk9wNW5tbzdZc3FlRXZGZUFucGNzTGxxcWhSM2g4SGRsNklxdWRhVWdTRm53Z2FMMXVSUWlHbkJBQnVHM3VrWmNabEhwbzlfNGlHZGpzbHJOdFhiVnFSUFFHeTV2X2V6cmc4UE43cFplTkNUV2otSm5zb0xCVUU?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 73,
-    "timestamp": "23:17",
-    "date": "2026-10-11",
-    "author": "\"artificial intelligence\" - Google News",
-    "authorAvatar": "",
-    "title": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts - The Guardian",
-    "content": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts  The Guardian",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMFpoZ1QxOWVmSkdqblhxbndMUjAyZUtFbWpIcHFnU0Q0SHNJMms1UkVLOVhmUHVDUXpIQmhmSVpoRWE5TTNHRFFXNkNSbmVhTXpFaEk3ZkU2TTk3VWt1Wk1xZE9iVkZiT0JzNDlkRXlUZEI0U0I5ZXl3aUpJWDBXN1RmaUcwYTJiZ2hNb3U0bFBoaHhvR2Z4eTI5LWNYYTRTYXJPQU56QQ?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 142,
-    "timestamp": "23:17",
+    "id": 172,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "Lily Hay Newman, Matt Burgess",
     "authorAvatar": "",
@@ -676,13 +1400,13 @@
     "likes": 70
   },
   {
-    "id": 176,
-    "timestamp": "23:17",
+    "id": 210,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "36氪",
     "authorAvatar": "",
     "title": "尊界踏板断裂背后：百万豪车，每一个零件都得较真",
-    "content": "制动踏板断裂，这个看似离谱的故障，出现在了一辆百万级豪车上。\n10月8日，懂车帝发布测试视频显示，在时速100至0的连续刹停试验中，尊界V800连续三辆车制动踏板都被踩断。视频显示，三辆车踏板断裂位置一致，均为包裹踏板转轴的塑料加强件。懂车帝视频显示，断裂当下，驾驶员对踏板施加的力已超1600N。\n视频一经发布，便引发全行业热议，江淮汽车股价连续两日跌停，同时引发监管部门的密切关注。\n36氪独家获悉，今日，中汽中心紧急向各大车企发出关于制动踏板总成材质的调研问卷，着重关注非金属材质在踏板总成的应用。该动作，通常被行业视为法规修订的准备工作。\n针对这一测试，尊界汽车已发布回应，称制动系统按照高于国家标准的要求完成开发与验证，且用户在实际使用场景中，未曾发生踏板支架底座断裂故障。但尊界希望为用户提供更高的安全冗余，将进一步优化该部件的设计。\n目前强制性国标仅要求，车辆最大制动效能时，踏板力需≤500N。而另有一推荐性标准指出，汽车制动踏板在施加1500±20N后，保持5秒，重复5次，踏板永久变形幅度应≤5mm，并且无裂纹。\n也就是说，汽车制动踏板能承受多大踩踏力而不断裂，事实上完全取决于车企的内部自定标准。\n有产业人士告诉36氪，即便是百万元级豪车，国内供应商对制动踏板总成的报价也不超过百元。由于单价低、技术创新少，踏板部分的研发并不受重视，车企几乎没有设置专门的工程师岗位负责。\n而36氪同步了解到，即便已在中国深耕本土化多年，部分传统豪华品牌仍将制动踏板总成的生产牢牢攥在手中，由欧洲自有工厂制造，进口至国内组装，分毫不敢假手于人。\n这则新闻全民热议的背后，实质是万千消费者对百万级豪车安全性的期待。\n自1972年奔驰与博世联合开发ABS防抱死系统，并将其搭载在S级轿车上时，安全便开始成为豪华车的第一属性。时至今日，豪华车依然比普通车拥有更全面、更精细的安全配置。\n在鸿蒙智行的家族中，尊界车型的安全气囊、车身超强钢、激光雷达等传感器数量都较其他车型更多；碰撞前座椅主动防护、追尾预判等安全功能，同样也选择在价位最高的尊界品牌首发搭载。\n百万级豪华车，应该拥有行业最高的安全标准，已经成为行业共识。\n百万级豪车应有的安全：标准高、研发强、投入足\n一辆百万级的汽车，制动踏板的成本往往只有100元。当智驾、悬架、芯片、电池等成为车企比拼的重点时，制动踏板的重要性自然容易被忽略。\n实际上，百年传统豪华品牌在此已经有成熟经验，而且往往都已建立一套比中标、欧标、美标等国家标准更严苛的企业内部安全标准，可供行业参考或者借鉴。\n36氪从行业中梳理获悉，他们对踏板最大承载力的要求普遍接近4000N，相当于5-6个成年人站在踏板上，仍不能断裂；\n并且需要做-35℃至80℃的环境温度测试，无论极热还是极寒，踏板在2000N踩踏下，都仅能有不影响性能的轻微变形；而目前，中国汽车法规体系中，仅有一项推荐性标准中包含8℃至38℃环境温度测试。\n同时，这些豪华品牌的测试工况也不局限于法规要求的正面踩踏，还包括了用户使用场景中常见的左右侧面踩踏，尽可能模拟用户在紧急状况下可能的踩踏角度。\n当然，标准只是门槛，传统豪华品牌真正的护城河，是它们有能力让这些高标准从纸面落到车辆上。\n有知情人士告诉36氪，目前，这些豪华品牌在制动踏板上，依然采用全进口零件，“40万以上的高端车，用的制动踏板几乎都是车企自己设计、自己建厂制造的。欧洲工厂生产好了，海运发到国内来组装的”。\n这些传统豪华品牌如今逐渐把新车开发权交给中国研发团队，甚至也在推动百万元级豪车的国产化，“但制动踏板的设计，依然���要总部拍板”，该人士表示，这些品牌并不信任中国供应商的开发能力。\n36氪了解到，出于轻量化需求，制动踏板总成中大部分材料都已更换为工业塑料，踏板和踏板臂还保留金属材质设计。保时捷等跑车品牌，甚至已将部分车型的踏板臂更换为工业塑料类材质。\n“工业塑料便宜又轻巧，但压力就给到研发团队了”，一位负责踏板总成设计的工程师人士告诉36氪，踏板总成设计的难点在于，不同车型踏板和踏板臂的形状角度各不同，研发需要精准分析受力结构，在受力板块合理布置加强筋，以满足车企提出的各项要求。\n他向36氪指出，目前国内制动踏板供应商的仿真能力还有待进步，研发团队更像是在试探性答题，“仿真系统和台架测试的结果差异比较大。研发团队只能去试，这里加一根加强筋能不能过，但实际上，就算过了，也只是在你测试的工况下通过了，用户不会完全按照你测试的工况去踩刹车。不搞懂底层原理，你很难保证自己的踏板有足够高的安全性”。\n上述知情人士告诉36氪，传统豪华品牌在供应商选型时，非常看重供应商对技术Know-How的理解，“他们不允许自己品牌百万元级车上，出现一个不知道为什么要这么设计的零件，所以最后这些车企还是选择自己来做”。\n在制动系统中，",
+    "content": "制动踏板断裂，这个看似离谱的故障，出现在了一辆百万级豪车上。\n10月8日，懂车帝发布测试视频显示，在时速100至0的连续刹停试验中，尊界V800连续三辆车制动踏板都被踩断。视频显示，三辆车踏板断裂位置一致，均为包裹踏板转轴的塑料加强件。懂车帝视频显示，断裂当下，驾驶员对踏板施加的力已超1600N。\n视频一经发布，便引发全行业热议，江淮汽车股价连续两日跌停，同时引发监管部门的密切关注。\n36氪独家获悉，今日，中汽中心紧急向各大车企发出关于制动踏板总成材质的调研问卷，着重关注非金属材质在踏板总成的应用。该动作，通常被行业视为法规修订的准备工作。\n针对这一测试，尊界汽车已发布回应，称制动系统按照高于国家标准的要求完成开发与验证，且用户在实际使用场景中，未曾发生踏板支架底座断裂故障。但尊界希望为用户提供更高的安全冗余，将进一步优化该部件的设计。\n目前强制性国标仅要求，车辆最大制动效能时，踏板力需≤500N。而另有一推荐性标准指出，汽车制动踏板在施加1500±20N后，保持5秒，重复5次，踏板永久变形幅度应≤5mm，并且无裂纹。\n也就是说，汽车制动踏板能承受多大踩踏力而不断裂，事实上完全取决于车企的内部自定标准。\n有产业人士告诉36氪，即便是百万元级豪车，国内供应商对制动踏板总成的报价也不超过百元。由于单价低、技术创新少，踏板部分的研发并不受重视，车企几乎没有设置专门的工程师岗位负责。\n而36氪同步了解到，即便已在中国深耕本土化多年，部分传统豪华品牌仍将制动踏板总成的生产牢牢攥在手中，由欧洲自有工厂制造，进口至国内组装，分毫不敢假手于人。\n这则新闻全民热议的背后，实质是万千消费者对百万级豪车安全性的期待。\n自1972年奔驰与博世联合开发ABS防抱死系统，并将其搭载在S级轿车上时，安全便开始成为豪华车的第一属性。时至今日，豪华车依然比普通车拥有更全面、更精细的安全配置。\n在鸿蒙智行的家族中，尊界车型的安全气囊、车身超强钢、激光雷达等传感器数量都较其他车型更多；碰撞前座椅主动防护、追尾预判等安全功能，同样也选择在价位最高的尊界品牌首发搭载。\n百万级豪华车，应该拥有行业最高的安全标准，已经成为行业共识。\n百万级豪车应有的安全：标准高、研发强、投入足\n一辆百万级的汽车，制动踏板的成本往往只有100元。当智驾、悬架、芯片、电池等成为车企比拼的重点时，制动踏板的重要性自然容易被忽略。\n实际上，百年传统豪华品牌在此已经有成熟经验，而且往往都已建立一套比中标、欧标、美标等国家标准更严苛的企业内部安全标准，可供行业参考或者借鉴。\n36氪从行业中梳理获悉，他们对踏板最大承载力的要求普遍接近4000N，相当于5-6个成年人站在踏板上，仍不能断裂；\n并且需要做-35℃至80℃的环境温度测试，无论极热还是极寒，踏板在2000N踩踏下，都仅能有不影响性能的轻微变形；而目前，中国汽车法规体系中，仅有一项推荐性标准中包含8℃至38℃环境温度测试。\n同时，这些豪华品牌的测试工况也不局限于法规要求的正面踩踏，还包括了用户使用场景中常见的左右侧面踩踏，尽可能模拟用户在紧急状况下可能的踩踏角度。\n当然，标准只是门槛，传统豪华品牌真正的护城河，是它们有能力让这些高标准从纸面落到车辆上。\n有知情人士告诉36氪，目前，这些豪华品牌在制动踏板上，依然采用全进口零件，“40万以上的高端车，用的制动踏板几乎都是车企自己设计、自己建厂制造的。欧洲工厂生产好了，海运发到国内来组装的”。\n这些传统豪华品牌如今逐渐把新车开发权交给中国研发团队，甚至也在推动百万元级豪车的国产化，“但制动踏板的设计，依然需要总部拍板”，该人士表示，这些品牌并不信任中国供应商的开发能力。\n36氪了解到，出于轻量化需求，制动踏板总成中大部分材料都已更换为工业塑料，踏板和踏板臂还保留金属材质设计。保时捷等跑车品牌，甚至已将部分车型的踏板臂更换为工业塑料类材质。\n“工业塑料便宜又轻巧，但压力就给到研发团队了”，一位负责踏板总成设计的工程师人士告诉36氪，踏板总成设计的难点在于，不同车型踏板和踏板臂的形状角度各不同，研发需要精准分析受力结构，在受力板块合理布置加强筋，以满足车企提出的各项要求。\n他向36氪指出，目前国内制动踏板供应商的仿真能力还有待进步，研发团队更像是在试探性答题，“仿真系统和台架测试的结果差异比较大。研发团队只能去试，这里加一根加强筋能不能过，但实际上，就算过了，也只是在你测试的工况下通过了，用户不会完全按照你测试的工况去踩刹车。不搞懂底层原理，你很难保证自己的踏板有足够高的安全性”。\n上述知情人士告诉36氪，传统豪华品牌在供应商选型时，非常看重供应商对技术Know-How的理解，“他们不允许自己品牌百万元级车上，出现一个不知道为什么要这么设计的零件，所以最后这些车企还是选择自己来做”。\n在制动系统中，踏板",
     "sourceUrl": "https://36kr.com/p/4018053011951493?f=rss",
     "sourceName": "36氪",
     "tags": [
@@ -691,8 +1415,8 @@
     "likes": 65
   },
   {
-    "id": 175,
-    "timestamp": "23:17",
+    "id": 209,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "36氪",
     "authorAvatar": "",
@@ -707,8 +1431,8 @@
     "likes": 65
   },
   {
-    "id": 174,
-    "timestamp": "23:17",
+    "id": 208,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "36氪",
     "authorAvatar": "",
@@ -722,8 +1446,8 @@
     "likes": 65
   },
   {
-    "id": 173,
-    "timestamp": "23:17",
+    "id": 207,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "36氪",
     "authorAvatar": "",
@@ -737,8 +1461,8 @@
     "likes": 65
   },
   {
-    "id": 172,
-    "timestamp": "23:17",
+    "id": 206,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "36氪",
     "authorAvatar": "",
@@ -752,23 +1476,8 @@
     "likes": 65
   },
   {
-    "id": 170,
-    "timestamp": "23:17",
-    "date": "2026-10-10",
-    "author": "彭海星",
-    "authorAvatar": "",
-    "title": "为什么 ChatGPT 总爱在标题里塞色情赌博小广告？",
-    "content": "训练团队太单纯，中文互联网水太深\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-    "sourceUrl": "https://www.ifanr.com/1683545?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "sourceName": "爱范儿",
-    "tags": [
-      "模型"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 169,
-    "timestamp": "23:17",
+    "id": 200,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "张展毓",
     "authorAvatar": "",
@@ -782,8 +1491,8 @@
     "likes": 65
   },
   {
-    "id": 168,
-    "timestamp": "23:17",
+    "id": 199,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "梁梦麟",
     "authorAvatar": "",
@@ -797,8 +1506,8 @@
     "likes": 65
   },
   {
-    "id": 167,
-    "timestamp": "23:17",
+    "id": 198,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "莫崇宇",
     "authorAvatar": "",
@@ -812,8 +1521,8 @@
     "likes": 65
   },
   {
-    "id": 166,
-    "timestamp": "23:17",
+    "id": 197,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "张子豪",
     "authorAvatar": "",
@@ -827,8 +1536,8 @@
     "likes": 65
   },
   {
-    "id": 165,
-    "timestamp": "23:17",
+    "id": 196,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "肖钦鹏",
     "authorAvatar": "",
@@ -842,8 +1551,8 @@
     "likes": 65
   },
   {
-    "id": 164,
-    "timestamp": "23:17",
+    "id": 195,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "陈世琛",
     "authorAvatar": "",
@@ -857,23 +1566,8 @@
     "likes": 65
   },
   {
-    "id": 91,
-    "timestamp": "23:17",
-    "date": "2026-10-10",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "SpaceX launches 21 satellites to orbit for the US military after 5-day delay (video) - Space",
-    "content": "SpaceX launches 21 satellites to orbit for the US military after 5-day delay (video)  Space",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPclk4V3VJTVhwVlNuQndmejRuOVNVZnhpRjNnVXdHVkZBSE9JYVhoVE9VU1ZsdWItR2FKZGMtM2FKanNZZmQ1WUdBV0w4NGlOSFVoQXYyek5KQTdkVlpsMV9ELS1OWWdUZC1XT0dUUnlaQUs5UWJWdVhNTGpIMXlDeVlLUGEtTWRMVVpYT19SajMwOWVsX05aWlJWdklrLWZvUjJJcmNTLWJlZzZCeERXczFfSFRfUDdzTEU2ajZjWm1Ud0MxUjNITHc2c000V2ZmT0l6ZE9NVkxONnlDNXJZT1d2cEI?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 87,
-    "timestamp": "23:17",
+    "id": 89,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -887,8 +1581,8 @@
     "likes": 60
   },
   {
-    "id": 86,
-    "timestamp": "23:17",
+    "id": 87,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -902,8 +1596,8 @@
     "likes": 60
   },
   {
-    "id": 84,
-    "timestamp": "23:17",
+    "id": 81,
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -918,7 +1612,7 @@
   },
   {
     "id": 80,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-10-10",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
@@ -932,8 +1626,8 @@
     "likes": 60
   },
   {
-    "id": 122,
-    "timestamp": "23:17",
+    "id": 152,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "Cynthia J. Finelli",
     "authorAvatar": "",
@@ -948,8 +1642,8 @@
     "likes": 80
   },
   {
-    "id": 121,
-    "timestamp": "23:17",
+    "id": 151,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "Angelo Athens",
     "authorAvatar": "",
@@ -964,8 +1658,8 @@
     "likes": 80
   },
   {
-    "id": 115,
-    "timestamp": "23:17",
+    "id": 145,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "MIT Technology Review",
     "authorAvatar": "",
@@ -979,8 +1673,8 @@
     "likes": 80
   },
   {
-    "id": 114,
-    "timestamp": "23:17",
+    "id": 144,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "Jessica Hamzelou",
     "authorAvatar": "",
@@ -994,8 +1688,8 @@
     "likes": 80
   },
   {
-    "id": 113,
-    "timestamp": "23:17",
+    "id": 143,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "Eamon Whalen",
     "authorAvatar": "",
@@ -1009,8 +1703,8 @@
     "likes": 80
   },
   {
-    "id": 112,
-    "timestamp": "23:17",
+    "id": 142,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "Arthur Holland Michel",
     "authorAvatar": "",
@@ -1025,8 +1719,8 @@
     "likes": 80
   },
   {
-    "id": 111,
-    "timestamp": "23:17",
+    "id": 141,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "Thomas Macaulay",
     "authorAvatar": "",
@@ -1040,8 +1734,8 @@
     "likes": 80
   },
   {
-    "id": 144,
-    "timestamp": "23:17",
+    "id": 174,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "Ej Dickson ",
     "authorAvatar": "",
@@ -1055,8 +1749,8 @@
     "likes": 70
   },
   {
-    "id": 143,
-    "timestamp": "23:17",
+    "id": 173,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "Adam Morgan",
     "authorAvatar": "",
@@ -1070,128 +1764,8 @@
     "likes": 70
   },
   {
-    "id": 180,
-    "timestamp": "23:17",
-    "date": "2026-10-09",
-    "author": "36氪",
-    "authorAvatar": "",
-    "title": "美央构建物理AI路径闭环：把人体变成可计算的真实世界",
-    "content": "万美京AIMIRA构建\"感知—理解—决策—执行—反馈\"产品闭环，回答物理AI核心命题\n当AI走出屏幕，游戏规则彻底改变：真实的人体有空间结构、组织状态与一刻不停的时间变化；软件说错一句话可以重新生成，机器做错一个动作，结果可能无法撤回。物理AI难的从来不是更大的模型，而是\"感知—建模—决策—执行—验证—再学习\"这条长链路。广州美央创新科技（Calilia国际集团/万美京AIMIRA）已把这条链路落成产品体系：FAITH是感知入口，\"女娲\"人体真实世界模型负责建模与理解，医疗级智能硬件与具身设备执行，效果与长期变化再回流系统。\n美央创始人蒋宇振博士表示：\"女娲不是一个什么都能答的'人体大模型'，而是一套围绕真实人体、兼具空间结构和时间维度的多模态真实世界模型。数字人解决'如何呈现一个人'，我们解决'如何让机器持续理解这个真实的人正在发生什么变化'。\"\n\n图1\n \n从3DGS出发：既要画得像，更要量得准\n女娲不是数字人：从三维高斯泼溅出发，构建”量得准”的人体世界模型。三维高斯泼溅（3DGS）兼顾外观与渲染效率，但\"画得像\"不代表\"量得准\"。美央采用高斯表达与点云、三维网格协同的混合路线：高斯层保留逼真外观，标定几何提供测量接口，时间序列追踪同一个人的变化。团队三维数据底座累计储备约2659万张多视角高清人体图像，部分建模流程仅需5至20秒，指向的是可持续交付的三维资产生产能力。\n只有一个精细的三维表面仍不等于理解人体：一处凹陷可能对应软组织容量，一条注射路径的风险取决于皮下血管。美央在二维三维视觉、多光谱皮肤信息之外，进一步指向超声软组织与血管、光热与扩散波等无创感知，建立\"个人长期动态数字档案\"——不同时间点的影像、状态与治疗信息联合对齐、随时间复利。医疗场景边界明确：新模态必须经过验证，临床能力按注册范围表达，不替代现有标准诊断手段。\n感知—决策—执行：FAITH与医疗级硬件：把女娲接进真实服务\n物理AI的商业题是：模型需要真实数据，数据来自部署，部署需要有人买单。美央的解法是让交付与模型建设同场景推进：围绕头、脸、身年轻化服务，\"评估—方案—执行—结果—再次评估\"闭环同时支撑商业交付与技术积累。执行端，ASP-1M硬件本体于2026年7月取得国家药监局三类医疗器械注册证，为后续AI辅助与自动化执行提供硬件基础。\n\n图2\n \n收入路径从硬件、耗材与服务起步，向模型和智能体订阅延伸，并通过第三方设备接入与技术授权扩大复用。FAITH已完成产品化，存量设备智能化取得部分付费验证，下一阶段重点是形成经常性收入。\n \n从理解人体，到理解设备与世界\n广州美央创新科技有限公司正推进以人体为入口的物理AI基础设施建设。公司与华南理工大学成立物理AI联合实验室，围绕机器遗忘、边缘智能与隐私保护开展研究，汇聚陈俊龙、王迎军、Andreas Mandelis等院士的跨学科科研力量。美央以FAITH多模态感知和“女娲”人体真实世界模型，衔接智能决策、具身执行与结果反馈。\n\n图3\n \n这也指向美央的长期志向：建立国之重器真实世界模型基础底座。从理解一个真实的人，到理解一台持续运行的设备，美央积累的始终是同一种能力：让机器的判断有现实依据，让物理行动有结果可验。",
-    "sourceUrl": "https://36kr.com/p/4018021038657411?f=rss",
-    "sourceName": "36氪",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 179,
-    "timestamp": "23:17",
-    "date": "2026-10-09",
-    "author": "36氪",
-    "authorAvatar": "",
-    "title": "36氪首发丨航天老兵创业做高分辨率遥感相机，连续完成多轮次近亿元融资",
-    "content": "作者 | 乔钰杰\n编辑 | 袁斯来\n本文约2300字，建议阅读5分钟\n硬氪获悉，北京重眸科技有限公司（以下简称“重眸科技”）近日宣布完成多轮次近亿元融资，由民银国际、亦庄种子基金、远翼投资联合投资，资金将用于0.5米分辨率遥感相机批量投产、标准化产能建设以及更高分辨率遥感相机产品研发。\n重眸科技成立于2024年，是国内商业航天领域首家专注0.5米及优于0.5米分辨率光学遥感相机的高新技术企业。公司能够提供星载一体化设计、高品质遥感相机研发和制造等一揽子解决方案。\n\n（图源/企业）\n公司创始人马波曾任职于航天东方红、中国卫星，参与主持了多个国家级重点航天项目。团队核心成员均来自航天“国家队”及头部商业航天企业，平均从业年限超过15年，具备0.5米及优于0.5米分辨率相机从设计、装调、测试到规模化交付的全流程工程化经验。\n目前，卫星遥感正从传统的专业领域应用逐步走向更广泛的商业与大众市场，全球遥感产业进入加速发展阶段。根据公开行业统计数据，截至2025年4月，国内已公开规划建设的遥感星座中有75个光学遥感星座，涉及光学卫星数量超万颗。大规模星座组网浪潮之下，市场对0.5米高品质光学遥感载荷需求快速释放，但能够兼顾高性能、可工程落地、且具备批量交付能力的商业相机供给还存在显著缺口。\n面向遥感定量化应用的长远发展需求，重眸科技致力于提供更具“质价比”的高分相机产品及系统化解决方案，解决光学遥感相机产能不足、成本居高不下的难题。\n0.5米及优于0.5米分辨率的遥感相机研制技术门槛高，高度依赖工程化研制经验。重眸科技技术团队覆盖高分相机研制全链条，且此前已累计近30台0.5米及优于0.5米分辨率相机的研制经验。\n\n（图源/企业）\n0.5米分辨率相机对应的光学系统尺寸通常已进入“大口径”范畴，对结构件的加工精度与结构稳定性提出了极高要求。重眸科技目前已突破1000mm口径主反射镜的研制技术，可实现优于0.015个波长的面型精度，从而保障稳定的在轨成像质量。同时，公司在光学系统的轻量化和热控设计及刚度耦合设计方面建立了精细化能力，使相机在轨运行过程中，即便处于复杂的力学与温度变化环境中，仍能保持光轴稳定。\n围绕上述核心技术，重眸科技目前已在多个关键工程环节打通从设计、器件加工到整机装调、测试的完整能力链条，掌握关键技术Know-how。\n产品策略上，重眸科技采取“1+X”模式，即标准化型谱产品与定制化产品协同发展。当前，公司已规划多款标准化产品，包括500公里轨道0.5米分辨率、12公里幅宽的五谱段与九谱段型号，以及150公里幅宽九谱段产品，同时布局面向未来的优于0.5米分辨率产品。这些标准化型号可实现快速交付，并在此基础上根据不同应用场景进行模块化定制。产品面向商业卫星总体、行业星座运营商、垂直终端应用领域等，覆盖生态监测、农业估产、防灾减灾等定量遥感应用场景，适配商业星座规模化组网需求。\n交付进展方面，公司今年将完成3米分辨率、0.5米分辨率、态势感知相机等多台相机的研制，计划四季度陆续交付客户。\n\n（图源/企业）\n今年年初，重眸科技在亦庄完成产线建设，目前已正式投入运营并具备批量生产能力。首批产品正在产线进行装调。据了解，该产线年产能可达10至15台0.5米级高分辨率相机，并有望于明年实现规模化交付。\n以下为创始人交流节选（略经编辑）：\n硬氪：怎么理解高分辨率光学载荷研制领域中系统化工程经验的壁垒或者稀缺性？\n马波：光学载荷不是简单的器件拼接，而是一套复杂的系统工程。纸面设计方案好看只是第一步，从图纸落地为上天可用的产品，要串联起设计、加工、装调、测试，还要考虑发射冲击、太空温变、震颤等各类在轨工况。单一环节能力强远远不够，需要整套链路的经验沉淀。\n这类经验要靠大量项目的实践积累，很难单纯依靠理论和仿真完全覆盖。尤其是装调环节，镜头设计的再好，装不出来等于零。如果说装配是体力活的上限，那么装调是手艺活的天花板。零部件即便单项全部合格，公差会不断累积，最终影响整机成像质量。装配是把零件组装到位，装调则要边装配、边检测、边校正，通过定心、修圈等手段，抵消各类误差，把纸面设计真正变为性能达标的实物产品。\n从样机生产到可批量交付的产品能力，这中间需要全链条工程经验的沉淀。重眸科技积累了从图纸设计、精密装调、整机测试到规模化交付的工程经验。团队里设计师懂装调、装调师懂设计，能够把用户实际应用需求翻译成清晰的设计指标，最终落地制造出高分辨率智能相机。这种跨环节打通的系统化工程能力，恰恰是当前商业航天光学载荷领域比较稀缺的。\n硬氪：“定量遥感”和“定性遥感”的区别是什么，为什么“定量遥感”的需求会成为高分商业遥感载荷的发展机遇？\n马波：简单来讲，传统定性遥感更多是“看清是什么”，比如识别地物轮廓、辨别目标类型；而定量遥感是要“算出是多少”，可以从影像",
-    "sourceUrl": "https://36kr.com/p/4018036253626502?f=rss",
-    "sourceName": "36氪",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 178,
-    "timestamp": "23:17",
-    "date": "2026-10-09",
-    "author": "36氪",
-    "authorAvatar": "",
-    "title": "载人eVTOL获TC受理，「齐飞航空」完成近亿元战略轮融资｜36氪首发",
-    "content": "文 | 阿至\n封面来源 | 企业供图\n低空经济的资本叙事正在走向分化。\n2026上半年，领域内大额融资频发，资金高度向少数头部公司集中，eVTOL整机研发制造占据绝对主导地位。进入三季度，行业负面舆情伴随市场收紧，机构对低空赛道的态度普遍转向谨慎。\n多位从业者表达过类似感受，市场并非变冷，但投向有所收窄，除了冲刺取证的第一梯队，钱只愿意流向“看得见的进展”。对于后进场的玩家来说，速度和效率是更关键的命题。\n我们了解到，eVTOL主机厂齐飞航空科技（苏州）有限责任公司（以下简称“齐飞航空”）已完成近亿元人民币战略轮融资，由苏州创新投资集团领投，江苏省战新未来天使基金、相城投控集团联合注资，老股东渶策资本、线性资本持续加码。资金将主要投向产品研发、试飞和适航取证。\n本轮融资完成后，齐飞航空形成省、市、区三级国资联合加持的股东结构，能够在产业资源、政策协同和区域生态整合上获得更多支撑。\n2022年5月成立至今，齐飞航空以“三年三架机”的速度，从缩比验证走向全尺寸真机的常态化试飞。创始人提到，齐飞航空载人机型W280已于9月1日获得中国民航局华东管理局型号合格证（TC）受理，该型号从总装下线、首飞、转换飞行，再到获得适航受理，只用了一年时间。\n一支“造过飞机”的团队，和他们相信的路\n齐飞航空创始人深耕航空领域近20年，经历横跨飞行器设计、工程、测试、取证、制造和运营，核心团队成员曾参与湾流（Gulfstream）G500、G650、G600、G700、G800大型公务机，庞巴迪（Bombardier）C系列、Global系列，空客（Airbus）A350、A400，波音（Boeing）787、777X，以及中国商飞C919/ARJ21项目。这是一个从设计、制造、试飞、适航认证到运营，每一环都有人做过的团队。\n与当年更受追捧的倾转旋翼路线不同，齐飞航空选择从复合翼机型切入，主攻大载重纯电eVTOL。\n技术路线的取舍来自对实际应用需求的判断。在创始团队看来，eVTOL作为新能源动力革命在空中的延伸，其最大的应用场景是30–150公里的城市内及城市群点对点出行。这个区间段基本覆盖了CBD到交通枢纽，以及珠三角、长三角城市间的出行距离。\n在这个距离区间，多旋翼飞机的续航难以支撑。选择倾转旋翼路线虽然巡航速度更快（主流机型通常为250–300km/h），但和复合翼相比（约为160–200km/h），分钟级的时间差别对乘客体感影响并不大，却要面对技术成熟度低、适航难度大和供应链约束等多重挑战。\n“举个例子，从陆家嘴到浦东机场，倾转大概9分钟，复合翼12分钟。用户在乎的是从一小时变成十分钟，而不是三分钟的差别。”齐飞创始人提到，这是一条从应用需求出发，反推技术迭代的路线，创业公司没有多少试错的机会，比的就是谁能把技术快速推向市场。\n应用场景决定构型路线，产品策略则要遵循复杂系统工程先高容错、后低容错的客观演进规律。\n齐飞航空的主张是平台化：载人载物一体化，一个平台两架飞机。\n具体来说，就是基于W280这一底层飞行平台，同时定义W280（载人）和W280F（载物）两款机型。二者共用气动外形、总体布局、三电系统、飞控和供应商，采用模块化设计，差别主要集中在系统冗余等级。\n其拳头产品W280是一架复合翼构型、纯电驱动的全尺寸eVTOL，严格按照客运载人级标准设计，最大起飞重量3.18吨、5-6座布局，最大速度280km/h，最大航程为300公里。载货版机型的最大商载则为1吨。\n\n齐飞航空W280全尺寸工程验证机\n“这并非走弯路，而是把研发的中间产物先一步商业化。”在创始人看来，这套解决方案的核心价值，是要把eVTOL研发过程中那部分必须付出的重量和时间代价，从沉没成本转化为可复用的经验、可变现的资产：先让货运构型跑通适航与真实运营，产生收入的同时，为载人构型持续沉淀飞行小时、维护记录和供应链稳定性等数据，加速载人机型的取证。\n由货及客、由专到全，这一路径已被历史验证有效。\n作为参照，塞斯纳208“大篷车”以多用途设计起步，从1985年就开始为联邦快递交付货运基本型产品，1990年敏锐嗅到通勤市场的空白，恢复舷窗设计，优化内饰，推出加长机身的208B“华丽大篷车”，最终全球交付超3000架，成为全球通航领域最成功和畅销的飞机之一。\n当然，对于一个后入场的团队来说，更现实的发展依据也来自对时机和竞争的判断。乐观估计，载人版eVTOL真正的商业化至少还需要3–5年，但海上油气平台、海岛运输等刚性场景的货运需求已经存在，与其直接把生存机会押在远期市场兑现，两架机的协同、渐进式发展，更能提高创业公司的胜率。\n归根到底，是认准一条自己相信的路，然后打一场效率的仗。\n去年5月，齐飞航空W280全尺寸工程验证机下线，两个月后在苏州盛泽湖全空间无人体系示范岛完成首飞。今年",
-    "sourceUrl": "https://36kr.com/p/4018318436110215?f=rss",
-    "sourceName": "36氪",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 177,
-    "timestamp": "23:17",
-    "date": "2026-10-09",
-    "author": "36氪",
-    "authorAvatar": "",
-    "title": "别等项目成功了，才开始讲它的故事！",
-    "content": "36氪项目推荐\n在创业圈，有很多这样的项目：一支团队花了几年时间打磨技术，终于让产品走进真实应用场景；一家初创公司深耕细分领域，解决了一个长期存在的行业问题；还有一些创业者，正在把一个新想法变成真正的产品。\n它们可能还没有很高的知名度，也未必拿到了亮眼的融资成绩，但正在发生的变化，本身就值得被关注。\n现实中，创业团队往往把大部分精力放在产品、客户和业务增长上，对外传播则被放在了后面。等到需要融资、拓展市场或寻找合作伙伴时，才开始整理项目资料，思考该如何向外界介绍自己。\n但一个项目的价值，不只体现在融资、营收和规模上。\n一次技术突破、一个新产品的落地、一家标杆客户的合作，都是企业成长的重要节点。它们不仅记录着项目的发展，也能帮助外界理解团队正在解决什么问题，以及项目未来可能走向哪里。\n \n好项目不必等到足够出名，才开始讲述自己的故事。\n对于创业团队来说，持续梳理和表达项目进展，不只是宣传，也是建立外部认知的一种方式。把产品讲清楚，把创新点说明白，把真实进展记录下来，才能让更多人有机会理解项目的价值。\n36氪「项目推荐」希望为创业项目提供这样的机会。\n无论是硬科技、企业服务、消费、医疗健康，还是先进制造领域的项目，都可以通过「项目推荐」提交介绍，申请免费的报道与曝光机会。无论项目处于早期探索阶段，还是已经有产品落地、取得新的业务进展，都可以从讲清楚自己正在做的事情开始。\n一次报道并不意味着项目一定会获得合作或业务机会，但它可以为企业增加一个公开展示的渠道，让项目有机会进入更广泛的视野。\n如果你正在做一个创业项目，或者近期有新的产品发布、技术突破、业务落地等进展，不妨把这些故事整理出来，向36氪「项目推荐」提交项目介绍。\n创业的价值，不只在于最终走到了哪里，也在于一路上创造了什么。\n \n📌 免费提交项目：\nhttps://36kr.com/seek-report-new\n📮 项目推荐联系邮箱：\naireport@36kr.com\n客服可以扫描下方二维码联系～\n\n扫码添加！\n \n36氪「项目推荐」\n让好项目，更早被看见。",
-    "sourceUrl": "https://36kr.com/p/4018406199021449?f=rss",
-    "sourceName": "36氪",
-    "tags": [
-      "产品"
-    ],
-    "likes": 65
-  },
-  {
-    "id": 96,
-    "timestamp": "23:17",
-    "date": "2026-10-09",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "SpaceX eyes 2 rocket launches in 3 days in California after scrubs - Ventura County Star",
-    "content": "SpaceX eyes 2 rocket launches in 3 days in California after scrubs  Ventura County Star",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRnRjQmpyamQ2TjdLejVMTDA2ckc4VXFieXdxQ0lXZERXZXdfUy1zQ2RlV2VLakJIWHlweEVpeWpJQ3lTY1dzcnlKSzRWTktwbVMyV20xX29LdzJjSjJ2QTBycy0tdC03LW44bk8zZU1uTjEtRm5nREFCakt0VHc3dEN3b1dKa085SWlLdnllMUZINHRCdk5VWkY4MHBabkpfNXIzNDE0bUVpcUh3YlVLbFdn?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 94,
-    "timestamp": "23:17",
-    "date": "2026-10-09",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "California rocket launch planned this weekend. Track SpaceX mission - Ventura County Star",
-    "content": "California rocket launch planned this weekend. Track SpaceX mission  Ventura County Star",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLWY4VGF1V0tyczRNM1NlaXZDUTRSYjAxdnUwUHR5SGstaF96TF9BRl9kRmY5WnQwdGROM2JkQ1lFQ3lQaktBc1htM0pnOTVlR3B5dmlXNE5pdHdkRWoxbEJ2b1JveGJnUzByMm8zQjlfZkxrajZETldJY1FhQ2VWZUJya1RnNVZJNUo2NU9qWlNNVzRNREl1dk1kNm5kTGxuVDduSGUwRFJ0ek1uME82bnhfWXQwNy1wWWdIRjdGa1lWVW9GWHpxQmpQOA?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 93,
-    "timestamp": "23:17",
-    "date": "2026-10-09",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "Canada can't launch rockets on its own. A handful of companies want to change that - CBC",
-    "content": "Canada can't launch rockets on its own. A handful of companies want to change that  CBC",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVEVORXoxNEUxcV9sWnRUY3ZlMzU1WjRVbS11cUY3RjdrTWxyb2I0bTZsb3kyU3Q5cDZYUkhlNm9LR0N1NDZFbVlRaktNNjFDaWd1UnBBanQ1UzVVX3BwOWNJNi05Vkd6UVRSVmxuaHdSY0ZaTWdaNzlFUjBZR2hMWkM5ejN1TDExWHBtS1hKbDZnREZiV1p5ZkN4QWlqcjNVRkRJTlRzSXRxTFFfWGFLV3ZiMmp1Q1l5TzZCRFZrcEdnRDg?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 92,
-    "timestamp": "23:17",
-    "date": "2026-10-09",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "Midnight SpaceX launch could bring loud sonic booms to Southern California - KTLA",
-    "content": "Midnight SpaceX launch could bring loud sonic booms to Southern California  KTLA",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUHlyS0ZPUEprM2lLLTRZb2VaeG9faGVoZWZkcmdXZENNeC1FM0F5MnNKcTN0Mks5Ykh4TE1BTFpvSlVPWHJkX0VGTWtzZkxHZUxiZEhkeFNZakhuM0toaGJvUWtjUWhLWmc3RGd6N05pbmFpOVhRc0NJOWtzUklyZXZSX01CY0Yzc3FpeDdBcVdvV3NsRkpDRWE3b3dWWjIxVUZsRjRuQW1tSE500gGyAUFVX3lxTE5NMHpzTjdHVUVIWml1UHVOaWFvWU9mVzd4V3piazhkNU1UbmNORHBDOGotMHNWY3pVUnJZVW5WaWV3VGJDRFZVWGtkUDN0RC1wQzRVOG5ndFhoekdSMVM3ZDA3QTB3OTVSWGk0R0hFU2hnQVU0VmdSQU5QSHh0bHA1VDZUanBxLWFQLXJzZ0dpRm9WOU01N3pxZmJrWFJEZ0dYT2locWk0MVpESEg4QVlyNHc?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 85,
-    "timestamp": "23:17",
+    "id": 88,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -1206,7 +1780,7 @@
   },
   {
     "id": 82,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "\"AI robot\" - Google News",
     "authorAvatar": "",
@@ -1220,23 +1794,8 @@
     "likes": 60
   },
   {
-    "id": 79,
-    "timestamp": "23:17",
-    "date": "2026-10-09",
-    "author": "\"artificial intelligence\" - Google News",
-    "authorAvatar": "",
-    "title": "Trump Warns: Call AI \"Super Intelligence\" Or Face \"Enemy\" Status - NDTV",
-    "content": "Trump Warns: Call AI \"Super Intelligence\" Or Face \"Enemy\" Status  NDTV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeVJfUHlUeVdNMURlZFl1eDdvVlZiWjFxaDdscTFpaWF1Z0ptWHZzTXNFdFJibjBPdktMQVFKb21SNmdna0Fxb3EwZjNySWlWUWducHQwVnhjWWU1bEdqQVdieC13UUYzVG1MWklUaW85eF9oZS02T3hfWXNoS0JMZVRnaWpBdDB2VktWSXp3T3YxRUlWckRrSi1fV25rTTRseElSTGpmc3hEQ2QxWm9jelJ0Y9IBuwFBVV95cUxPY21Dd0ZKQnJfeW90WkhMeWdac3I2YzEzcEs5UXg4bzRYdWRRM1R5dnNHc0pUREcyMF91bUFBeDh2cmpjUGdqZVAtbkxmTmZfMkN3TTh2Q2pSdnU3eTRpQWVRUTJETWYyWUhlTlNHdW9CazJCSTdaajNaQ2t5aVJxelMySXpfSjY1WWlXRmlpb0ljdHlWRVBJRFZKZC1RaG02dWxwWDdSWjRiY0hlVDFNWG1tZ19MUkw3Q2Vv?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 75,
-    "timestamp": "23:17",
+    "id": 78,
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
@@ -1251,7 +1810,7 @@
   },
   {
     "id": 72,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-10-09",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
@@ -1265,8 +1824,8 @@
     "likes": 60
   },
   {
-    "id": 119,
-    "timestamp": "23:17",
+    "id": 149,
+    "timestamp": "08:13",
     "date": "2026-10-08",
     "author": "MIT Technology Review Insights",
     "authorAvatar": "",
@@ -1282,8 +1841,8 @@
     "likes": 80
   },
   {
-    "id": 118,
-    "timestamp": "23:17",
+    "id": 148,
+    "timestamp": "08:13",
     "date": "2026-10-08",
     "author": "Jamie Condliffe",
     "authorAvatar": "",
@@ -1297,8 +1856,8 @@
     "likes": 80
   },
   {
-    "id": 117,
-    "timestamp": "23:17",
+    "id": 147,
+    "timestamp": "08:13",
     "date": "2026-10-08",
     "author": "Casey Crownhart",
     "authorAvatar": "",
@@ -1312,8 +1871,8 @@
     "likes": 80
   },
   {
-    "id": 116,
-    "timestamp": "23:17",
+    "id": 146,
+    "timestamp": "08:13",
     "date": "2026-10-08",
     "author": "Thomas Macaulay",
     "authorAvatar": "",
@@ -1327,8 +1886,8 @@
     "likes": 80
   },
   {
-    "id": 147,
-    "timestamp": "23:17",
+    "id": 177,
+    "timestamp": "08:13",
     "date": "2026-10-08",
     "author": "Paresh Dave",
     "authorAvatar": "",
@@ -1342,8 +1901,8 @@
     "likes": 70
   },
   {
-    "id": 146,
-    "timestamp": "23:17",
+    "id": 176,
+    "timestamp": "08:13",
     "date": "2026-10-08",
     "author": "Zoë Schiffer",
     "authorAvatar": "",
@@ -1357,8 +1916,8 @@
     "likes": 70
   },
   {
-    "id": 145,
-    "timestamp": "23:17",
+    "id": 175,
+    "timestamp": "08:13",
     "date": "2026-10-08",
     "author": "Zoë Schiffer, Leah Feiger",
     "authorAvatar": "",
@@ -1372,43 +1931,13 @@
     "likes": 70
   },
   {
-    "id": 95,
-    "timestamp": "23:17",
-    "date": "2026-10-08",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "SpaceX Falcon 9 rocket to launch CRS-35 for NASA - Florida Today",
-    "content": "SpaceX Falcon 9 rocket to launch CRS-35 for NASA  Florida Today",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTUVubzRNSVQxY0w2bFBtdktVMVpMV3BVWFIzVzA1QXpQWldzOFV3cFJMeVhaLUpvdVRmWG4wSmZrcHpMQnhSb2puUUpTcWtBdDdDc0ZuN3dCWFM1SlhwNzc2R0lvMjY4R3B3b2VZYU9ZNXc3U00zRFVBanFFcVI2b1hJR2tTdHJDWnV1STdoMDllWV9EUWVnV1ZFdEZMN3l3SmpaczV0UFQ3eUxGTks1UWJCWlI0MlNtbWV0dnRmS0NKc09fUHc?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 81,
-    "timestamp": "23:17",
-    "date": "2026-10-08",
-    "author": "\"AI robot\" - Google News",
-    "authorAvatar": "",
-    "title": "How AWS is helping companies build physical AI machines that think - About Amazon",
-    "content": "How AWS is helping companies build physical AI machines that think  About Amazon",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV09ac2QtTXFvV2dpMHNFZGJOM2xNd2RQUEVtZDYzX0dsM25GRG40V1U3TmFNR0ExUTlHaERpMlBtb1JaREtKYlZBVEcyMkNKX2FxNmdRcVEzTVZFNUpBSm9oNlVCelpGVDNmb080WDNVZkNqVDA2YzJCTF9kNWtPWGUycEE1QWxYNlJmLVpwNEtaSFU?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "产品"
-    ],
-    "likes": 60
-  },
-  {
     "id": 71,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-10-08",
     "author": "\"artificial intelligence\" - Google News",
     "authorAvatar": "",
     "title": "Trump says anyone who does not refer to AI as ‘super intelligence’ is ‘THE ENEMY' - Politico",
-    "content": "Trump says anyone who does not refer to AI as ‘super intelligence’ is ‘THE ENEMY'  Politico",
+    "content": "Trump says anyone who does not refer to AI as ‘super intelligence’ is ‘THE ENEMY'  Politico\nTrump really wants to make ‘super intelligence’ happen. Is it going to happen?  CNN\nSilicon Valley is falling in line with Trump’s attempt to rename AI  The Verge",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTV1aTVjdklWRlVSRk44SVpZck9ENF9lWFAxSWVBMmNZQmktWDVZUC04Tmd1aUwwM01WLVJ3Sl93XzRaRTY3S3hvNm5UMFV0MXZiQk1VU0RIR3l4aVJLZHhlSjJ0ZWdHR3Y5YndyMmI2WG9CNnNibU02QS0tWEZhd2NDeG9YYWZqenV1MVpHNA?oc=5",
     "sourceName": "Google News",
     "tags": [
@@ -1417,8 +1946,8 @@
     "likes": 60
   },
   {
-    "id": 125,
-    "timestamp": "23:17",
+    "id": 155,
+    "timestamp": "08:13",
     "date": "2026-10-07",
     "author": "Noitom Robotics",
     "authorAvatar": "",
@@ -1433,8 +1962,8 @@
     "likes": 80
   },
   {
-    "id": 124,
-    "timestamp": "23:17",
+    "id": 154,
+    "timestamp": "08:13",
     "date": "2026-10-07",
     "author": "Brian Jenney",
     "authorAvatar": "",
@@ -1449,8 +1978,8 @@
     "likes": 80
   },
   {
-    "id": 123,
-    "timestamp": "23:17",
+    "id": 153,
+    "timestamp": "08:13",
     "date": "2026-10-07",
     "author": "Liz Wegerer",
     "authorAvatar": "",
@@ -1467,8 +1996,8 @@
     "likes": 80
   },
   {
-    "id": 120,
-    "timestamp": "23:17",
+    "id": 150,
+    "timestamp": "08:13",
     "date": "2026-10-07",
     "author": "Thomas Macaulay",
     "authorAvatar": "",
@@ -1482,8 +2011,8 @@
     "likes": 80
   },
   {
-    "id": 150,
-    "timestamp": "23:17",
+    "id": 180,
+    "timestamp": "08:13",
     "date": "2026-10-07",
     "author": "Maddy Varner",
     "authorAvatar": "",
@@ -1497,8 +2026,8 @@
     "likes": 70
   },
   {
-    "id": 149,
-    "timestamp": "23:17",
+    "id": 179,
+    "timestamp": "08:13",
     "date": "2026-10-07",
     "author": "Reece Rogers",
     "authorAvatar": "",
@@ -1512,8 +2041,8 @@
     "likes": 70
   },
   {
-    "id": 148,
-    "timestamp": "23:17",
+    "id": 178,
+    "timestamp": "08:13",
     "date": "2026-10-07",
     "author": "Will Knight",
     "authorAvatar": "",
@@ -1527,23 +2056,8 @@
     "likes": 70
   },
   {
-    "id": 99,
-    "timestamp": "23:17",
-    "date": "2026-10-07",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "South Korea launches Nuri rocket carrying 15 satellites, its 1st liftoff of 2026 (photo) - Space",
-    "content": "South Korea launches Nuri rocket carrying 15 satellites, its 1st liftoff of 2026 (photo)  Space",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeVBoQ3E4UnBpa2Q5M0R3MHp6UmwxU1hzSjZqWk5iUzRlcW5SaW5VM3hOeXA0a3k1Y2J1RkZPYXlxajM4bF9TRGtrZkJ3WHlJVjdHSW1xYXMweVIzeGt4UGV1YThnMmpUb3V3V0pVVWZYY1dVcnE3RTVnY3QtZnB1c2JpaUlSM291RVM1UTd3VTRQQnBPNGNiTEEwT2lpYTZ2MjRpSUpnV0hSVGFmUGpydU1ucl9oa014MmRiYmhzcTVUNTBVLW96V2h2U1NwSlJfb3c?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 126,
-    "timestamp": "23:17",
+    "id": 156,
+    "timestamp": "08:13",
     "date": "2026-10-06",
     "author": "IEEE",
     "authorAvatar": "",
@@ -1557,8 +2071,8 @@
     "likes": 80
   },
   {
-    "id": 127,
-    "timestamp": "23:17",
+    "id": 157,
+    "timestamp": "08:13",
     "date": "2026-10-05",
     "author": "Sravan Vadigepalli",
     "authorAvatar": "",
@@ -1575,8 +2089,8 @@
     "likes": 80
   },
   {
-    "id": 129,
-    "timestamp": "23:17",
+    "id": 159,
+    "timestamp": "08:13",
     "date": "2026-10-02",
     "author": "COMSOL",
     "authorAvatar": "",
@@ -1590,8 +2104,8 @@
     "likes": 80
   },
   {
-    "id": 128,
-    "timestamp": "23:17",
+    "id": 158,
+    "timestamp": "08:13",
     "date": "2026-10-02",
     "author": "Willie D. Jones",
     "authorAvatar": "",
@@ -1608,8 +2122,8 @@
     "likes": 80
   },
   {
-    "id": 130,
-    "timestamp": "23:17",
+    "id": 160,
+    "timestamp": "08:13",
     "date": "2026-10-01",
     "author": "Emily Waltz",
     "authorAvatar": "",
@@ -1624,7 +2138,7 @@
   },
   {
     "id": 35,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-09-22",
     "author": "OfficialTurkey",
     "authorAvatar": "",
@@ -1639,7 +2153,7 @@
   },
   {
     "id": 47,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-09-11",
     "author": "nickabe",
     "authorAvatar": "",
@@ -1654,7 +2168,7 @@
   },
   {
     "id": 33,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-09-03",
     "author": "kibae",
     "authorAvatar": "",
@@ -1668,54 +2182,8 @@
     "likes": 200
   },
   {
-    "id": 98,
-    "timestamp": "23:17",
-    "date": "2026-08-27",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "Powerful Ariane 6 rocket launches European weather satellite to orbit (video) - Space",
-    "content": "Powerful Ariane 6 rocket launches European weather satellite to orbit (video)  Space",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORVhFUE9wZnFXS0ZIOUFybjVnbDM1VXkxYTNJcThld09Wc2Q2d0FKYlJnQlFadERTaTFCbXRTSjl0Z0RTV3R5ekF0TzJNV1BzUHNiV0FudGF0Q1NFZ00zbkFqWTdsamJWQ1pYSnBieFdiUmtzcnI4aFhpbzh0QkoxekFHRS12bUdfeDFtSHBzTUxvcWQ4TVVIS0FEdmVLdGt6d1lpYjNsSE52b3c?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 97,
-    "timestamp": "23:17",
-    "date": "2026-08-24",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "SpaceX launches Starlink mission on a Falcon booster’s record-breaking 37th flight - Spaceflight Now",
-    "content": "SpaceX launches Starlink mission on a Falcon booster’s record-breaking 37th flight  Spaceflight Now",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM25rOTdTQ1BkOExQRXAydnpzS2ZTZzEtMFFBUHY1WF9fa2NVZVhucXp3bDNEa2wtZHVDMEVkVnBULXU2SDNMTGYtb0F3TWY0cUE2MEwtcTJtTlpGby1wQmEtQWk0eG90SjBSWkhLdkdfSDFBWnA2MHZ6SDAtdGNHOVhZX2dGSkNRUmZMUzdOaWFSOEpfZC1RZlVNbUlQaWlyZDhwdjQyNW9kRDI3dzZ6OFZiSGkwaUJlV0E2Z1NfM05hQTE3c2gzRTVlU28zVjMt?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天"
-    ],
-    "likes": 60
-  },
-  {
-    "id": 100,
-    "timestamp": "23:17",
-    "date": "2026-08-21",
-    "author": "\"space launch rocket\" - Google News",
-    "authorAvatar": "",
-    "title": "Trump signs new national space policy to enable 1,000 US rocket launches per year - Space",
-    "content": "Trump signs new national space policy to enable 1,000 US rocket launches per year  Space",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjBITC1Hcnh5cG5MVW8xczcxT3NpandRTVdEZEU5cW1DVENaUVZsNzB6OWhXZ05KdnZJSy1DcXpqcF9WUi1lODR3c3NuUFFxVklRYnhTM1NVSzU1MGNTU0FKUXowOVYyaXJQNmZYM0JxTU04NThBUjJzcXNpMk5iNGRyWmZiTjRabkZ6VmVGX1FxbVdNSjBENlpsQW9XYmFXZjRRb2V5MTE0Tzg5THpXQnBwT01BcVJwSmhTdGZB?oc=5",
-    "sourceName": "Google News",
-    "tags": [
-      "商业航天",
-      "行业"
-    ],
-    "likes": 60
-  },
-  {
     "id": 64,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-08-03",
     "author": "MaxMussio",
     "authorAvatar": "",
@@ -1730,7 +2198,7 @@
   },
   {
     "id": 38,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-07-09",
     "author": "logickkk1",
     "authorAvatar": "",
@@ -1745,7 +2213,7 @@
   },
   {
     "id": 57,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-06-16",
     "author": "itsmarcelg",
     "authorAvatar": "",
@@ -1760,7 +2228,7 @@
   },
   {
     "id": 67,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-06-07",
     "author": "poisonfountain",
     "authorAvatar": "",
@@ -1775,7 +2243,7 @@
   },
   {
     "id": 54,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-06-06",
     "author": "maltalex",
     "authorAvatar": "",
@@ -1791,7 +2259,7 @@
   },
   {
     "id": 59,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-06-04",
     "author": "tristanj",
     "authorAvatar": "",
@@ -1806,7 +2274,7 @@
   },
   {
     "id": 12,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-06-03",
     "author": "lordleft",
     "authorAvatar": "",
@@ -1821,7 +2289,7 @@
   },
   {
     "id": 9,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-05-27",
     "author": "theorchid",
     "authorAvatar": "",
@@ -1836,7 +2304,7 @@
   },
   {
     "id": 7,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-05-15",
     "author": "reasonableklout",
     "authorAvatar": "",
@@ -1851,7 +2319,7 @@
   },
   {
     "id": 36,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-04-23",
     "author": "rd",
     "authorAvatar": "",
@@ -1866,7 +2334,7 @@
   },
   {
     "id": 1,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-03-11",
     "author": "usefulposter",
     "authorAvatar": "",
@@ -1881,7 +2349,7 @@
   },
   {
     "id": 8,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-02-24",
     "author": "Qem",
     "authorAvatar": "",
@@ -1896,7 +2364,7 @@
   },
   {
     "id": 5,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-02-12",
     "author": "scottshambaugh",
     "authorAvatar": "",
@@ -1911,7 +2379,7 @@
   },
   {
     "id": 39,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2026-02-05",
     "author": "meetpateltech",
     "authorAvatar": "",
@@ -1926,7 +2394,7 @@
   },
   {
     "id": 66,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2025-10-09",
     "author": "meetpateltech",
     "authorAvatar": "",
@@ -1941,7 +2409,7 @@
   },
   {
     "id": 34,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2025-08-07",
     "author": "rd",
     "authorAvatar": "",
@@ -1956,7 +2424,7 @@
   },
   {
     "id": 41,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2025-07-23",
     "author": "hakonjdjohnsen",
     "authorAvatar": "",
@@ -1971,7 +2439,7 @@
   },
   {
     "id": 61,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2025-07-15",
     "author": "SwoopsFromAbove",
     "authorAvatar": "",
@@ -1986,7 +2454,7 @@
   },
   {
     "id": 4,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2025-06-02",
     "author": "tabletcorry",
     "authorAvatar": "",
@@ -2001,7 +2469,7 @@
   },
   {
     "id": 68,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2025-05-06",
     "author": "felixrieseberg",
     "authorAvatar": "",
@@ -2016,7 +2484,7 @@
   },
   {
     "id": 43,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2025-03-12",
     "author": "meetpateltech",
     "authorAvatar": "",
@@ -2032,7 +2500,7 @@
   },
   {
     "id": 65,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2025-01-25",
     "author": "gradus_ad",
     "authorAvatar": "",
@@ -2047,7 +2515,7 @@
   },
   {
     "id": 62,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2024-09-12",
     "author": "fofoz",
     "authorAvatar": "",
@@ -2062,7 +2530,7 @@
   },
   {
     "id": 10,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2024-08-29",
     "author": "iancarroll",
     "authorAvatar": "",
@@ -2077,7 +2545,7 @@
   },
   {
     "id": 14,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2024-08-20",
     "author": "bx376",
     "authorAvatar": "",
@@ -2092,7 +2560,7 @@
   },
   {
     "id": 48,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2024-08-03",
     "author": "pedrodelfino",
     "authorAvatar": "",
@@ -2107,7 +2575,7 @@
   },
   {
     "id": 3,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2024-07-23",
     "author": "atgctg",
     "authorAvatar": "",
@@ -2122,7 +2590,7 @@
   },
   {
     "id": 32,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2024-05-13",
     "author": "Lealen",
     "authorAvatar": "",
@@ -2137,7 +2605,7 @@
   },
   {
     "id": 70,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2024-04-08",
     "author": "tosh",
     "authorAvatar": "",
@@ -2152,7 +2620,7 @@
   },
   {
     "id": 2,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2024-02-27",
     "author": "todsacerdoti",
     "authorAvatar": "",
@@ -2167,7 +2635,7 @@
   },
   {
     "id": 6,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2023-12-06",
     "author": "dmotz",
     "authorAvatar": "",
@@ -2182,7 +2650,7 @@
   },
   {
     "id": 63,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2023-12-03",
     "author": "plibither8",
     "authorAvatar": "",
@@ -2197,7 +2665,7 @@
   },
   {
     "id": 69,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2023-11-29",
     "author": "tfinch",
     "authorAvatar": "",
@@ -2212,7 +2680,7 @@
   },
   {
     "id": 40,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2023-04-12",
     "author": "rushingcreek",
     "authorAvatar": "",
@@ -2227,7 +2695,7 @@
   },
   {
     "id": 31,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2023-03-14",
     "author": "e0m",
     "authorAvatar": "",
@@ -2242,7 +2710,7 @@
   },
   {
     "id": 37,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2023-02-09",
     "author": "squidhunter",
     "authorAvatar": "",
@@ -2257,7 +2725,7 @@
   },
   {
     "id": 45,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2022-11-16",
     "author": "zikohh",
     "authorAvatar": "",
@@ -2272,7 +2740,7 @@
   },
   {
     "id": 23,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2022-10-15",
     "author": "abrax3141",
     "authorAvatar": "",
@@ -2287,7 +2755,7 @@
   },
   {
     "id": 24,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2022-05-07",
     "author": "carlycue",
     "authorAvatar": "",
@@ -2302,7 +2770,7 @@
   },
   {
     "id": 29,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2021-09-22",
     "author": "7d7n",
     "authorAvatar": "",
@@ -2317,7 +2785,7 @@
   },
   {
     "id": 18,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2021-09-02",
     "author": "cratermoon",
     "authorAvatar": "",
@@ -2332,7 +2800,7 @@
   },
   {
     "id": 50,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2021-04-26",
     "author": "HiroProtagonist",
     "authorAvatar": "",
@@ -2347,7 +2815,7 @@
   },
   {
     "id": 52,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2020-05-30",
     "author": "tosh",
     "authorAvatar": "",
@@ -2362,7 +2830,7 @@
   },
   {
     "id": 13,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2020-01-04",
     "author": "ckcheng",
     "authorAvatar": "",
@@ -2377,7 +2845,7 @@
   },
   {
     "id": 11,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2019-11-13",
     "author": "jbredeche",
     "authorAvatar": "",
@@ -2392,7 +2860,7 @@
   },
   {
     "id": 30,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2019-10-10",
     "author": "hughzhang",
     "authorAvatar": "",
@@ -2407,7 +2875,7 @@
   },
   {
     "id": 27,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2019-07-30",
     "author": "oldgun",
     "authorAvatar": "",
@@ -2422,7 +2890,7 @@
   },
   {
     "id": 46,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2019-07-01",
     "author": "dankohn1",
     "authorAvatar": "",
@@ -2437,7 +2905,7 @@
   },
   {
     "id": 42,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2019-02-13",
     "author": "grzm",
     "authorAvatar": "",
@@ -2452,7 +2920,7 @@
   },
   {
     "id": 15,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2018-10-15",
     "author": "superfx",
     "authorAvatar": "",
@@ -2467,7 +2935,7 @@
   },
   {
     "id": 17,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2018-05-10",
     "author": "e15ctr0n",
     "authorAvatar": "",
@@ -2483,7 +2951,7 @@
   },
   {
     "id": 55,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2018-03-23",
     "author": "middle1",
     "authorAvatar": "",
@@ -2498,7 +2966,7 @@
   },
   {
     "id": 21,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2018-03-01",
     "author": "matant",
     "authorAvatar": "",
@@ -2513,7 +2981,7 @@
   },
   {
     "id": 51,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2018-02-06",
     "author": "mpweiher",
     "authorAvatar": "",
@@ -2528,7 +2996,7 @@
   },
   {
     "id": 22,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2017-12-14",
     "author": "flor1s",
     "authorAvatar": "",
@@ -2543,7 +3011,7 @@
   },
   {
     "id": 20,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2017-09-02",
     "author": "nshr",
     "authorAvatar": "",
@@ -2558,7 +3026,7 @@
   },
   {
     "id": 26,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2017-03-20",
     "author": "jasikpark",
     "authorAvatar": "",
@@ -2573,7 +3041,7 @@
   },
   {
     "id": 53,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2017-02-27",
     "author": "runesoerensen",
     "authorAvatar": "",
@@ -2588,7 +3056,7 @@
   },
   {
     "id": 58,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2016-11-17",
     "author": "phenylene",
     "authorAvatar": "",
@@ -2603,7 +3071,7 @@
   },
   {
     "id": 25,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2016-10-15",
     "author": "georgehdd",
     "authorAvatar": "",
@@ -2618,7 +3086,7 @@
   },
   {
     "id": 16,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2016-10-08",
     "author": "BucketSort",
     "authorAvatar": "",
@@ -2633,7 +3101,7 @@
   },
   {
     "id": 60,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2016-09-01",
     "author": "mariusz79",
     "authorAvatar": "",
@@ -2648,7 +3116,7 @@
   },
   {
     "id": 28,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2016-05-18",
     "author": "hurrycane",
     "authorAvatar": "",
@@ -2664,7 +3132,7 @@
   },
   {
     "id": 44,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2016-03-17",
     "author": "doener",
     "authorAvatar": "",
@@ -2679,7 +3147,7 @@
   },
   {
     "id": 56,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2015-12-22",
     "author": "clessg",
     "authorAvatar": "",
@@ -2694,7 +3162,7 @@
   },
   {
     "id": 19,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2015-04-16",
     "author": "seanlevan",
     "authorAvatar": "",
@@ -2709,7 +3177,7 @@
   },
   {
     "id": 49,
-    "timestamp": "23:17",
+    "timestamp": "08:13",
     "date": "2014-12-03",
     "author": "r721",
     "authorAvatar": "",
